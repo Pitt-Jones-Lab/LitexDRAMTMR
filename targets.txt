@@ -1,0 +1,4050 @@
+sdram_master_p2_wrdata_en
+[7:0] sdram_master_p2_wrdata_mask
+[2:0] slice_proxy124
+sdram_master_p2_rddata_en
+[63:0] sdram_master_p2_rddata
+[2:0] slice_proxy125
+sdram_master_p2_rddata_valid
+sdram_tmrbankmachine4_row_opened
+[13:0] sdram_master_p3_address
+sdram_tmrbankmachine4_row_hit
+[2:0] sdram_master_p3_bank
+sdram_tmrbankmachine4_row_open
+sdram_master_p3_cas_n
+sdram_tmrbankmachine4_row_close
+sdram_master_p3_cs_n
+[2:0] slice_proxy126
+sdram_master_p3_ras_n
+[2:0] slice_proxy127
+sdram_master_p3_we_n
+sdram_tmrbankmachine4_row_col_n_addr_sel
+sdram_master_p3_cke
+sdram_master_p3_odt
+[2:0] slice_proxy128
+sdram_master_p3_reset_n
+sdram_master_p3_act_n
+[63:0] sdram_master_p3_wrdata
+[2:0] slice_proxy129
+sdram_master_p3_wrdata_en
+sdram_tmrbankmachine4_twtpcon_valid
+[7:0] sdram_master_p3_wrdata_mask
+sdram_tmrbankmachine4_twtpcon_ready
+sdram_master_p3_rddata_en
+[2:0] slice_proxy130
+[63:0] sdram_master_p3_rddata
+[2:0] sdram_tmrbankmachine4_twtpcon_count
+sdram_master_p3_rddata_valid
+[2:0] slice_proxy131
+[2:0] slice_proxy132
+sdram_tmrbankmachine4_twtpcon2_valid
+sdram_tmrbankmachine4_twtpcon2_ready
+[2:0] slice_proxy133
+[2:0] sdram_tmrbankmachine4_twtpcon2_count
+[2:0] slice_proxy134
+[13:0] sdram_inti_inti_p0_address
+[2:0] sdram_inti_inti_p0_bank
+[2:0] slice_proxy135
+sdram_inti_inti_p0_cas_n
+sdram_inti_inti_p0_cs_n
+sdram_tmrbankmachine4_twtpcon3_valid
+sdram_inti_inti_p0_ras_n
+sdram_tmrbankmachine4_twtpcon3_ready
+sdram_inti_inti_p0_we_n
+[2:0] slice_proxy136
+sdram_inti_inti_p0_cke
+[2:0] sdram_tmrbankmachine4_twtpcon3_count
+sdram_inti_inti_p0_odt
+[2:0] slice_proxy137
+sdram_inti_inti_p0_reset_n
+sdram_inti_inti_p0_act_n
+[63:0] sdram_inti_inti_p0_wrdata
+sdram_inti_inti_p0_wrdata_en
+[2:0] slice_proxy138
+[7:0] sdram_inti_inti_p0_wrdata_mask
+sdram_tmrbankmachine4_twtpVote_control
+sdram_inti_inti_p0_rddata_en
+[2:0] slice_proxy139
+[63:0] sdram_inti_inti_p0_rddata
+sdram_inti_inti_p0_rddata_valid
+[13:0] sdram_inti_inti_p1_address
+[2:0] slice_proxy140
+[2:0] sdram_inti_inti_p1_bank
+sdram_tmrbankmachine4_trccon_valid
+sdram_inti_inti_p1_cas_n
+sdram_tmrbankmachine4_trccon_ready
+sdram_inti_inti_p1_cs_n
+[2:0] slice_proxy141
+sdram_inti_inti_p1_ras_n
+[2:0] sdram_tmrbankmachine4_trccon_count
+sdram_inti_inti_p1_we_n
+sdram_inti_inti_p1_cke
+[2:0] slice_proxy142
+sdram_inti_inti_p1_odt
+sdram_inti_inti_p1_reset_n
+sdram_inti_inti_p1_act_n
+[2:0] slice_proxy143
+[63:0] sdram_inti_inti_p1_wrdata
+sdram_tmrbankmachine4_trccon2_valid
+sdram_inti_inti_p1_wrdata_en
+sdram_tmrbankmachine4_trccon2_ready
+[7:0] sdram_inti_inti_p1_wrdata_mask
+[191:0] slice_proxy144
+sdram_inti_inti_p1_rddata_en
+[2:0] sdram_tmrbankmachine4_trccon2_count
+[63:0] sdram_inti_inti_p1_rddata
+sdram_inti_inti_p1_rddata_valid
+[191:0] slice_proxy145
+[13:0] sdram_inti_inti_p2_address
+[2:0] sdram_inti_inti_p2_bank
+sdram_inti_inti_p2_cas_n
+[191:0] slice_proxy146
+sdram_inti_inti_p2_cs_n
+sdram_tmrbankmachine4_trccon3_valid
+sdram_inti_inti_p2_ras_n
+[191:0] slice_proxy147
+sdram_inti_inti_p2_we_n
+[2:0] sdram_tmrbankmachine4_trccon3_count
+sdram_inti_inti_p2_cke
+sdram_tmrbankmachine4_trccon3_ready
+sdram_inti_inti_p2_odt
+sdram_inti_inti_p2_reset_n
+[191:0] slice_proxy148
+sdram_inti_inti_p2_act_n
+[63:0] sdram_inti_inti_p2_wrdata
+[191:0] slice_proxy149
+sdram_inti_inti_p2_wrdata_en
+[7:0] sdram_inti_inti_p2_wrdata_mask
+[20:0] sdram_tmrbankmachine4_cmd_buffer3_source_payload_addr
+sdram_inti_inti_p2_rddata_en
+sdram_tmrbankmachine4_trcVote_control
+[63:0] sdram_inti_inti_p2_rddata
+[2:0] slice_proxy150
+sdram_inti_inti_p2_rddata_valid
+[13:0] sdram_inti_inti_p3_address
+[2:0] slice_proxy151
+[2:0] sdram_inti_inti_p3_bank
+sdram_inti_inti_p3_cas_n
+sdram_tmrbankmachine4_trascon_valid
+sdram_inti_inti_p3_cs_n
+[2:0] slice_proxy152
+sdram_inti_inti_p3_ras_n
+[2:0] sdram_tmrbankmachine4_trascon_count
+sdram_inti_inti_p3_we_n
+sdram_tmrbankmachine4_trascon_ready
+sdram_inti_inti_p3_cke
+[2:0] slice_proxy153
+sdram_inti_inti_p3_odt
+sdram_inti_inti_p3_reset_n
+sdram_inti_inti_p3_act_n
+[2:0] slice_proxy154
+[63:0] sdram_inti_inti_p3_wrdata
+sdram_inti_inti_p3_wrdata_en
+sdram_tmrbankmachine4_trascon2_valid
+[7:0] sdram_inti_inti_p3_wrdata_mask
+[2:0] slice_proxy155
+sdram_inti_inti_p3_rddata_en
+[2:0] sdram_tmrbankmachine4_trascon2_count
+[63:0] sdram_inti_inti_p3_rddata
+sdram_tmrbankmachine4_trascon2_ready
+sdram_inti_inti_p3_rddata_valid
+[23:0] slice_proxy156
+[23:0] slice_proxy157
+sdram_tmrbankmachine4_trascon3_valid
+[23:0] slice_proxy158
+sdram_tmrbankmachine4_trascon3_ready
+[2:0] sdram_tmrbankmachine4_trascon3_count
+[23:0] slice_proxy159
+[23:0] slice_proxy160
+[2:0] slice_proxy105
+sdram_tmrbankmachine4_trasVote_control
+[23:0] slice_proxy161
+[15:0] ddrphy_dfi_p0_address
+[2:0] slice_proxy162
+[2:0] ddrphy_dfi_p0_bank
+ddrphy_dfi_p0_cas_n
+[13:0] sdram_pi_mod1_inti_p0_address
+ddrphy_dfi_p0_cs_n
+[2:0] sdram_pi_mod1_inti_p0_bank
+ddrphy_dfi_p0_ras_n
+sdram_pi_mod1_inti_p0_cas_n
+ddrphy_dfi_p0_we_n
+sdram_pi_mod1_inti_p0_cs_n
+ddrphy_dfi_p0_cke
+sdram_pi_mod1_inti_p0_ras_n
+ddrphy_dfi_p0_odt
+sdram_pi_mod1_inti_p0_we_n
+ddrphy_dfi_p0_reset_n
+sdram_pi_mod1_inti_p0_cke
+ddrphy_dfi_p0_act_n
+sdram_pi_mod1_inti_p0_odt
+[63:0] ddrphy_dfi_p0_wrdata
+sdram_pi_mod1_inti_p0_reset_n
+ddrphy_dfi_p0_wrdata_en
+[2:0] slice_proxy165
+[7:0] ddrphy_dfi_p0_wrdata_mask
+[63:0] sdram_pi_mod1_inti_p0_wrdata
+ddrphy_dfi_p0_rddata_en
+sdram_pi_mod1_inti_p0_wrdata_en
+[7:0] sdram_pi_mod1_inti_p0_wrdata_mask
+[2:0] slice_proxy106
+sdram_pi_mod1_inti_p0_rddata_en
+[2:0] slice_proxy166
+[15:0] ddrphy_dfi_p1_address
+[63:0] sdram_pi_mod1_inti_p0_rddata
+[2:0] ddrphy_dfi_p1_bank
+sdram_pi_mod1_inti_p0_rddata_valid
+ddrphy_dfi_p1_cas_n
+[13:0] sdram_pi_mod1_inti_p1_address
+ddrphy_dfi_p1_cs_n
+[2:0] sdram_pi_mod1_inti_p1_bank
+ddrphy_dfi_p1_ras_n
+sdram_pi_mod1_inti_p1_cas_n
+ddrphy_dfi_p1_we_n
+sdram_pi_mod1_inti_p1_cs_n
+ddrphy_dfi_p1_cke
+sdram_pi_mod1_inti_p1_ras_n
+ddrphy_dfi_p1_odt
+sdram_pi_mod1_inti_p1_we_n
+ddrphy_dfi_p1_reset_n
+sdram_pi_mod1_inti_p1_cke
+ddrphy_dfi_p1_act_n
+sdram_pi_mod1_inti_p1_odt
+[63:0] ddrphy_dfi_p1_wrdata
+sdram_pi_mod1_inti_p1_reset_n
+ddrphy_dfi_p1_wrdata_en
+[62:0] sdram_tmrbankmachine5_TMRreq_addr
+[7:0] ddrphy_dfi_p1_wrdata_mask
+[63:0] sdram_pi_mod1_inti_p1_wrdata
+ddrphy_dfi_p1_rddata_en
+sdram_pi_mod1_inti_p1_wrdata_en
+[7:0] sdram_pi_mod1_inti_p1_wrdata_mask
+[2:0] sdram_tmrbankmachine5_TMRreq_lock
+sdram_pi_mod1_inti_p1_rddata_en
+[2:0] sdram_tmrbankmachine5_TMRreq_wdata_ready
+[15:0] ddrphy_dfi_p2_address
+[63:0] sdram_pi_mod1_inti_p1_rddata
+[2:0] ddrphy_dfi_p2_bank
+sdram_pi_mod1_inti_p1_rddata_valid
+ddrphy_dfi_p2_cas_n
+[13:0] sdram_pi_mod1_inti_p2_address
+ddrphy_dfi_p2_cs_n
+[2:0] sdram_pi_mod1_inti_p2_bank
+ddrphy_dfi_p2_ras_n
+sdram_pi_mod1_inti_p2_cas_n
+ddrphy_dfi_p2_we_n
+sdram_pi_mod1_inti_p2_cs_n
+ddrphy_dfi_p2_cke
+sdram_pi_mod1_inti_p2_ras_n
+ddrphy_dfi_p2_odt
+sdram_pi_mod1_inti_p2_we_n
+sdram_pi_mod1_inti_p2_cke
+ddrphy_dfi_p2_reset_n
+sdram_pi_mod1_inti_p2_odt
+ddrphy_dfi_p2_act_n
+[63:0] ddrphy_dfi_p2_wrdata
+sdram_pi_mod1_inti_p2_reset_n
+ddrphy_dfi_p2_wrdata_en
+sdram_tmrbankmachine5_cmd_payload_is_write
+[7:0] ddrphy_dfi_p2_wrdata_mask
+[63:0] sdram_pi_mod1_inti_p2_wrdata
+ddrphy_dfi_p2_rddata_en
+sdram_pi_mod1_inti_p2_wrdata_en
+[7:0] sdram_pi_mod1_inti_p2_wrdata_mask
+[2:0] sdram_tmrbankmachine5_TMRcmd_valid
+sdram_pi_mod1_inti_p2_rddata_en
+[2:0] sdram_tmrbankmachine5_TMRcmd_last
+[15:0] ddrphy_dfi_p3_address
+[63:0] sdram_pi_mod1_inti_p2_rddata
+[2:0] ddrphy_dfi_p3_bank
+sdram_pi_mod1_inti_p2_rddata_valid
+ddrphy_dfi_p3_cas_n
+[13:0] sdram_pi_mod1_inti_p3_address
+ddrphy_dfi_p3_cs_n
+[2:0] sdram_pi_mod1_inti_p3_bank
+ddrphy_dfi_p3_ras_n
+sdram_pi_mod1_inti_p3_cas_n
+ddrphy_dfi_p3_we_n
+sdram_pi_mod1_inti_p3_cs_n
+ddrphy_dfi_p3_cke
+sdram_pi_mod1_inti_p3_ras_n
+ddrphy_dfi_p3_odt
+sdram_pi_mod1_inti_p3_we_n
+ddrphy_dfi_p3_reset_n
+sdram_pi_mod1_inti_p3_cke
+ddrphy_dfi_p3_act_n
+sdram_pi_mod1_inti_p3_odt
+[63:0] ddrphy_dfi_p3_wrdata
+sdram_pi_mod1_inti_p3_reset_n
+ddrphy_dfi_p3_wrdata_en
+sdram_tmrbankmachine5_tmrinput_control0
+[7:0] ddrphy_dfi_p3_wrdata_mask
+[63:0] sdram_pi_mod1_inti_p3_wrdata
+ddrphy_dfi_p3_rddata_en
+sdram_pi_mod1_inti_p3_wrdata_en
+[7:0] sdram_pi_mod1_inti_p3_wrdata_mask
+[2:0] slice_proxy182
+sdram_pi_mod1_inti_p3_rddata_en
+[2:0] slice_proxy183
+[63:0] sdram_pi_mod1_inti_p3_rddata
+[2:0] slice_proxy184
+sdram_pi_mod1_inti_p3_rddata_valid
+sdram_tmrbankmachine5_auto_precharge
+[2:0] slice_proxy185
+sdram_tmrbankmachine5_tmrinput_control1
+[2:0] slice_proxy186
+[2:0] slice_proxy187
+sdram_tmrbankmachine5_tmrinput_control2
+[2:0] slice_proxy188
+sdram_pi_mod1_phaseinjector0_command_we
+[20:0] sdram_tmrbankmachine5_tmrinput_control3
+[2:0] slice_proxy189
+[2:0] slice_proxy190
+[2:0] slice_proxy191
+sdram_pi_mod1_phaseinjector0_address_we
+[2:0] slice_proxy192
+[2:0] slice_proxy193
+sdram_pi_mod1_phaseinjector0_baddress_we
+sdram_tmrbankmachine5_cmd_buffer_lookahead_sink_valid
+sdram_tmrbankmachine5_cmd_buffer_lookahead_sink_ready
+[2:0] slice_proxy194
+sdram_tmrbankmachine5_cmd_buffer_lookahead_sink_payload_we
+sdram_pi_mod1_phaseinjector0_wrdata_we
+[20:0] sdram_tmrbankmachine5_cmd_buffer_lookahead_sink_payload_addr
+[2:0] slice_proxy195
+sdram_tmrbankmachine5_cmd_buffer_lookahead_source_valid
+sdram_tmrbankmachine5_cmd_buffer_lookahead_source_ready
+[2:0] slice_proxy196
+sdram_tmrbankmachine5_cmd_buffer_lookahead_source_first
+[63:0] sdram_pi_mod1_phaseinjector0_status
+sdram_tmrbankmachine5_cmd_buffer_lookahead_source_last
+sdram_tmrbankmachine5_cmd_buffer_lookahead_source_payload_we
+[2:0] slice_proxy197
+[20:0] sdram_tmrbankmachine5_cmd_buffer_lookahead_source_payload_addr
+sdram_tmrbankmachine5_cmd_buffer_lookahead_syncfifo5_we
+sdram_tmrbankmachine5_cmd_buffer_lookahead_syncfifo5_writable
+[2:0] slice_proxy198
+sdram_tmrbankmachine5_cmd_buffer_lookahead_syncfifo5_re
+sdram_tmrbankmachine5_cmd_buffer_lookahead_syncfifo5_readable
+[23:0] sdram_tmrbankmachine5_cmd_buffer_lookahead_syncfifo5_din
+[2:0] slice_proxy199
+[23:0] sdram_tmrbankmachine5_cmd_buffer_lookahead_syncfifo5_dout
+[3:0] sdram_tmrbankmachine5_cmd_buffer_lookahead_level
+[2:0] slice_proxy200
+[2:0] sdram_tmrbankmachine5_cmd_buffer_lookahead_produce
+[2:0] sdram_tmrbankmachine5_cmd_buffer_lookahead_consume
+[2:0] slice_proxy201
+sdram_pi_mod1_phaseinjector1_command_we
+[2:0] sdram_tmrbankmachine5_cmd_buffer_lookahead_wrport_adr
+[23:0] sdram_tmrbankmachine5_cmd_buffer_lookahead_wrport_dat_r
+sdram_tmrbankmachine5_cmd_buffer_lookahead_wrport_we
+[2:0] slice_proxy202
+[23:0] sdram_tmrbankmachine5_cmd_buffer_lookahead_wrport_dat_w
+[2:0] slice_proxy203
+sdram_pi_mod1_phaseinjector1_address_we
+[2:0] slice_proxy204
+sdram_tmrbankmachine5_cmd_buffer_lookahead_do_read
+[2:0] sdram_tmrbankmachine5_cmd_buffer_lookahead_rdport_adr
+[2:0] slice_proxy205
+[23:0] sdram_tmrbankmachine5_cmd_buffer_lookahead_rdport_dat_r
+sdram_pi_mod1_phaseinjector1_baddress_we
+[2:0] slice_proxy206
+[2:0] slice_proxy207
+sdram_pi_mod1_phaseinjector1_wrdata_we
+sdram_tmrbankmachine4_bufWeVote_control
+[2:0] slice_proxy208
+sdram_tmrbankmachine5_cmd_buffer_lookahead_fifo_in_payload_we
+[63:0] sdram_pi_mod1_phaseinjector1_status
+[20:0] sdram_tmrbankmachine5_cmd_buffer_lookahead_fifo_in_payload_addr
+[2:0] slice_proxy209
+sdram_tmrbankmachine5_cmd_buffer_lookahead_fifo_in_first
+sdram_tmrbankmachine5_cmd_buffer_lookahead_fifo_in_last
+sdram_tmrbankmachine5_cmd_buffer_lookahead_fifo_out_payload_we
+[20:0] sdram_tmrbankmachine5_cmd_buffer_lookahead_fifo_out_payload_addr
+[2:0] slice_proxy210
+sdram_tmrbankmachine5_cmd_buffer_lookahead_fifo_out_first
+sdram_tmrbankmachine5_cmd_buffer_lookahead_fifo_out_last
+[2:0] slice_proxy211
+sdram_tmrbankmachine5_cmd_buffer_sink_valid
+sdram_tmrbankmachine5_cmd_buffer_sink_ready
+[2:0] slice_proxy212
+sdram_tmrbankmachine5_cmd_buffer_sink_first
+sdram_tmrbankmachine5_cmd_buffer_sink_last
+sdram_tmrbankmachine5_cmd_buffer_sink_payload_we
+[2:0] slice_proxy213
+sdram_pi_mod1_phaseinjector2_command_we
+[20:0] sdram_tmrbankmachine5_cmd_buffer_sink_payload_addr
+sdram_tmrbankmachine5_cmd_buffer_source_valid
+sdram_tmrbankmachine5_cmd_buffer_source_ready
+[2:0] slice_proxy214
+sdram_tmrbankmachine5_cmd_buffer_source_first
+sdram_tmrbankmachine5_cmd_buffer_source_last
+[2:0] slice_proxy215
+sdram_tmrbankmachine5_cmd_buffer_source_payload_we
+[20:0] sdram_tmrbankmachine5_cmd_buffer_source_payload_addr
+[2:0] slice_proxy216
+sdram_pi_mod1_phaseinjector2_address_we
+[13:0] sdram_tmrbankmachine4_row
+sdram_tmrbankmachine5_cmd_buffer_lookahead2_sink_ready
+[2:0] slice_proxy217
+sdram_pi_mod1_phaseinjector2_baddress_we
+[2:0] slice_proxy218
+sdram_tmrbankmachine5_cmd_buffer_lookahead2_source_valid
+[2:0] slice_proxy219
+sdram_tmrbankmachine5_cmd_buffer_lookahead2_source_ready
+sdram_pi_mod1_phaseinjector2_wrdata_we
+sdram_tmrbankmachine5_cmd_buffer_lookahead2_source_first
+sdram_tmrbankmachine5_cmd_buffer_lookahead2_source_last
+sdram_tmrbankmachine5_cmd_buffer_lookahead2_source_payload_we
+[2:0] slice_proxy220
+[20:0] sdram_tmrbankmachine5_cmd_buffer_lookahead2_source_payload_addr
+[63:0] sdram_pi_mod1_phaseinjector2_status
+sdram_tmrbankmachine5_cmd_buffer_lookahead2_syncfifo5_we
+[2:0] slice_proxy221
+sdram_tmrbankmachine5_cmd_buffer_lookahead2_syncfifo5_writable
+sdram_tmrbankmachine5_cmd_buffer_lookahead2_syncfifo5_re
+sdram_tmrbankmachine5_cmd_buffer_lookahead2_syncfifo5_readable
+[2:0] array_muxed0
+[23:0] sdram_tmrbankmachine5_cmd_buffer_lookahead2_syncfifo5_din
+[2:0] slice_proxy222
+[23:0] sdram_tmrbankmachine5_cmd_buffer_lookahead2_syncfifo5_dout
+[3:0] sdram_tmrbankmachine5_cmd_buffer_lookahead2_level
+[2:0] slice_proxy223
+[2:0] sdram_tmrbankmachine5_cmd_buffer_lookahead2_produce
+[13:0] array_muxed1
+[2:0] sdram_tmrbankmachine5_cmd_buffer_lookahead2_consume
+[2:0] slice_proxy224
+[2:0] sdram_tmrbankmachine5_cmd_buffer_lookahead2_wrport_adr
+array_muxed2
+[2:0] slice_proxy225
+sdram_tmrbankmachine5_cmd_buffer_lookahead2_wrport_we
+[23:0] sdram_tmrbankmachine5_cmd_buffer_lookahead2_wrport_dat_r
+sdram_pi_mod1_phaseinjector3_command_we
+[23:0] sdram_tmrbankmachine5_cmd_buffer_lookahead2_wrport_dat_w
+[2:0] slice_proxy226
+[2:0] slice_proxy227
+array_muxed3
+sdram_tmrbankmachine5_cmd_buffer_lookahead2_do_read
+[2:0] sdram_tmrbankmachine5_cmd_buffer_lookahead2_rdport_adr
+[191:0] slice_proxy228
+sdram_pi_mod1_phaseinjector3_address_we
+[23:0] sdram_tmrbankmachine5_cmd_buffer_lookahead2_rdport_dat_r
+[191:0] slice_proxy229
+array_muxed4
+sdram_pi_mod1_phaseinjector3_baddress_we
+[191:0] slice_proxy230
+[191:0] slice_proxy231
+array_muxed5
+sdram_pi_mod1_phaseinjector3_wrdata_we
+sdram_tmrbankmachine5_cmd_buffer_lookahead2_fifo_in_payload_we
+[20:0] sdram_tmrbankmachine5_cmd_buffer_lookahead2_fifo_in_payload_addr
+[191:0] slice_proxy232
+sdram_tmrbankmachine5_cmd_buffer_lookahead2_fifo_in_first
+[63:0] sdram_pi_mod1_phaseinjector3_status
+sdram_tmrbankmachine5_cmd_buffer_lookahead2_fifo_in_last
+sdram_tmrbankmachine5_cmd_buffer_lookahead2_fifo_out_payload_we
+[191:0] slice_proxy233
+[20:0] sdram_tmrbankmachine5_cmd_buffer_lookahead2_fifo_out_payload_addr
+array_muxed6
+sdram_tmrbankmachine5_cmd_buffer_lookahead2_fifo_out_first
+sdram_tmrbankmachine5_cmd_buffer_lookahead2_fifo_out_last
+[2:0] slice_proxy234
+sdram_tmrbankmachine5_cmd_buffer2_sink_valid
+sdram_tmrbankmachine5_cmd_buffer2_sink_ready
+[2:0] slice_proxy235
+sdram_tmrbankmachine5_cmd_buffer2_sink_first
+[2:0] array_muxed7
+sdram_tmrbankmachine5_cmd_buffer2_sink_last
+sdram_tmrbankmachine5_cmd_buffer2_sink_payload_we
+[2:0] slice_proxy236
+[20:0] sdram_tmrbankmachine5_cmd_buffer2_sink_payload_addr
+sdram_tmrbankmachine5_cmd_buffer2_source_valid
+[2:0] slice_proxy237
+sdram_tmrbankmachine5_cmd_buffer2_source_ready
+[13:0] array_muxed8
+sdram_tmrbankmachine5_cmd_buffer2_source_first
+sdram_tmrbankmachine5_cmd_buffer2_source_last
+[13:0] sdram_pi_mod2_inti_p0_address
+[2:0] slice_proxy238
+[2:0] sdram_pi_mod2_inti_p0_bank
+array_muxed9
+sdram_pi_mod2_inti_p0_cas_n
+[2:0] slice_proxy239
+sdram_pi_mod2_inti_p0_cs_n
+sdram_tmrbankmachine5_cmd_buffer2_source_payload_we
+sdram_pi_mod2_inti_p0_ras_n
+[20:0] sdram_tmrbankmachine5_cmd_buffer2_source_payload_addr
+sdram_pi_mod2_inti_p0_we_n
+sdram_tmrbankmachine5_cmd_buffer_lookahead3_sink_ready
+sdram_pi_mod2_inti_p0_cke
+[23:0] slice_proxy240
+sdram_pi_mod2_inti_p0_odt
+array_muxed10
+sdram_pi_mod2_inti_p0_reset_n
+[23:0] slice_proxy241
+[63:0] sdram_pi_mod2_inti_p0_wrdata
+sdram_tmrbankmachine5_cmd_buffer_lookahead3_source_valid
+sdram_pi_mod2_inti_p0_wrdata_en
+sdram_tmrbankmachine5_cmd_buffer_lookahead3_source_ready
+[7:0] sdram_pi_mod2_inti_p0_wrdata_mask
+sdram_tmrbankmachine5_cmd_buffer_lookahead3_source_first
+sdram_pi_mod2_inti_p0_rddata_en
+sdram_tmrbankmachine5_cmd_buffer_lookahead3_source_last
+[23:0] slice_proxy242
+sdram_tmrbankmachine5_cmd_buffer_lookahead3_source_payload_we
+[23:0] slice_proxy243
+[20:0] sdram_tmrbankmachine5_cmd_buffer_lookahead3_source_payload_addr
+[13:0] sdram_pi_mod2_inti_p1_address
+sdram_tmrbankmachine5_cmd_buffer_lookahead3_syncfifo5_we
+[2:0] sdram_pi_mod2_inti_p1_bank
+sdram_tmrbankmachine5_cmd_buffer_lookahead3_syncfifo5_writable
+sdram_pi_mod2_inti_p1_cas_n
+sdram_tmrbankmachine5_cmd_buffer_lookahead3_syncfifo5_re
+sdram_pi_mod2_inti_p1_cs_n
+sdram_tmrbankmachine5_cmd_buffer_lookahead3_syncfifo5_readable
+sdram_pi_mod2_inti_p1_ras_n
+[23:0] sdram_tmrbankmachine5_cmd_buffer_lookahead3_syncfifo5_din
+sdram_pi_mod2_inti_p1_we_n
+[23:0] sdram_tmrbankmachine5_cmd_buffer_lookahead3_syncfifo5_dout
+sdram_pi_mod2_inti_p1_cke
+[23:0] slice_proxy245
+sdram_pi_mod2_inti_p1_odt
+[2:0] slice_proxy246
+sdram_pi_mod2_inti_p1_reset_n
+array_muxed12
+[2:0] sdram_tmrbankmachine5_cmd_buffer_lookahead3_produce
+[2:0] sdram_tmrbankmachine5_cmd_buffer_lookahead3_consume
+[63:0] sdram_pi_mod2_inti_p1_wrdata
+[2:0] slice_proxy247
+sdram_pi_mod2_inti_p1_wrdata_en
+[2:0] sdram_tmrbankmachine5_cmd_buffer_lookahead3_wrport_adr
+[7:0] sdram_pi_mod2_inti_p1_wrdata_mask
+array_muxed13
+sdram_pi_mod2_inti_p1_rddata_en
+sdram_tmrbankmachine5_cmd_buffer_lookahead3_wrport_we
+[23:0] sdram_tmrbankmachine5_cmd_buffer_lookahead3_wrport_dat_w
+[2:0] slice_proxy248
+[23:0] sdram_tmrbankmachine5_cmd_buffer_lookahead3_wrport_dat_r
+[2:0] slice_proxy249
+[13:0] sdram_pi_mod2_inti_p2_address
+[2:0] array_muxed14
+[2:0] sdram_pi_mod2_inti_p2_bank
+sdram_pi_mod2_inti_p2_cas_n
+sdram_pi_mod2_inti_p2_cs_n
+[2:0] slice_proxy250
+sdram_pi_mod2_inti_p2_ras_n
+sdram_tmrbankmachine5_cmd_buffer_lookahead3_do_read
+sdram_pi_mod2_inti_p2_we_n
+[2:0] slice_proxy251
+sdram_pi_mod2_inti_p2_cke
+[2:0] sdram_tmrbankmachine5_cmd_buffer_lookahead3_rdport_adr
+sdram_pi_mod2_inti_p2_odt
+[13:0] array_muxed15
+sdram_pi_mod2_inti_p2_reset_n
+array_muxed16
+[41:0] slice_proxy252
+[23:0] sdram_tmrbankmachine5_cmd_buffer_lookahead3_rdport_dat_r
+[63:0] sdram_pi_mod2_inti_p2_wrdata
+sdram_pi_mod2_inti_p2_wrdata_en
+[41:0] slice_proxy253
+[7:0] sdram_pi_mod2_inti_p2_wrdata_mask
+sdram_pi_mod2_inti_p2_rddata_en
+[41:0] slice_proxy254
+array_muxed17
+[13:0] sdram_pi_mod2_inti_p3_address
+sdram_tmrbankmachine5_cmd_buffer_lookahead3_fifo_in_payload_we
+[2:0] sdram_pi_mod2_inti_p3_bank
+[20:0] sdram_tmrbankmachine5_cmd_buffer_lookahead3_fifo_in_payload_addr
+sdram_pi_mod2_inti_p3_cas_n
+sdram_tmrbankmachine5_cmd_buffer_lookahead3_fifo_in_first
+sdram_pi_mod2_inti_p3_cs_n
+sdram_tmrbankmachine5_cmd_buffer_lookahead3_fifo_in_last
+sdram_pi_mod2_inti_p3_ras_n
+sdram_tmrbankmachine5_cmd_buffer_lookahead3_fifo_out_payload_we
+sdram_pi_mod2_inti_p3_we_n
+[20:0] sdram_tmrbankmachine5_cmd_buffer_lookahead3_fifo_out_payload_addr
+sdram_pi_mod2_inti_p3_cke
+sdram_tmrbankmachine5_cmd_buffer_lookahead3_fifo_out_first
+sdram_pi_mod2_inti_p3_odt
+sdram_tmrbankmachine5_cmd_buffer_lookahead3_fifo_out_last
+sdram_pi_mod2_inti_p3_reset_n
+[41:0] slice_proxy256
+sdram_tmrbankmachine5_cmd_buffer3_sink_valid
+[41:0] slice_proxy257
+[63:0] sdram_pi_mod2_inti_p3_wrdata
+sdram_tmrbankmachine5_cmd_buffer3_sink_ready
+sdram_pi_mod2_inti_p3_wrdata_en
+sdram_tmrbankmachine5_cmd_buffer3_sink_first
+[7:0] sdram_pi_mod2_inti_p3_wrdata_mask
+sdram_tmrbankmachine5_cmd_buffer3_sink_last
+sdram_pi_mod2_inti_p3_rddata_en
+sdram_tmrbankmachine5_cmd_buffer3_sink_payload_we
+[20:0] sdram_tmrbankmachine5_cmd_buffer3_sink_payload_addr
+[8:0] slice_proxy258
+[8:0] slice_proxy259
+array_muxed19
+sdram_tmrbankmachine5_cmd_buffer3_source_ready
+[8:0] slice_proxy260
+sdram_tmrbankmachine5_cmd_buffer3_source_valid
+array_muxed20
+sdram_tmrbankmachine5_cmd_buffer3_source_first
+[8:0] slice_proxy261
+sdram_tmrbankmachine5_cmd_buffer3_source_last
+sdram_tmrbankmachine5_cmd_buffer3_source_payload_we
+[20:0] sdram_tmrbankmachine5_cmd_buffer3_source_payload_addr
+[8:0] slice_proxy262
+[2:0] array_muxed21
+[8:0] slice_proxy263
+sdram_tmrbankmachine5_tmrinput_control4
+[5:0] sdram_pi_mod2_phaseinjector0_command_storage
+[2:0] slice_proxy264
+sdram_pi_mod2_phaseinjector0_command_we
+[13:0] array_muxed22
+[5:0] sdram_pi_mod2_phaseinjector0_command_dat_w
+[2:0] slice_proxy265
+sdram_pi_mod2_phaseinjector0_command_issue_re
+array_muxed23
+[20:0] sdram_tmrbankmachine5_lookAddrVote_control
+sdram_pi_mod2_phaseinjector0_command_issue_we
+[2:0] slice_proxy266
+sdram_pi_mod2_phaseinjector0_command_issue_w
+[13:0] sdram_pi_mod2_phaseinjector0_address_storage
+[2:0] slice_proxy267
+sdram_pi_mod2_phaseinjector0_address_we
+[20:0] sdram_tmrbankmachine5_bufAddrVote_control
+[13:0] sdram_pi_mod2_phaseinjector0_address_dat_w
+array_muxed24
+[2:0] slice_proxy268
+[2:0] sdram_pi_mod2_phaseinjector0_baddress_storage
+sdram_pi_mod2_phaseinjector0_baddress_we
+[2:0] slice_proxy269
+[2:0] sdram_pi_mod2_phaseinjector0_baddress_dat_w
+sdram_tmrbankmachine5_lookValidVote_control
+[63:0] sdram_pi_mod2_phaseinjector0_wrdata_storage
+array_muxed25
+[2:0] slice_proxy270
+sdram_pi_mod2_phaseinjector0_wrdata_we
+[63:0] sdram_pi_mod2_phaseinjector0_wrdata_dat_w
+[2:0] slice_proxy271
+sdram_tmrbankmachine5_bufValidVote_control
+[63:0] sdram_pi_mod2_phaseinjector0_status
+[2:0] slice_proxy272
+array_muxed26
+[2:0] slice_proxy273
+sdram_tmrbankmachine5_bufWeVote_control
+[2:0] slice_proxy274
+array_muxed27
+[13:0] sdram_tmrbankmachine5_row
+[2:0] slice_proxy275
+sdram_tmrbankmachine5_row_opened
+sdram_tmrbankmachine5_row_hit
+[5:0] sdram_pi_mod2_phaseinjector1_command_storage
+sdram_tmrbankmachine5_row_open
+sdram_tmrbankmachine5_row_close
+[2:0] slice_proxy276
+sdram_pi_mod2_phaseinjector1_command_we
+[5:0] sdram_pi_mod2_phaseinjector1_command_dat_w
+[2:0] slice_proxy277
+sdram_pi_mod2_phaseinjector1_command_issue_re
+sdram_tmrbankmachine5_row_col_n_addr_sel
+sdram_pi_mod2_phaseinjector1_command_issue_we
+[2:0] slice_proxy278
+sdram_pi_mod2_phaseinjector1_command_issue_w
+[13:0] sdram_pi_mod2_phaseinjector1_address_storage
+[2:0] slice_proxy279
+sdram_tmrbankmachine5_twtpcon_valid
+sdram_pi_mod2_phaseinjector1_address_we
+sdram_tmrbankmachine5_twtpcon_ready
+[13:0] sdram_pi_mod2_phaseinjector1_address_dat_w
+[2:0] slice_proxy280
+[2:0] sdram_tmrbankmachine5_twtpcon_count
+[2:0] sdram_pi_mod2_phaseinjector1_baddress_storage
+[2:0] slice_proxy281
+sdram_pi_mod2_phaseinjector1_baddress_we
+[2:0] sdram_pi_mod2_phaseinjector1_baddress_dat_w
+[63:0] sdram_pi_mod2_phaseinjector1_wrdata_storage
+[2:0] slice_proxy282
+sdram_tmrbankmachine5_twtpcon2_valid
+sdram_pi_mod2_phaseinjector1_wrdata_we
+sdram_tmrbankmachine5_twtpcon2_ready
+[63:0] sdram_pi_mod2_phaseinjector1_wrdata_dat_w
+[2:0] slice_proxy283
+[2:0] sdram_tmrbankmachine5_twtpcon2_count
+[63:0] sdram_pi_mod2_phaseinjector1_status
+[2:0] slice_proxy284
+[2:0] slice_proxy285
+sdram_tmrbankmachine5_twtpcon3_valid
+sdram_tmrbankmachine5_twtpcon3_ready
+[2:0] slice_proxy286
+[2:0] sdram_tmrbankmachine5_twtpcon3_count
+[2:0] slice_proxy287
+[5:0] sdram_pi_mod2_phaseinjector2_command_storage
+[2:0] slice_proxy288
+sdram_pi_mod2_phaseinjector2_command_we
+sdram_tmrbankmachine5_twtpVote_control
+[5:0] sdram_pi_mod2_phaseinjector2_command_dat_w
+[2:0] slice_proxy289
+sdram_pi_mod2_phaseinjector2_command_issue_re
+[2:0] slice_proxy290
+sdram_pi_mod2_phaseinjector2_command_issue_we
+sdram_tmrbankmachine5_trccon_valid
+sdram_pi_mod2_phaseinjector2_command_issue_w
+sdram_tmrbankmachine5_trccon_ready
+[2:0] slice_proxy291
+[13:0] sdram_pi_mod2_phaseinjector2_address_storage
+[2:0] sdram_tmrbankmachine5_trccon_count
+sdram_pi_mod2_phaseinjector2_address_we
+[13:0] sdram_pi_mod2_phaseinjector2_address_dat_w
+[2:0] slice_proxy292
+[2:0] sdram_pi_mod2_phaseinjector2_baddress_storage
+[2:0] slice_proxy293
+sdram_pi_mod2_phaseinjector2_baddress_we
+sdram_tmrbankmachine5_trccon2_valid
+[2:0] sdram_pi_mod2_phaseinjector2_baddress_dat_w
+sdram_tmrbankmachine5_trccon2_ready
+[63:0] sdram_pi_mod2_phaseinjector2_wrdata_storage
+[2:0] slice_proxy294
+[2:0] sdram_tmrbankmachine5_trccon2_count
+sdram_pi_mod2_phaseinjector2_wrdata_we
+[2:0] slice_proxy295
+[63:0] sdram_pi_mod2_phaseinjector2_wrdata_dat_w
+[63:0] sdram_pi_mod2_phaseinjector2_status
+[2:0] slice_proxy296
+sdram_tmrbankmachine5_trccon3_valid
+[2:0] slice_proxy297
+sdram_tmrbankmachine5_trccon3_ready
+[2:0] sdram_tmrbankmachine5_trccon3_count
+[2:0] slice_proxy298
+[2:0] slice_proxy299
+sdram_tmrbankmachine5_trcVote_control
+[5:0] sdram_pi_mod2_phaseinjector3_command_storage
+[2:0] slice_proxy300
+sdram_pi_mod2_phaseinjector3_command_we
+[2:0] slice_proxy301
+[5:0] sdram_pi_mod2_phaseinjector3_command_dat_w
+sdram_tmrbankmachine5_trascon_valid
+sdram_pi_mod2_phaseinjector3_command_issue_re
+sdram_tmrbankmachine5_trascon_ready
+[2:0] slice_proxy302
+[2:0] sdram_tmrbankmachine5_trascon_count
+sdram_pi_mod2_phaseinjector3_command_issue_we
+sdram_pi_mod2_phaseinjector3_command_issue_w
+[2:0] slice_proxy303
+[13:0] sdram_pi_mod2_phaseinjector3_address_storage
+sdram_pi_mod2_phaseinjector3_address_we
+[2:0] slice_proxy304
+[13:0] sdram_pi_mod2_phaseinjector3_address_dat_w
+sdram_tmrbankmachine5_trascon2_valid
+[2:0] sdram_pi_mod2_phaseinjector3_baddress_storage
+[2:0] slice_proxy305
+sdram_tmrbankmachine5_trascon2_ready
+[2:0] sdram_tmrbankmachine5_trascon2_count
+sdram_pi_mod2_phaseinjector3_baddress_we
+[2:0] sdram_pi_mod2_phaseinjector3_baddress_dat_w
+[2:0] slice_proxy306
+[63:0] sdram_pi_mod2_phaseinjector3_wrdata_storage
+sdram_pi_mod2_phaseinjector3_wrdata_we
+[2:0] slice_proxy307
+[63:0] sdram_pi_mod2_phaseinjector3_wrdata_dat_w
+sdram_tmrbankmachine5_trascon3_valid
+[63:0] sdram_pi_mod2_phaseinjector3_status
+[2:0] slice_proxy308
+sdram_tmrbankmachine5_trascon3_ready
+[2:0] sdram_tmrbankmachine5_trascon3_count
+[2:0] slice_proxy309
+[2:0] slice_proxy310
+sdram_tmrbankmachine5_trasVote_control
+[2:0] slice_proxy311
+[191:0] slice_proxy312
+[191:0] slice_proxy313
+[13:0] sdram_pi_mod3_inti_p0_address
+[2:0] sdram_pi_mod3_inti_p0_bank
+[191:0] slice_proxy314
+sdram_pi_mod3_inti_p0_cas_n
+sdram_pi_mod3_inti_p0_cs_n
+sdram_pi_mod3_inti_p0_ras_n
+[191:0] slice_proxy315
+sdram_pi_mod3_inti_p0_we_n
+sdram_pi_mod3_inti_p0_cke
+sdram_pi_mod3_inti_p0_odt
+[191:0] slice_proxy316
+sdram_pi_mod3_inti_p0_reset_n
+[63:0] sdram_pi_mod3_inti_p0_wrdata
+[191:0] slice_proxy317
+sdram_pi_mod3_inti_p0_wrdata_en
+[7:0] sdram_pi_mod3_inti_p0_wrdata_mask
+sdram_tmrbankmachine6_req_valid
+sdram_pi_mod3_inti_p0_rddata_en
+sdram_tmrbankmachine6_req_ready
+sdram_tmrbankmachine6_req_we
+[2:0] slice_proxy318
+[20:0] sdram_tmrbankmachine6_req_addr
+[13:0] sdram_pi_mod3_inti_p1_address
+sdram_tmrbankmachine6_req_lock
+[2:0] sdram_pi_mod3_inti_p1_bank
+sdram_tmrbankmachine6_req_wdata_ready
+sdram_pi_mod3_inti_p1_cas_n
+sdram_tmrbankmachine6_req_rdata_valid
+sdram_pi_mod3_inti_p1_cs_n
+[2:0] sdram_tmrbankmachine6_TMRreq_valid
+sdram_pi_mod3_inti_p1_ras_n
+[2:0] sdram_tmrbankmachine6_TMRreq_ready
+sdram_pi_mod3_inti_p1_we_n
+[2:0] sdram_tmrbankmachine6_TMRreq_we
+sdram_pi_mod3_inti_p1_cke
+[62:0] sdram_tmrbankmachine6_TMRreq_addr
+sdram_pi_mod3_inti_p1_odt
+[2:0] sdram_tmrbankmachine6_TMRreq_lock
+sdram_pi_mod3_inti_p1_reset_n
+[2:0] sdram_tmrbankmachine6_TMRreq_wdata_ready
+[2:0] sdram_tmrbankmachine6_TMRreq_rdata_valid
+[2:0] slice_proxy321
+[63:0] sdram_pi_mod3_inti_p1_wrdata
+sdram_tmrbankmachine6_refresh_req
+sdram_pi_mod3_inti_p1_wrdata_en
+sdram_tmrbankmachine6_refresh_gnt
+[7:0] sdram_pi_mod3_inti_p1_wrdata_mask
+sdram_tmrbankmachine6_cmd_valid
+sdram_pi_mod3_inti_p1_rddata_en
+sdram_tmrbankmachine6_cmd_ready
+[2:0] slice_proxy323
+[23:0] slice_proxy324
+[13:0] sdram_pi_mod3_inti_p2_address
+[13:0] sdram_tmrbankmachine6_cmd_payload_a
+[2:0] sdram_pi_mod3_inti_p2_bank
+[2:0] sdram_tmrbankmachine6_cmd_payload_ba
+sdram_pi_mod3_inti_p2_cas_n
+sdram_tmrbankmachine6_cmd_payload_cas
+sdram_pi_mod3_inti_p2_cs_n
+sdram_tmrbankmachine6_cmd_payload_ras
+sdram_pi_mod3_inti_p2_ras_n
+sdram_tmrbankmachine6_cmd_payload_we
+sdram_pi_mod3_inti_p2_we_n
+sdram_tmrbankmachine6_cmd_payload_is_cmd
+sdram_pi_mod3_inti_p2_cke
+sdram_tmrbankmachine6_cmd_payload_is_read
+sdram_pi_mod3_inti_p2_odt
+sdram_tmrbankmachine6_cmd_payload_is_write
+sdram_pi_mod3_inti_p2_reset_n
+[2:0] sdram_tmrbankmachine6_TMRcmd_valid
+[2:0] sdram_tmrbankmachine6_TMRcmd_ready
+[23:0] slice_proxy327
+[63:0] sdram_pi_mod3_inti_p2_wrdata
+[2:0] sdram_tmrbankmachine6_TMRcmd_first
+sdram_pi_mod3_inti_p2_wrdata_en
+[2:0] sdram_tmrbankmachine6_TMRcmd_last
+[7:0] sdram_pi_mod3_inti_p2_wrdata_mask
+[41:0] sdram_tmrbankmachine6_TMRcmd_payload_a
+sdram_pi_mod3_inti_p2_rddata_en
+[8:0] sdram_tmrbankmachine6_TMRcmd_payload_ba
+[2:0] sdram_tmrbankmachine6_TMRcmd_payload_cas
+[23:0] slice_proxy328
+[2:0] sdram_tmrbankmachine6_TMRcmd_payload_ras
+[23:0] slice_proxy329
+[13:0] sdram_pi_mod3_inti_p3_address
+[2:0] sdram_tmrbankmachine6_TMRcmd_payload_we
+[2:0] sdram_pi_mod3_inti_p3_bank
+[2:0] sdram_tmrbankmachine6_TMRcmd_payload_is_cmd
+sdram_pi_mod3_inti_p3_cas_n
+[2:0] sdram_tmrbankmachine6_TMRcmd_payload_is_read
+sdram_pi_mod3_inti_p3_cs_n
+[2:0] sdram_tmrbankmachine6_TMRcmd_payload_is_write
+sdram_pi_mod3_inti_p3_ras_n
+[2:0] slice_proxy330
+sdram_pi_mod3_inti_p3_we_n
+sdram_tmrbankmachine6_tmrinput_control0
+sdram_pi_mod3_inti_p3_cke
+[2:0] slice_proxy331
+sdram_pi_mod3_inti_p3_odt
+[2:0] slice_proxy332
+sdram_pi_mod3_inti_p3_reset_n
+[2:0] slice_proxy333
+[63:0] sdram_pi_mod3_inti_p3_wrdata
+sdram_pi_mod3_inti_p3_wrdata_en
+[7:0] sdram_pi_mod3_inti_p3_wrdata_mask
+[2:0] slice_proxy334
+sdram_pi_mod3_inti_p3_rddata_en
+sdram_tmrbankmachine6_auto_precharge
+[2:0] slice_proxy335
+sdram_tmrbankmachine6_tmrinput_control1
+sdram_tmrbankmachine6_tmrinput_control2
+[20:0] sdram_tmrbankmachine6_tmrinput_control3
+[5:0] sdram_pi_mod3_phaseinjector0_command_storage
+sdram_pi_mod3_phaseinjector0_command_we
+[5:0] sdram_pi_mod3_phaseinjector0_command_dat_w
+sdram_pi_mod3_phaseinjector0_command_issue_re
+sdram_pi_mod3_phaseinjector0_command_issue_we
+sdram_pi_mod3_phaseinjector0_command_issue_w
+[13:0] sdram_pi_mod3_phaseinjector0_address_storage
+sdram_pi_mod3_phaseinjector0_address_we
+[13:0] sdram_pi_mod3_phaseinjector0_address_dat_w
+sdram_tmrbankmachine6_cmd_buffer_lookahead_sink_valid
+[2:0] sdram_pi_mod3_phaseinjector0_baddress_storage
+sdram_tmrbankmachine6_cmd_buffer_lookahead_sink_ready
+sdram_pi_mod3_phaseinjector0_baddress_we
+[2:0] sdram_pi_mod3_phaseinjector0_baddress_dat_w
+sdram_tmrbankmachine6_cmd_buffer_lookahead_sink_payload_we
+[63:0] sdram_pi_mod3_phaseinjector0_wrdata_storage
+[20:0] sdram_tmrbankmachine6_cmd_buffer_lookahead_sink_payload_addr
+sdram_tmrbankmachine6_cmd_buffer_lookahead_source_valid
+sdram_pi_mod3_phaseinjector0_wrdata_we
+sdram_tmrbankmachine6_cmd_buffer_lookahead_source_ready
+[63:0] sdram_pi_mod3_phaseinjector0_wrdata_dat_w
+sdram_tmrbankmachine6_cmd_buffer_lookahead_source_first
+sdram_tmrbankmachine6_cmd_buffer_lookahead_source_last
+[63:0] sdram_pi_mod3_phaseinjector0_status
+sdram_tmrbankmachine6_cmd_buffer_lookahead_source_payload_we
+[20:0] sdram_tmrbankmachine6_cmd_buffer_lookahead_source_payload_addr
+sdram_tmrbankmachine6_cmd_buffer_lookahead_syncfifo6_we
+sdram_tmrbankmachine6_cmd_buffer_lookahead_syncfifo6_writable
+sdram_tmrbankmachine6_cmd_buffer_lookahead_syncfifo6_re
+sdram_tmrbankmachine6_cmd_buffer_lookahead_syncfifo6_readable
+[23:0] sdram_tmrbankmachine6_cmd_buffer_lookahead_syncfifo6_din
+[23:0] sdram_tmrbankmachine6_cmd_buffer_lookahead_syncfifo6_dout
+[3:0] sdram_tmrbankmachine6_cmd_buffer_lookahead_level
+[2:0] sdram_tmrbankmachine6_cmd_buffer_lookahead_produce
+[2:0] sdram_tmrbankmachine6_cmd_buffer_lookahead_consume
+[5:0] sdram_pi_mod3_phaseinjector1_command_storage
+[2:0] sdram_tmrbankmachine6_cmd_buffer_lookahead_wrport_adr
+[23:0] sdram_tmrbankmachine6_cmd_buffer_lookahead_wrport_dat_r
+sdram_pi_mod3_phaseinjector1_command_we
+sdram_tmrbankmachine6_cmd_buffer_lookahead_wrport_we
+[5:0] sdram_pi_mod3_phaseinjector1_command_dat_w
+[23:0] sdram_tmrbankmachine6_cmd_buffer_lookahead_wrport_dat_w
+sdram_pi_mod3_phaseinjector1_command_issue_re
+sdram_pi_mod3_phaseinjector1_command_issue_we
+sdram_pi_mod3_phaseinjector1_command_issue_w
+[13:0] sdram_pi_mod3_phaseinjector1_address_storage
+sdram_tmrbankmachine6_cmd_buffer_lookahead_do_read
+sdram_pi_mod3_phaseinjector1_address_we
+[2:0] sdram_tmrbankmachine6_cmd_buffer_lookahead_rdport_adr
+[13:0] sdram_pi_mod3_phaseinjector1_address_dat_w
+[23:0] sdram_tmrbankmachine6_cmd_buffer_lookahead_rdport_dat_r
+[2:0] sdram_pi_mod3_phaseinjector1_baddress_storage
+sdram_pi_mod3_phaseinjector1_baddress_we
+[2:0] sdram_pi_mod3_phaseinjector1_baddress_dat_w
+[63:0] sdram_pi_mod3_phaseinjector1_wrdata_storage
+sdram_pi_mod3_phaseinjector1_wrdata_we
+[63:0] sdram_pi_mod3_phaseinjector1_wrdata_dat_w
+sdram_tmrbankmachine6_cmd_buffer_lookahead_fifo_in_payload_we
+[20:0] sdram_tmrbankmachine6_cmd_buffer_lookahead_fifo_in_payload_addr
+[63:0] sdram_pi_mod3_phaseinjector1_status
+sdram_tmrbankmachine6_cmd_buffer_lookahead_fifo_in_first
+sdram_tmrbankmachine6_cmd_buffer_lookahead_fifo_in_last
+sdram_tmrbankmachine6_cmd_buffer_lookahead_fifo_out_payload_we
+[20:0] sdram_tmrbankmachine6_cmd_buffer_lookahead_fifo_out_payload_addr
+sdram_tmrbankmachine6_cmd_buffer_lookahead_fifo_out_first
+sdram_tmrbankmachine6_cmd_buffer_lookahead_fifo_out_last
+sdram_tmrbankmachine6_cmd_buffer_sink_valid
+sdram_tmrbankmachine6_cmd_buffer_sink_ready
+sdram_tmrbankmachine6_cmd_buffer_sink_first
+sdram_tmrbankmachine6_cmd_buffer_sink_last
+sdram_tmrbankmachine6_cmd_buffer_sink_payload_we
+[20:0] sdram_tmrbankmachine6_cmd_buffer_sink_payload_addr
+[5:0] sdram_pi_mod3_phaseinjector2_command_storage
+[2:0] slice_proxy107
+sdram_tmrbankmachine6_cmd_buffer_source_valid
+sdram_tmrbankmachine6_cmd_buffer_source_ready
+sdram_pi_mod3_phaseinjector2_command_we
+sdram_tmrbankmachine6_cmd_buffer_source_first
+[5:0] sdram_pi_mod3_phaseinjector2_command_dat_w
+sdram_tmrbankmachine6_cmd_buffer_source_last
+sdram_pi_mod3_phaseinjector2_command_issue_re
+sdram_tmrbankmachine6_cmd_buffer_source_payload_we
+[20:0] sdram_tmrbankmachine6_cmd_buffer_source_payload_addr
+sdram_pi_mod3_phaseinjector2_command_issue_we
+[2:0] slice_proxy336
+sdram_pi_mod3_phaseinjector2_command_issue_w
+[13:0] sdram_pi_mod3_phaseinjector2_address_storage
+[2:0] slice_proxy337
+sdram_tmrbankmachine6_cmd_buffer_lookahead2_sink_ready
+sdram_pi_mod3_phaseinjector2_address_we
+[13:0] sdram_pi_mod3_phaseinjector2_address_dat_w
+[2:0] slice_proxy338
+[2:0] sdram_pi_mod3_phaseinjector2_baddress_storage
+[2:0] slice_proxy339
+sdram_pi_mod3_phaseinjector2_baddress_we
+sdram_tmrbankmachine6_cmd_buffer_lookahead2_source_valid
+[2:0] sdram_pi_mod3_phaseinjector2_baddress_dat_w
+sdram_tmrbankmachine6_cmd_buffer_lookahead2_source_ready
+sdram_tmrbankmachine6_cmd_buffer_lookahead2_source_first
+[63:0] sdram_pi_mod3_phaseinjector2_wrdata_storage
+sdram_tmrbankmachine6_cmd_buffer_lookahead2_source_last
+[2:0] slice_proxy340
+sdram_tmrbankmachine6_cmd_buffer_lookahead2_source_payload_we
+sdram_pi_mod3_phaseinjector2_wrdata_we
+[20:0] sdram_tmrbankmachine6_cmd_buffer_lookahead2_source_payload_addr
+[63:0] sdram_pi_mod3_phaseinjector2_wrdata_dat_w
+sdram_tmrbankmachine6_cmd_buffer_lookahead2_syncfifo6_we
+[2:0] slice_proxy341
+sdram_tmrbankmachine6_cmd_buffer_lookahead2_syncfifo6_writable
+[63:0] sdram_pi_mod3_phaseinjector2_status
+sdram_tmrbankmachine6_cmd_buffer_lookahead2_syncfifo6_re
+sdram_tmrbankmachine6_cmd_buffer_lookahead2_syncfifo6_readable
+[2:0] slice_proxy342
+[23:0] sdram_tmrbankmachine6_cmd_buffer_lookahead2_syncfifo6_din
+[23:0] sdram_tmrbankmachine6_cmd_buffer_lookahead2_syncfifo6_dout
+[2:0] slice_proxy343
+[3:0] sdram_tmrbankmachine6_cmd_buffer_lookahead2_level
+[2:0] sdram_tmrbankmachine6_cmd_buffer_lookahead2_produce
+[2:0] slice_proxy344
+[2:0] sdram_tmrbankmachine6_cmd_buffer_lookahead2_consume
+[2:0] sdram_tmrbankmachine6_cmd_buffer_lookahead2_wrport_adr
+[2:0] slice_proxy345
+[23:0] sdram_tmrbankmachine6_cmd_buffer_lookahead2_wrport_dat_r
+sdram_tmrbankmachine6_cmd_buffer_lookahead2_wrport_we
+[23:0] sdram_tmrbankmachine6_cmd_buffer_lookahead2_wrport_dat_w
+[5:0] sdram_pi_mod3_phaseinjector3_command_storage
+[2:0] slice_proxy346
+sdram_pi_mod3_phaseinjector3_command_we
+[5:0] sdram_pi_mod3_phaseinjector3_command_dat_w
+[2:0] slice_proxy347
+sdram_pi_mod3_phaseinjector3_command_issue_re
+sdram_tmrbankmachine6_cmd_buffer_lookahead2_do_read
+sdram_pi_mod3_phaseinjector3_command_issue_we
+sdram_pi_mod3_phaseinjector3_command_issue_w
+[2:0] sdram_tmrbankmachine6_cmd_buffer_lookahead2_rdport_adr
+[23:0] sdram_tmrbankmachine6_cmd_buffer_lookahead2_rdport_dat_r
+[13:0] sdram_pi_mod3_phaseinjector3_address_storage
+sdram_pi_mod3_phaseinjector3_address_we
+[13:0] sdram_pi_mod3_phaseinjector3_address_dat_w
+[2:0] slice_proxy348
+[2:0] sdram_pi_mod3_phaseinjector3_baddress_storage
+[2:0] slice_proxy349
+sdram_pi_mod3_phaseinjector3_baddress_we
+[2:0] sdram_pi_mod3_phaseinjector3_baddress_dat_w
+sdram_tmrbankmachine6_cmd_buffer_lookahead2_fifo_in_payload_we
+[63:0] sdram_pi_mod3_phaseinjector3_wrdata_storage
+[20:0] sdram_tmrbankmachine6_cmd_buffer_lookahead2_fifo_in_payload_addr
+[2:0] slice_proxy350
+sdram_tmrbankmachine6_cmd_buffer_lookahead2_fifo_in_first
+sdram_pi_mod3_phaseinjector3_wrdata_we
+sdram_tmrbankmachine6_cmd_buffer_lookahead2_fifo_in_last
+[63:0] sdram_pi_mod3_phaseinjector3_wrdata_dat_w
+sdram_tmrbankmachine6_cmd_buffer_lookahead2_fifo_out_payload_we
+[2:0] slice_proxy351
+[20:0] sdram_tmrbankmachine6_cmd_buffer_lookahead2_fifo_out_payload_addr
+[63:0] sdram_pi_mod3_phaseinjector3_status
+sdram_tmrbankmachine6_cmd_buffer_lookahead2_fifo_out_first
+[2:0] slice_proxy352
+sdram_tmrbankmachine6_cmd_buffer_lookahead2_fifo_out_last
+sdram_tmrbankmachine6_cmd_buffer2_sink_valid
+[2:0] slice_proxy353
+sdram_tmrbankmachine6_cmd_buffer2_sink_ready
+sdram_tmrbankmachine6_cmd_buffer2_sink_first
+sdram_tmrbankmachine6_cmd_buffer2_sink_last
+sdram_tmrbankmachine6_cmd_buffer2_sink_payload_we
+[20:0] sdram_tmrbankmachine6_cmd_buffer2_sink_payload_addr
+sdram_tmrbankmachine6_cmd_buffer2_source_valid
+sdram_tmrbankmachine6_cmd_buffer2_source_ready
+sdram_tmrbankmachine6_cmd_buffer2_source_first
+sdram_tmrbankmachine6_cmd_buffer2_source_last
+sdram_tmrbankmachine6_cmd_buffer2_source_payload_we
+[20:0] sdram_tmrbankmachine6_cmd_buffer2_source_payload_addr
+sdram_tmrbankmachine6_cmd_buffer_lookahead3_sink_ready
+sdram_tmrbankmachine6_cmd_buffer_lookahead3_source_valid
+sdram_tmrbankmachine6_cmd_buffer_lookahead3_source_ready
+sdram_tmrbankmachine6_cmd_buffer_lookahead3_source_first
+sdram_tmrbankmachine6_cmd_buffer_lookahead3_source_last
+sdram_tmrbankmachine6_cmd_buffer_lookahead3_source_payload_we
+[20:0] sdram_tmrbankmachine6_cmd_buffer_lookahead3_source_payload_addr
+sdram_tmrbankmachine6_cmd_buffer_lookahead3_syncfifo6_we
+sdram_tmrbankmachine6_cmd_buffer_lookahead3_syncfifo6_writable
+sdram_tmrbankmachine6_cmd_buffer_lookahead3_syncfifo6_re
+[2:0] slice_proxy108
+sdram_tmrbankmachine6_cmd_buffer_lookahead3_syncfifo6_readable
+[23:0] sdram_tmrbankmachine6_cmd_buffer_lookahead3_syncfifo6_din
+[23:0] sdram_tmrbankmachine6_cmd_buffer_lookahead3_syncfifo6_dout
+[3:0] sdram_tmrbankmachine6_cmd_buffer_lookahead3_level
+[2:0] sdram_tmrbankmachine6_cmd_buffer_lookahead3_produce
+[2:0] sdram_tmrbankmachine6_cmd_buffer_lookahead3_consume
+[2:0] sdram_tmrbankmachine6_cmd_buffer_lookahead3_wrport_adr
+[23:0] sdram_tmrbankmachine6_cmd_buffer_lookahead3_wrport_dat_r
+sdram_tmrbankmachine6_cmd_buffer_lookahead3_wrport_we
+[23:0] sdram_tmrbankmachine6_cmd_buffer_lookahead3_wrport_dat_w
+[13:0] sdram_control0
+sdram_tmrbankmachine6_cmd_buffer_lookahead3_do_read
+[2:0] sdram_tmrbankmachine6_cmd_buffer_lookahead3_rdport_adr
+[23:0] sdram_tmrbankmachine6_cmd_buffer_lookahead3_rdport_dat_r
+[2:0] sdram_control1
+sdram_control2
+sdram_tmrbankmachine6_cmd_buffer_lookahead3_fifo_in_payload_we
+[20:0] sdram_tmrbankmachine6_cmd_buffer_lookahead3_fifo_in_payload_addr
+sdram_control3
+sdram_tmrbankmachine6_cmd_buffer_lookahead3_fifo_in_first
+sdram_tmrbankmachine6_cmd_buffer_lookahead3_fifo_in_last
+sdram_tmrbankmachine6_cmd_buffer_lookahead3_fifo_out_payload_we
+[20:0] sdram_tmrbankmachine6_cmd_buffer_lookahead3_fifo_out_payload_addr
+sdram_tmrbankmachine6_cmd_buffer_lookahead3_fifo_out_first
+sdram_control4
+sdram_tmrbankmachine6_cmd_buffer_lookahead3_fifo_out_last
+sdram_tmrbankmachine6_cmd_buffer3_sink_valid
+[2:0] slice_proxy354
+sdram_tmrbankmachine6_cmd_buffer3_sink_ready
+sdram_tmrbankmachine6_cmd_buffer3_sink_first
+sdram_control5
+sdram_tmrbankmachine6_cmd_buffer3_sink_last
+sdram_tmrbankmachine6_cmd_buffer3_sink_payload_we
+[2:0] slice_proxy355
+[20:0] sdram_tmrbankmachine6_cmd_buffer3_sink_payload_addr
+sdram_tmrbankmachine6_cmd_buffer3_source_valid
+sdram_tmrbankmachine6_cmd_buffer3_source_ready
+sdram_control6
+sdram_tmrbankmachine6_cmd_buffer3_source_first
+[2:0] slice_proxy356
+sdram_tmrbankmachine6_cmd_buffer3_source_last
+sdram_tmrbankmachine6_cmd_buffer3_source_payload_we
+[20:0] sdram_tmrbankmachine6_cmd_buffer3_source_payload_addr
+sdram_control7
+[2:0] slice_proxy357
+sdram_tmrbankmachine6_tmrinput_control4
+sdram_control8
+[2:0] slice_proxy358
+[2:0] slice_proxy359
+sdram_control9
+[20:0] sdram_tmrbankmachine6_lookAddrVote_control
+[62:0] slice_proxy360
+[63:0] sdram_control10
+[20:0] sdram_tmrbankmachine6_bufAddrVote_control
+[62:0] slice_proxy361
+[62:0] slice_proxy362
+sdram_control11
+sdram_tmrbankmachine6_lookValidVote_control
+[62:0] slice_proxy363
+[7:0] sdram_control12
+[62:0] slice_proxy364
+sdram_tmrbankmachine6_bufValidVote_control
+[62:0] slice_proxy365
+sdram_control13
+[62:0] slice_proxy366
+sdram_tmrbankmachine6_bufWeVote_control
+[62:0] slice_proxy367
+[13:0] sdram_control14
+[62:0] slice_proxy368
+[13:0] sdram_tmrbankmachine6_row
+sdram_tmrbankmachine6_row_opened
+sdram_tmrbankmachine6_row_hit
+[62:0] slice_proxy369
+sdram_tmrbankmachine6_row_open
+[2:0] sdram_control15
+sdram_tmrbankmachine6_row_close
+[62:0] slice_proxy370
+sdram_tmrbankmachine6_row_col_n_addr_sel
+[62:0] slice_proxy371
+sdram_control16
+[2:0] slice_proxy372
+sdram_tmrbankmachine6_twtpcon_valid
+sdram_control17
+[2:0] slice_proxy373
+sdram_tmrbankmachine6_twtpcon_ready
+[2:0] sdram_tmrbankmachine6_twtpcon_count
+[2:0] slice_proxy374
+sdram_control18
+[2:0] slice_proxy375
+sdram_tmrbankmachine6_twtpcon2_valid
+sdram_tmrbankmachine5_req_valid
+[2:0] slice_proxy376
+sdram_control19
+[2:0] sdram_tmrbankmachine6_twtpcon2_count
+sdram_tmrbankmachine6_twtpcon2_ready
+[2:0] slice_proxy377
+sdram_tmrbankmachine5_req_ready
+sdram_control20
+[2:0] slice_proxy378
+sdram_tmrbankmachine6_twtpcon3_valid
+[2:0] slice_proxy379
+sdram_tmrbankmachine6_twtpcon3_ready
+sdram_tmrbankmachine5_req_we
+[2:0] sdram_tmrbankmachine6_twtpcon3_count
+sdram_control21
+[2:0] slice_proxy380
+[2:0] slice_proxy381
+[20:0] sdram_tmrbankmachine5_req_addr
+sdram_control22
+sdram_tmrbankmachine6_twtpVote_control
+[2:0] slice_proxy382
+sdram_tmrbankmachine5_req_lock
+[2:0] slice_proxy383
+sdram_control23
+sdram_tmrbankmachine6_trccon_valid
+[2:0] slice_proxy384
+sdram_tmrbankmachine6_trccon_ready
+sdram_tmrbankmachine5_req_wdata_ready
+[2:0] sdram_tmrbankmachine6_trccon_count
+[63:0] sdram_control24
+[2:0] slice_proxy385
+[2:0] slice_proxy386
+sdram_tmrbankmachine5_req_rdata_valid
+sdram_control25
+sdram_tmrbankmachine6_trccon2_valid
+[2:0] slice_proxy387
+sdram_tmrbankmachine6_trccon2_ready
+[2:0] sdram_tmrbankmachine6_trccon2_count
+[2:0] sdram_tmrbankmachine5_TMRreq_valid
+[2:0] slice_proxy388
+[7:0] sdram_control26
+[2:0] slice_proxy389
+[2:0] sdram_tmrbankmachine5_TMRreq_ready
+sdram_control27
+sdram_tmrbankmachine6_trccon3_valid
+[2:0] slice_proxy390
+sdram_tmrbankmachine6_trccon3_ready
+[2:0] sdram_tmrbankmachine6_trccon3_count
+[2:0] slice_proxy391
+[2:0] sdram_tmrbankmachine5_TMRreq_we
+[13:0] sdram_control28
+[2:0] slice_proxy392
+[2:0] slice_proxy393
+sdram_tmrbankmachine6_trcVote_control
+[2:0] sdram_control29
+[2:0] slice_proxy394
+sdram_tmrbankmachine6_trascon_valid
+[2:0] slice_proxy395
+sdram_tmrbankmachine6_trascon_ready
+sdram_control30
+[2:0] sdram_tmrbankmachine6_trascon_count
+[2:0] slice_proxy396
+[2:0] slice_proxy163
+[2:0] slice_proxy397
+sdram_control31
+sdram_tmrbankmachine6_trascon2_valid
+[2:0] sdram_tmrbankmachine5_TMRreq_rdata_valid
+[2:0] slice_proxy398
+sdram_tmrbankmachine6_trascon2_ready
+[2:0] sdram_tmrbankmachine6_trascon2_count
+sdram_control32
+[2:0] slice_proxy399
+sdram_tmrbankmachine5_refresh_req
+[2:0] slice_proxy400
+sdram_control33
+[2:0] slice_proxy401
+sdram_tmrbankmachine6_trascon3_valid
+sdram_tmrbankmachine6_trascon3_ready
+sdram_tmrbankmachine5_refresh_gnt
+[2:0] slice_proxy164
+[2:0] sdram_tmrbankmachine6_trascon3_count
+[2:0] slice_proxy402
+sdram_control34
+[2:0] slice_proxy403
+sdram_tmrbankmachine5_cmd_valid
+sdram_control35
+[2:0] slice_proxy404
+sdram_tmrbankmachine6_trasVote_control
+[2:0] slice_proxy405
+sdram_tmrbankmachine5_cmd_ready
+sdram_control36
+[2:0] slice_proxy406
+[2:0] slice_proxy407
+sdram_control37
+[63:0] sdram_control38
+[13:0] sdram_tmrbankmachine5_cmd_payload_a
+sdram_control39
+sdram_tmrbankmachine7_req_valid
+sdram_tmrbankmachine7_req_ready
+sdram_tmrbankmachine7_req_we
+[2:0] sdram_tmrbankmachine5_cmd_payload_ba
+[20:0] sdram_tmrbankmachine7_req_addr
+sdram_tmrbankmachine7_req_lock
+[7:0] sdram_control40
+sdram_tmrbankmachine7_req_wdata_ready
+sdram_tmrbankmachine7_req_rdata_valid
+[2:0] sdram_tmrbankmachine7_TMRreq_valid
+sdram_tmrbankmachine5_cmd_payload_cas
+[2:0] sdram_tmrbankmachine7_TMRreq_ready
+[2:0] sdram_tmrbankmachine7_TMRreq_we
+sdram_control41
+[62:0] sdram_tmrbankmachine7_TMRreq_addr
+[2:0] sdram_tmrbankmachine7_TMRreq_lock
+[2:0] sdram_tmrbankmachine7_TMRreq_wdata_ready
+sdram_tmrbankmachine5_cmd_payload_ras
+[2:0] sdram_tmrbankmachine7_TMRreq_rdata_valid
+sdram_tmrbankmachine7_refresh_req
+sdram_tmrbankmachine7_refresh_gnt
+[13:0] sdram_control42
+sdram_tmrbankmachine7_cmd_valid
+[2:0] slice_proxy167
+sdram_tmrbankmachine7_cmd_ready
+sdram_tmrbankmachine5_cmd_payload_we
+[13:0] sdram_tmrbankmachine7_cmd_payload_a
+[2:0] sdram_control43
+[2:0] sdram_tmrbankmachine7_cmd_payload_ba
+sdram_tmrbankmachine7_cmd_payload_cas
+sdram_tmrbankmachine5_cmd_payload_is_cmd
+sdram_tmrbankmachine7_cmd_payload_ras
+sdram_tmrbankmachine7_cmd_payload_we
+sdram_tmrbankmachine7_cmd_payload_is_cmd
+sdram_control44
+sdram_tmrbankmachine7_cmd_payload_is_read
+sdram_tmrbankmachine7_cmd_payload_is_write
+sdram_tmrbankmachine5_cmd_payload_is_read
+[2:0] sdram_tmrbankmachine7_TMRcmd_valid
+[2:0] sdram_tmrbankmachine7_TMRcmd_ready
+[2:0] sdram_tmrbankmachine7_TMRcmd_first
+sdram_control45
+[2:0] sdram_tmrbankmachine7_TMRcmd_last
+[41:0] sdram_tmrbankmachine7_TMRcmd_payload_a
+[8:0] sdram_tmrbankmachine7_TMRcmd_payload_ba
+[41:0] slice_proxy168
+[2:0] sdram_tmrbankmachine7_TMRcmd_payload_cas
+[2:0] sdram_tmrbankmachine7_TMRcmd_payload_ras
+sdram_control46
+[2:0] sdram_tmrbankmachine7_TMRcmd_payload_we
+[2:0] sdram_tmrbankmachine7_TMRcmd_payload_is_cmd
+[2:0] sdram_tmrbankmachine7_TMRcmd_payload_is_read
+[2:0] sdram_tmrbankmachine7_TMRcmd_payload_is_write
+sdram_control47
+sdram_tmrbankmachine7_tmrinput_control0
+[2:0] sdram_tmrbankmachine5_TMRcmd_ready
+sdram_control48
+[41:0] slice_proxy169
+[2:0] sdram_tmrbankmachine5_TMRcmd_first
+sdram_control49
+sdram_tmrbankmachine7_auto_precharge
+sdram_tmrbankmachine7_tmrinput_control1
+sdram_control50
+[2:0] slice_proxy408
+sdram_tmrbankmachine7_tmrinput_control2
+[41:0] sdram_tmrbankmachine5_TMRcmd_payload_a
+sdram_control51
+[41:0] slice_proxy170
+[2:0] slice_proxy409
+[20:0] sdram_tmrbankmachine7_tmrinput_control3
+[8:0] sdram_tmrbankmachine5_TMRcmd_payload_ba
+[2:0] slice_proxy410
+[63:0] sdram_control52
+[2:0] sdram_tmrbankmachine5_TMRcmd_payload_cas
+[2:0] slice_proxy411
+sdram_control53
+[41:0] slice_proxy171
+[2:0] sdram_tmrbankmachine5_TMRcmd_payload_ras
+[2:0] slice_proxy412
+[7:0] sdram_control54
+sdram_tmrbankmachine7_cmd_buffer_lookahead_sink_valid
+sdram_tmrbankmachine7_cmd_buffer_lookahead_sink_ready
+[2:0] slice_proxy413
+[2:0] sdram_tmrbankmachine5_TMRcmd_payload_we
+sdram_tmrbankmachine7_cmd_buffer_lookahead_sink_payload_we
+sdram_control55
+[20:0] sdram_tmrbankmachine7_cmd_buffer_lookahead_sink_payload_addr
+sdram_tmrbankmachine7_cmd_buffer_lookahead_source_valid
+sdram_tmrbankmachine7_cmd_buffer_lookahead_source_ready
+[62:0] slice_proxy414
+[2:0] sdram_tmrbankmachine5_TMRcmd_payload_is_cmd
+sdram_tmrbankmachine7_cmd_buffer_lookahead_source_first
+sdram_tmrbankmachine7_cmd_buffer_lookahead_source_last
+sdram_tmrbankmachine7_cmd_buffer_lookahead_source_payload_we
+[62:0] slice_proxy415
+[20:0] sdram_tmrbankmachine7_cmd_buffer_lookahead_source_payload_addr
+[13:0] sdram_control56
+sdram_tmrbankmachine7_cmd_buffer_lookahead_syncfifo7_we
+[2:0] sdram_tmrbankmachine5_TMRcmd_payload_is_read
+sdram_tmrbankmachine7_cmd_buffer_lookahead_syncfifo7_writable
+sdram_tmrbankmachine7_cmd_buffer_lookahead_syncfifo7_re
+[62:0] slice_proxy416
+sdram_tmrbankmachine7_cmd_buffer_lookahead_syncfifo7_readable
+[41:0] slice_proxy172
+[23:0] sdram_tmrbankmachine7_cmd_buffer_lookahead_syncfifo7_din
+[62:0] slice_proxy417
+[2:0] sdram_control57
+[23:0] sdram_tmrbankmachine7_cmd_buffer_lookahead_syncfifo7_dout
+[2:0] sdram_tmrbankmachine5_TMRcmd_payload_is_write
+[3:0] sdram_tmrbankmachine7_cmd_buffer_lookahead_level
+[62:0] slice_proxy418
+[2:0] sdram_tmrbankmachine7_cmd_buffer_lookahead_produce
+[2:0] sdram_tmrbankmachine7_cmd_buffer_lookahead_consume
+[62:0] slice_proxy419
+sdram_control58
+[2:0] sdram_tmrbankmachine7_cmd_buffer_lookahead_wrport_adr
+[23:0] sdram_tmrbankmachine7_cmd_buffer_lookahead_wrport_dat_r
+sdram_tmrbankmachine7_cmd_buffer_lookahead_wrport_we
+[62:0] slice_proxy420
+[23:0] sdram_tmrbankmachine7_cmd_buffer_lookahead_wrport_dat_w
+[41:0] slice_proxy173
+sdram_control59
+[62:0] slice_proxy421
+[62:0] slice_proxy422
+sdram_tmrbankmachine7_cmd_buffer_lookahead_do_read
+[62:0] slice_proxy423
+sdram_control60
+[2:0] sdram_tmrbankmachine7_cmd_buffer_lookahead_rdport_adr
+[23:0] sdram_tmrbankmachine7_cmd_buffer_lookahead_rdport_dat_r
+[62:0] slice_proxy424
+sdram_control61
+[62:0] slice_proxy425
+[2:0] slice_proxy426
+sdram_tmrbankmachine7_cmd_buffer_lookahead_fifo_in_payload_we
+sdram_control62
+[20:0] sdram_tmrbankmachine7_cmd_buffer_lookahead_fifo_in_payload_addr
+sdram_tmrbankmachine7_cmd_buffer_lookahead_fifo_in_first
+[8:0] slice_proxy174
+sdram_tmrbankmachine7_cmd_buffer_lookahead_fifo_in_last
+[2:0] slice_proxy427
+sdram_tmrbankmachine7_cmd_buffer_lookahead_fifo_out_payload_we
+[2:0] slice_proxy428
+[20:0] sdram_tmrbankmachine7_cmd_buffer_lookahead_fifo_out_payload_addr
+sdram_tmrbankmachine7_cmd_buffer_lookahead_fifo_out_first
+sdram_control63
+sdram_tmrbankmachine7_cmd_buffer_lookahead_fifo_out_last
+[2:0] slice_proxy429
+sdram_tmrbankmachine7_cmd_buffer_sink_valid
+sdram_tmrbankmachine7_cmd_buffer_sink_ready
+[2:0] slice_proxy430
+sdram_tmrbankmachine7_cmd_buffer_sink_first
+sdram_control64
+sdram_tmrbankmachine7_cmd_buffer_sink_last
+sdram_tmrbankmachine7_cmd_buffer_sink_payload_we
+[2:0] slice_proxy431
+[20:0] sdram_tmrbankmachine7_cmd_buffer_sink_payload_addr
+[8:0] slice_proxy175
+sdram_tmrbankmachine7_cmd_buffer_source_valid
+sdram_tmrbankmachine7_cmd_buffer_source_ready
+[2:0] slice_proxy432
+sdram_tmrbankmachine7_cmd_buffer_source_first
+sdram_control65
+sdram_tmrbankmachine7_cmd_buffer_source_last
+[2:0] slice_proxy433
+sdram_tmrbankmachine7_cmd_buffer_source_payload_we
+[20:0] sdram_tmrbankmachine7_cmd_buffer_source_payload_addr
+[2:0] slice_proxy434
+[63:0] sdram_control66
+[2:0] slice_proxy435
+sdram_tmrbankmachine7_cmd_buffer_lookahead2_sink_ready
+[2:0] slice_proxy436
+sdram_control67
+[8:0] slice_proxy176
+sdram_tmrbankmachine7_cmd_buffer_lookahead2_source_valid
+[2:0] slice_proxy437
+sdram_tmrbankmachine7_cmd_buffer_lookahead2_source_ready
+sdram_tmrbankmachine7_cmd_buffer_lookahead2_source_first
+sdram_tmrbankmachine7_cmd_buffer_lookahead2_source_last
+[7:0] sdram_control68
+sdram_tmrbankmachine7_cmd_buffer_lookahead2_source_payload_we
+[20:0] sdram_tmrbankmachine7_cmd_buffer_lookahead2_source_payload_addr
+[2:0] slice_proxy438
+sdram_tmrbankmachine7_cmd_buffer_lookahead2_syncfifo7_we
+[2:0] slice_proxy439
+sdram_tmrbankmachine7_cmd_buffer_lookahead2_syncfifo7_writable
+sdram_tmrbankmachine7_cmd_buffer_lookahead2_syncfifo7_re
+sdram_tmrbankmachine7_cmd_buffer_lookahead2_syncfifo7_readable
+sdram_control69
+[23:0] sdram_tmrbankmachine7_cmd_buffer_lookahead2_syncfifo7_din
+[2:0] slice_proxy440
+[23:0] sdram_tmrbankmachine7_cmd_buffer_lookahead2_syncfifo7_dout
+[8:0] slice_proxy177
+[2:0] slice_proxy441
+[3:0] sdram_tmrbankmachine7_cmd_buffer_lookahead2_level
+[2:0] sdram_tmrbankmachine7_cmd_buffer_lookahead2_produce
+[13:0] sdram_control70
+[2:0] slice_proxy442
+[2:0] sdram_tmrbankmachine7_cmd_buffer_lookahead2_consume
+[2:0] sdram_tmrbankmachine7_cmd_buffer_lookahead2_wrport_adr
+[23:0] sdram_tmrbankmachine7_cmd_buffer_lookahead2_wrport_dat_r
+[2:0] slice_proxy443
+sdram_tmrbankmachine7_cmd_buffer_lookahead2_wrport_we
+[23:0] sdram_tmrbankmachine7_cmd_buffer_lookahead2_wrport_dat_w
+[2:0] sdram_control71
+[2:0] slice_proxy444
+[2:0] slice_proxy445
+sdram_control72
+sdram_tmrbankmachine7_cmd_buffer_lookahead2_do_read
+[2:0] slice_proxy446
+[2:0] sdram_tmrbankmachine7_cmd_buffer_lookahead2_rdport_adr
+[23:0] sdram_tmrbankmachine7_cmd_buffer_lookahead2_rdport_dat_r
+[8:0] slice_proxy178
+[2:0] slice_proxy447
+sdram_control73
+[2:0] slice_proxy448
+[2:0] slice_proxy449
+sdram_control74
+sdram_tmrbankmachine7_cmd_buffer_lookahead2_fifo_in_payload_we
+[20:0] sdram_tmrbankmachine7_cmd_buffer_lookahead2_fifo_in_payload_addr
+[2:0] slice_proxy450
+sdram_tmrbankmachine7_cmd_buffer_lookahead2_fifo_in_first
+sdram_tmrbankmachine7_cmd_buffer_lookahead2_fifo_in_last
+sdram_tmrbankmachine7_cmd_buffer_lookahead2_fifo_out_payload_we
+[2:0] slice_proxy451
+sdram_control75
+[20:0] sdram_tmrbankmachine7_cmd_buffer_lookahead2_fifo_out_payload_addr
+sdram_tmrbankmachine7_cmd_buffer_lookahead2_fifo_out_first
+[8:0] slice_proxy179
+sdram_tmrbankmachine7_cmd_buffer_lookahead2_fifo_out_last
+[2:0] slice_proxy452
+sdram_tmrbankmachine7_cmd_buffer2_sink_valid
+[2:0] slice_proxy453
+sdram_tmrbankmachine7_cmd_buffer2_sink_ready
+sdram_control76
+sdram_tmrbankmachine7_cmd_buffer2_sink_first
+sdram_tmrbankmachine7_cmd_buffer2_sink_last
+sdram_tmrbankmachine7_cmd_buffer2_sink_payload_we
+[2:0] slice_proxy454
+[20:0] sdram_tmrbankmachine7_cmd_buffer2_sink_payload_addr
+sdram_tmrbankmachine7_cmd_buffer2_source_valid
+[2:0] slice_proxy455
+sdram_control77
+sdram_tmrbankmachine7_cmd_buffer2_source_ready
+sdram_tmrbankmachine7_cmd_buffer2_source_first
+sdram_tmrbankmachine7_cmd_buffer2_source_last
+[2:0] slice_proxy456
+sdram_tmrbankmachine7_cmd_buffer2_source_payload_we
+[20:0] sdram_tmrbankmachine7_cmd_buffer2_source_payload_addr
+sdram_control78
+[2:0] slice_proxy457
+[2:0] slice_proxy180
+sdram_tmrbankmachine7_cmd_buffer_lookahead3_sink_ready
+[2:0] slice_proxy458
+sdram_control79
+[2:0] slice_proxy459
+sdram_tmrbankmachine7_cmd_buffer_lookahead3_source_valid
+sdram_tmrbankmachine7_cmd_buffer_lookahead3_source_ready
+[2:0] slice_proxy460
+sdram_tmrbankmachine7_cmd_buffer_lookahead3_source_first
+[63:0] sdram_control80
+sdram_tmrbankmachine7_cmd_buffer_lookahead3_source_last
+sdram_tmrbankmachine7_cmd_buffer_lookahead3_source_payload_we
+[2:0] slice_proxy461
+[20:0] sdram_tmrbankmachine7_cmd_buffer_lookahead3_source_payload_addr
+[2:0] slice_proxy181
+sdram_tmrbankmachine7_cmd_buffer_lookahead3_syncfifo7_we
+sdram_tmrbankmachine7_cmd_buffer_lookahead3_syncfifo7_writable
+sdram_tmrbankmachine7_cmd_buffer_lookahead3_syncfifo7_re
+sdram_control81
+sdram_tmrbankmachine7_cmd_buffer_lookahead3_syncfifo7_readable
+[23:0] sdram_tmrbankmachine7_cmd_buffer_lookahead3_syncfifo7_din
+[23:0] sdram_tmrbankmachine7_cmd_buffer_lookahead3_syncfifo7_dout
+[3:0] sdram_tmrbankmachine7_cmd_buffer_lookahead3_level
+[7:0] sdram_control82
+[2:0] sdram_tmrbankmachine7_cmd_buffer_lookahead3_produce
+[2:0] sdram_tmrbankmachine7_cmd_buffer_lookahead3_consume
+[2:0] sdram_tmrbankmachine7_cmd_buffer_lookahead3_wrport_adr
+[23:0] sdram_tmrbankmachine7_cmd_buffer_lookahead3_wrport_dat_r
+sdram_tmrbankmachine7_cmd_buffer_lookahead3_wrport_we
+sdram_control83
+[23:0] sdram_tmrbankmachine7_cmd_buffer_lookahead3_wrport_dat_w
+[13:0] sdram_control84
+sdram_tmrbankmachine7_cmd_buffer_lookahead3_do_read
+[2:0] sdram_tmrbankmachine7_cmd_buffer_lookahead3_rdport_adr
+[23:0] sdram_tmrbankmachine7_cmd_buffer_lookahead3_rdport_dat_r
+[2:0] sdram_control85
+sdram_control86
+sdram_tmrbankmachine7_cmd_buffer_lookahead3_fifo_in_payload_we
+[20:0] sdram_tmrbankmachine7_cmd_buffer_lookahead3_fifo_in_payload_addr
+sdram_tmrbankmachine7_cmd_buffer_lookahead3_fifo_in_first
+sdram_tmrbankmachine7_cmd_buffer_lookahead3_fifo_in_last
+sdram_control87
+sdram_tmrbankmachine7_cmd_buffer_lookahead3_fifo_out_payload_we
+[20:0] sdram_tmrbankmachine7_cmd_buffer_lookahead3_fifo_out_payload_addr
+sdram_tmrbankmachine7_cmd_buffer_lookahead3_fifo_out_first
+sdram_tmrbankmachine7_cmd_buffer_lookahead3_fifo_out_last
+sdram_tmrbankmachine7_cmd_buffer3_sink_valid
+sdram_control88
+sdram_tmrbankmachine7_cmd_buffer3_sink_ready
+sdram_tmrbankmachine7_cmd_buffer3_sink_first
+sdram_tmrbankmachine7_cmd_buffer3_sink_last
+sdram_tmrbankmachine7_cmd_buffer3_sink_payload_we
+[20:0] sdram_tmrbankmachine7_cmd_buffer3_sink_payload_addr
+sdram_control89
+sdram_tmrbankmachine7_cmd_buffer3_source_valid
+sdram_tmrbankmachine7_cmd_buffer3_source_ready
+sdram_tmrbankmachine7_cmd_buffer3_source_first
+sdram_tmrbankmachine7_cmd_buffer3_source_last
+sdram_tmrbankmachine7_cmd_buffer3_source_payload_we
+[20:0] sdram_tmrbankmachine7_cmd_buffer3_source_payload_addr
+sdram_control90
+sdram_tmrbankmachine7_tmrinput_control4
+sdram_control91
+sdram_control92
+[20:0] sdram_tmrbankmachine7_lookAddrVote_control
+[2:0] slice_proxy462
+sdram_control93
+[20:0] sdram_tmrbankmachine7_bufAddrVote_control
+[2:0] slice_proxy463
+[63:0] sdram_control94
+sdram_tmrbankmachine7_lookValidVote_control
+[2:0] slice_proxy464
+[2:0] slice_proxy465
+sdram_control95
+sdram_tmrbankmachine7_bufValidVote_control
+[2:0] slice_proxy466
+[7:0] sdram_control96
+sdram_tmrbankmachine7_bufWeVote_control
+[2:0] slice_proxy467
+sdram_control97
+[13:0] sdram_tmrbankmachine7_row
+sdram_tmrbankmachine7_row_opened
+sdram_tmrbankmachine7_row_hit
+[62:0] slice_proxy468
+sdram_tmrbankmachine7_row_open
+sdram_tmrbankmachine7_row_close
+[62:0] slice_proxy469
+[13:0] sdram_control98
+sdram_tmrbankmachine7_row_col_n_addr_sel
+[62:0] slice_proxy470
+[62:0] slice_proxy471
+[2:0] sdram_control99
+sdram_tmrbankmachine7_twtpcon_valid
+[62:0] slice_proxy472
+sdram_tmrbankmachine7_twtpcon_ready
+[2:0] sdram_tmrbankmachine7_twtpcon_count
+[62:0] slice_proxy473
+sdram_control100
+[62:0] slice_proxy474
+sdram_control101
+sdram_tmrbankmachine7_twtpcon2_valid
+[62:0] slice_proxy475
+sdram_tmrbankmachine7_twtpcon2_ready
+[2:0] sdram_tmrbankmachine7_twtpcon2_count
+[62:0] slice_proxy476
+sdram_control102
+[62:0] slice_proxy477
+sdram_tmrbankmachine7_twtpcon3_valid
+[62:0] slice_proxy478
+sdram_tmrbankmachine7_twtpcon3_ready
+sdram_control103
+[62:0] slice_proxy479
+[2:0] sdram_tmrbankmachine7_twtpcon3_count
+[2:0] slice_proxy480
+sdram_control104
+[2:0] slice_proxy481
+sdram_tmrbankmachine7_twtpVote_control
+[2:0] slice_proxy482
+sdram_control105
+[2:0] slice_proxy483
+sdram_tmrbankmachine7_trccon_valid
+sdram_tmrbankmachine7_trccon_ready
+[2:0] sdram_tmrbankmachine7_trccon_count
+[2:0] slice_proxy484
+sdram_control106
+[2:0] slice_proxy485
+sdram_tmrbankmachine7_trccon2_valid
+sdram_control107
+[2:0] slice_proxy486
+sdram_tmrbankmachine7_trccon2_ready
+[2:0] sdram_tmrbankmachine7_trccon2_count
+[2:0] slice_proxy487
+[2:0] slice_proxy488
+[63:0] sdram_control108
+[2:0] slice_proxy489
+sdram_tmrbankmachine7_trccon3_valid
+sdram_tmrbankmachine7_trccon3_ready
+[2:0] sdram_tmrbankmachine7_trccon3_count
+sdram_control109
+[2:0] slice_proxy490
+[2:0] slice_proxy491
+[7:0] sdram_control110
+[2:0] slice_proxy492
+sdram_tmrbankmachine7_trcVote_control
+[2:0] slice_proxy493
+sdram_control111
+[2:0] slice_proxy494
+sdram_tmrbankmachine7_trascon_valid
+sdram_tmrbankmachine7_trascon_ready
+[2:0] slice_proxy495
+[2:0] sdram_tmrbankmachine7_trascon_count
+sdram_interface_bank0_valid
+sdram_interface_bank0_ready
+[2:0] slice_proxy496
+sdram_interface_bank0_we
+[20:0] sdram_interface_bank0_addr
+sdram_interface_bank0_lock
+[2:0] slice_proxy497
+sdram_tmrbankmachine7_trascon2_valid
+sdram_interface_bank0_wdata_ready
+sdram_interface_bank0_rdata_valid
+sdram_tmrbankmachine7_trascon2_ready
+sdram_interface_bank1_valid
+[2:0] slice_proxy498
+sdram_interface_bank1_ready
+[2:0] sdram_tmrbankmachine7_trascon2_count
+sdram_interface_bank1_we
+[20:0] sdram_interface_bank1_addr
+[2:0] slice_proxy499
+sdram_interface_bank1_lock
+sdram_interface_bank1_wdata_ready
+sdram_interface_bank1_rdata_valid
+[2:0] slice_proxy500
+sdram_tmrbankmachine7_trascon3_valid
+sdram_interface_bank2_valid
+sdram_interface_bank2_ready
+[2:0] slice_proxy501
+sdram_interface_bank2_we
+[2:0] sdram_tmrbankmachine7_trascon3_count
+[20:0] sdram_interface_bank2_addr
+sdram_tmrbankmachine7_trascon3_ready
+sdram_interface_bank2_lock
+sdram_interface_bank2_wdata_ready
+[2:0] slice_proxy502
+sdram_interface_bank2_rdata_valid
+sdram_interface_bank3_valid
+[2:0] slice_proxy503
+sdram_interface_bank3_ready
+sdram_interface_bank3_we
+sdram_tmrbankmachine7_trasVote_control
+[20:0] sdram_interface_bank3_addr
+sdram_interface_bank3_lock
+[2:0] slice_proxy504
+sdram_interface_bank3_wdata_ready
+sdram_interface_bank3_rdata_valid
+[2:0] slice_proxy505
+sdram_interface_bank4_valid
+sdram_interface_bank4_ready
+sdram_interface_bank4_we
+[2:0] slice_proxy506
+[20:0] sdram_interface_bank4_addr
+sdram_interface_bank4_lock
+sdram_interface_bank4_wdata_ready
+[2:0] slice_proxy507
+sdram_interface_bank4_rdata_valid
+sdram_interface_bank5_valid
+sdram_interface_bank5_ready
+[2:0] slice_proxy508
+sdram_interface_bank5_we
+[20:0] sdram_interface_bank5_addr
+sdram_interface_bank5_lock
+[2:0] slice_proxy509
+sdram_interface_bank5_wdata_ready
+sdram_interface_bank5_rdata_valid
+sdram_interface_bank6_valid
+[2:0] slice_proxy510
+sdram_multiplexer_ras_allowed
+sdram_interface_bank6_ready
+sdram_multiplexer_cas_allowed
+sdram_interface_bank6_we
+[1:0] sdram_multiplexer_rdcmdphase
+[20:0] sdram_interface_bank6_addr
+sdram_interface_bank6_lock
+[2:0] slice_proxy511
+[1:0] sdram_multiplexer_wrcmdphase
+sdram_interface_bank6_wdata_ready
+sdram_interface_bank6_rdata_valid
+[2:0] slice_proxy512
+sdram_multiplexer_endpoint0_valid
+sdram_interface_bank7_valid
+sdram_multiplexer_endpoint0_ready
+sdram_interface_bank7_ready
+sdram_multiplexer_endpoint0_first
+sdram_interface_bank7_we
+sdram_multiplexer_endpoint0_last
+[20:0] sdram_interface_bank7_addr
+[13:0] sdram_multiplexer_endpoint0_payload_a
+sdram_interface_bank7_lock
+[2:0] sdram_multiplexer_endpoint0_payload_ba
+sdram_interface_bank7_wdata_ready
+sdram_multiplexer_endpoint0_payload_cas
+sdram_interface_bank7_rdata_valid
+sdram_multiplexer_endpoint0_payload_ras
+[2:0] slice_proxy514
+sdram_multiplexer_endpoint0_payload_we
+[2:0] slice_proxy515
+sdram_multiplexer_endpoint0_payload_is_cmd
+sdram_multiplexer_endpoint0_payload_is_read
+[2:0] sdram_TMRinterface_bank0_valid
+[2:0] sdram_TMRinterface_bank0_ready
+sdram_multiplexer_endpoint0_payload_is_write
+sdram_multiplexer_endpoint1_valid
+[2:0] sdram_TMRinterface_bank0_we
+sdram_multiplexer_endpoint1_ready
+[62:0] sdram_TMRinterface_bank0_addr
+[2:0] sdram_TMRinterface_bank0_lock
+sdram_multiplexer_endpoint1_first
+[2:0] sdram_TMRinterface_bank0_wdata_ready
+sdram_multiplexer_endpoint1_last
+[2:0] sdram_TMRinterface_bank0_rdata_valid
+[13:0] sdram_multiplexer_endpoint1_payload_a
+[2:0] sdram_multiplexer_endpoint1_payload_ba
+[2:0] sdram_TMRinterface_bank1_valid
+[2:0] sdram_TMRinterface_bank1_ready
+sdram_multiplexer_endpoint1_payload_cas
+sdram_multiplexer_endpoint1_payload_ras
+[2:0] sdram_TMRinterface_bank1_we
+sdram_multiplexer_endpoint1_payload_we
+[62:0] sdram_TMRinterface_bank1_addr
+[2:0] sdram_TMRinterface_bank1_lock
+sdram_multiplexer_endpoint1_payload_is_cmd
+[2:0] sdram_TMRinterface_bank1_wdata_ready
+sdram_multiplexer_endpoint1_payload_is_read
+[2:0] sdram_TMRinterface_bank1_rdata_valid
+sdram_multiplexer_endpoint1_payload_is_write
+sdram_multiplexer_endpoint2_valid
+[2:0] sdram_TMRinterface_bank2_valid
+[2:0] sdram_TMRinterface_bank2_ready
+sdram_multiplexer_endpoint2_ready
+sdram_multiplexer_endpoint2_first
+[2:0] sdram_TMRinterface_bank2_we
+sdram_multiplexer_endpoint2_last
+[62:0] sdram_TMRinterface_bank2_addr
+[2:0] sdram_TMRinterface_bank2_lock
+[13:0] sdram_multiplexer_endpoint2_payload_a
+[2:0] sdram_TMRinterface_bank2_wdata_ready
+[2:0] sdram_multiplexer_endpoint2_payload_ba
+[2:0] sdram_TMRinterface_bank2_rdata_valid
+sdram_multiplexer_endpoint2_payload_cas
+sdram_multiplexer_endpoint2_payload_ras
+[2:0] sdram_TMRinterface_bank3_valid
+[2:0] sdram_TMRinterface_bank3_ready
+sdram_multiplexer_endpoint2_payload_we
+sdram_multiplexer_endpoint2_payload_is_cmd
+[2:0] sdram_TMRinterface_bank3_we
+sdram_multiplexer_endpoint2_payload_is_read
+[62:0] sdram_TMRinterface_bank3_addr
+[2:0] sdram_TMRinterface_bank3_lock
+sdram_multiplexer_endpoint2_payload_is_write
+[2:0] sdram_TMRinterface_bank3_wdata_ready
+sdram_multiplexer_endpoint3_valid
+[2:0] sdram_TMRinterface_bank3_rdata_valid
+sdram_multiplexer_endpoint3_ready
+sdram_multiplexer_endpoint3_first
+[2:0] sdram_TMRinterface_bank4_valid
+[2:0] sdram_TMRinterface_bank4_ready
+sdram_multiplexer_endpoint3_last
+[13:0] sdram_multiplexer_endpoint3_payload_a
+[2:0] sdram_TMRinterface_bank4_we
+[2:0] sdram_multiplexer_endpoint3_payload_ba
+[62:0] sdram_TMRinterface_bank4_addr
+[2:0] sdram_TMRinterface_bank4_lock
+sdram_multiplexer_endpoint3_payload_cas
+[2:0] sdram_TMRinterface_bank4_wdata_ready
+sdram_multiplexer_endpoint3_payload_ras
+[2:0] sdram_TMRinterface_bank4_rdata_valid
+sdram_multiplexer_endpoint3_payload_we
+sdram_multiplexer_endpoint3_payload_is_cmd
+[2:0] sdram_TMRinterface_bank5_valid
+[2:0] sdram_TMRinterface_bank5_ready
+sdram_multiplexer_endpoint3_payload_is_read
+sdram_multiplexer_endpoint3_payload_is_write
+[2:0] sdram_TMRinterface_bank5_we
+sdram_multiplexer_endpoint4_valid
+[62:0] sdram_TMRinterface_bank5_addr
+[2:0] sdram_TMRinterface_bank5_lock
+sdram_multiplexer_endpoint4_ready
+[2:0] sdram_TMRinterface_bank5_wdata_ready
+sdram_multiplexer_endpoint4_first
+[2:0] sdram_TMRinterface_bank5_rdata_valid
+sdram_multiplexer_endpoint4_last
+[13:0] sdram_multiplexer_endpoint4_payload_a
+[2:0] sdram_TMRinterface_bank6_valid
+[2:0] sdram_TMRinterface_bank6_ready
+[2:0] sdram_multiplexer_endpoint4_payload_ba
+sdram_multiplexer_endpoint4_payload_cas
+[2:0] sdram_TMRinterface_bank6_we
+sdram_multiplexer_endpoint4_payload_ras
+[62:0] sdram_TMRinterface_bank6_addr
+[2:0] sdram_TMRinterface_bank6_lock
+sdram_multiplexer_endpoint4_payload_we
+[2:0] sdram_TMRinterface_bank6_wdata_ready
+sdram_multiplexer_endpoint4_payload_is_cmd
+[2:0] sdram_TMRinterface_bank6_rdata_valid
+sdram_multiplexer_endpoint4_payload_is_read
+sdram_multiplexer_endpoint4_payload_is_write
+[2:0] sdram_TMRinterface_bank7_valid
+[2:0] sdram_TMRinterface_bank7_ready
+sdram_multiplexer_endpoint5_valid
+sdram_multiplexer_endpoint5_ready
+[2:0] sdram_TMRinterface_bank7_we
+sdram_multiplexer_endpoint5_first
+[62:0] sdram_TMRinterface_bank7_addr
+[2:0] sdram_TMRinterface_bank7_lock
+sdram_multiplexer_endpoint5_last
+[2:0] sdram_TMRinterface_bank7_wdata_ready
+[13:0] sdram_multiplexer_endpoint5_payload_a
+[2:0] sdram_TMRinterface_bank7_rdata_valid
+[2:0] sdram_multiplexer_endpoint5_payload_ba
+sdram_multiplexer_endpoint5_payload_cas
+[767:0] sdram_TMRinterface_wdata
+sdram_multiplexer_endpoint5_payload_ras
+[95:0] sdram_TMRinterface_wdata_we
+sdram_multiplexer_endpoint5_payload_we
+[767:0] sdram_TMRinterface_rdata
+sdram_multiplexer_endpoint5_payload_is_cmd
+[13:0] sdram_dfi_p0_address
+sdram_multiplexer_endpoint5_payload_is_read
+[2:0] sdram_dfi_p0_bank
+sdram_multiplexer_endpoint5_payload_is_write
+sdram_dfi_p0_cas_n
+sdram_multiplexer_endpoint6_valid
+sdram_dfi_p0_cs_n
+sdram_multiplexer_endpoint6_ready
+sdram_dfi_p0_ras_n
+sdram_multiplexer_endpoint6_first
+sdram_dfi_p0_we_n
+sdram_multiplexer_endpoint6_last
+sdram_dfi_p0_cke
+[13:0] sdram_multiplexer_endpoint6_payload_a
+sdram_dfi_p0_odt
+[2:0] sdram_multiplexer_endpoint6_payload_ba
+sdram_dfi_p0_reset_n
+sdram_multiplexer_endpoint6_payload_cas
+[2:0] slice_proxy516
+sdram_multiplexer_endpoint6_payload_ras
+[63:0] sdram_dfi_p0_wrdata
+sdram_multiplexer_endpoint6_payload_we
+[2:0] slice_proxy517
+sdram_multiplexer_endpoint6_payload_is_cmd
+[7:0] sdram_dfi_p0_wrdata_mask
+sdram_multiplexer_endpoint6_payload_is_read
+sdram_dfi_p0_rddata_en
+[63:0] sdram_dfi_p0_rddata
+sdram_multiplexer_endpoint6_payload_is_write
+sdram_dfi_p0_rddata_valid
+sdram_multiplexer_endpoint7_valid
+sdram_multiplexer_endpoint7_ready
+[2:0] slice_proxy518
+sdram_multiplexer_endpoint7_first
+[2:0] sdram_dfi_p1_bank
+sdram_multiplexer_endpoint7_last
+[13:0] sdram_dfi_p1_address
+[13:0] sdram_multiplexer_endpoint7_payload_a
+[2:0] slice_proxy519
+[2:0] sdram_multiplexer_endpoint7_payload_ba
+sdram_dfi_p1_cs_n
+sdram_multiplexer_endpoint7_payload_cas
+sdram_dfi_p1_cas_n
+sdram_multiplexer_endpoint7_payload_ras
+sdram_dfi_p1_cke
+sdram_multiplexer_endpoint7_payload_we
+sdram_dfi_p1_odt
+sdram_multiplexer_endpoint7_payload_is_cmd
+sdram_dfi_p1_reset_n
+sdram_multiplexer_endpoint7_payload_is_read
+[2:0] slice_proxy520
+sdram_multiplexer_endpoint7_payload_is_write
+[63:0] sdram_dfi_p1_wrdata
+sdram_multiplexer_control0
+sdram_dfi_p1_wrdata_en
+[7:0] sdram_dfi_p1_wrdata_mask
+[2:0] slice_proxy521
+sdram_dfi_p1_rddata_en
+[63:0] sdram_dfi_p1_rddata
+sdram_dfi_p1_rddata_valid
+sdram_multiplexer_control1
+[13:0] sdram_dfi_p2_address
+[2:0] sdram_dfi_p2_bank
+[62:0] slice_proxy522
+sdram_dfi_p2_cas_n
+sdram_dfi_p2_cs_n
+[62:0] slice_proxy523
+sdram_dfi_p2_ras_n
+sdram_dfi_p2_we_n
+sdram_multiplexer_control2
+sdram_dfi_p2_cke
+sdram_dfi_p2_odt
+[62:0] slice_proxy524
+sdram_dfi_p2_reset_n
+[62:0] slice_proxy525
+[63:0] sdram_dfi_p2_wrdata
+[13:0] sdram_multiplexer_control3
+sdram_dfi_p2_wrdata_en
+[7:0] sdram_dfi_p2_wrdata_mask
+[62:0] slice_proxy526
+sdram_dfi_p2_rddata_en
+[63:0] sdram_dfi_p2_rddata
+sdram_dfi_p2_rddata_valid
+[2:0] sdram_multiplexer_control4
+[62:0] slice_proxy527
+[13:0] sdram_dfi_p3_address
+[2:0] sdram_dfi_p3_bank
+sdram_dfi_p3_cas_n
+[62:0] slice_proxy528
+sdram_dfi_p3_cs_n
+sdram_dfi_p3_ras_n
+sdram_multiplexer_control5
+sdram_dfi_p3_we_n
+[62:0] slice_proxy529
+sdram_dfi_p3_cke
+sdram_dfi_p3_odt
+sdram_dfi_p3_reset_n
+[62:0] slice_proxy530
+sdram_multiplexer_control6
+[63:0] sdram_dfi_p3_wrdata
+[62:0] slice_proxy531
+sdram_dfi_p3_wrdata_en
+[7:0] sdram_dfi_p3_wrdata_mask
+sdram_dfi_p3_rddata_en
+[63:0] sdram_dfi_p3_rddata
+sdram_multiplexer_control7
+sdram_dfi_p3_rddata_valid
+[62:0] slice_proxy532
+[62:0] slice_proxy533
+sdram_multiplexer_control8
+[2:0] slice_proxy534
+[2:0] slice_proxy535
+sdram_multiplexer_control9
+[41:0] sdram_TMRdfi_p0_address
+[2:0] slice_proxy536
+[8:0] sdram_TMRdfi_p0_bank
+[2:0] sdram_TMRdfi_p0_cas_n
+[2:0] slice_proxy537
+[2:0] sdram_TMRdfi_p0_cs_n
+sdram_multiplexer_control10
+[2:0] sdram_TMRdfi_p0_ras_n
+[2:0] sdram_TMRdfi_p0_we_n
+[2:0] sdram_TMRdfi_p0_cke
+[2:0] slice_proxy538
+[2:0] sdram_TMRdfi_p0_odt
+[2:0] sdram_TMRdfi_p0_reset_n
+sdram_multiplexer_control11
+[2:0] sdram_TMRdfi_p0_act_n
+[2:0] slice_proxy539
+[191:0] sdram_TMRdfi_p0_wrdata
+[2:0] sdram_TMRdfi_p0_wrdata_en
+[23:0] sdram_TMRdfi_p0_wrdata_mask
+[2:0] slice_proxy540
+[2:0] sdram_TMRdfi_p0_rddata_en
+sdram_multiplexer_control12
+[191:0] sdram_TMRdfi_p0_rddata
+[2:0] slice_proxy541
+[2:0] sdram_TMRdfi_p0_rddata_valid
+[41:0] sdram_TMRdfi_p1_address
+[8:0] sdram_TMRdfi_p1_bank
+[2:0] slice_proxy542
+[2:0] sdram_TMRdfi_p1_cas_n
+[2:0] sdram_TMRdfi_p1_cs_n
+sdram_multiplexer_control13
+[2:0] sdram_TMRdfi_p1_ras_n
+[2:0] slice_proxy543
+[2:0] sdram_TMRdfi_p1_we_n
+[2:0] sdram_TMRdfi_p1_cke
+[2:0] sdram_TMRdfi_p1_odt
+[2:0] slice_proxy544
+[2:0] sdram_TMRdfi_p1_reset_n
+[13:0] sdram_multiplexer_control14
+[2:0] sdram_TMRdfi_p1_act_n
+[191:0] sdram_TMRdfi_p1_wrdata
+[2:0] slice_proxy545
+[2:0] sdram_TMRdfi_p1_wrdata_en
+[23:0] sdram_TMRdfi_p1_wrdata_mask
+[2:0] sdram_TMRdfi_p1_rddata_en
+[2:0] sdram_multiplexer_control15
+[191:0] sdram_TMRdfi_p1_rddata
+[2:0] slice_proxy546
+[2:0] sdram_TMRdfi_p1_rddata_valid
+[41:0] sdram_TMRdfi_p2_address
+[2:0] slice_proxy547
+[8:0] sdram_TMRdfi_p2_bank
+[2:0] sdram_TMRdfi_p2_cas_n
+sdram_multiplexer_control16
+[2:0] sdram_TMRdfi_p2_cs_n
+[2:0] slice_proxy548
+[2:0] sdram_TMRdfi_p2_ras_n
+[2:0] sdram_TMRdfi_p2_we_n
+[2:0] slice_proxy549
+[2:0] sdram_TMRdfi_p2_cke
+[2:0] sdram_TMRdfi_p2_odt
+sdram_multiplexer_control17
+[2:0] sdram_TMRdfi_p2_reset_n
+[2:0] sdram_TMRdfi_p2_act_n
+[2:0] slice_proxy550
+[191:0] sdram_TMRdfi_p2_wrdata
+[2:0] sdram_TMRdfi_p2_wrdata_en
+[2:0] slice_proxy551
+[23:0] sdram_TMRdfi_p2_wrdata_mask
+sdram_multiplexer_control18
+[2:0] sdram_TMRdfi_p2_rddata_en
+[191:0] sdram_TMRdfi_p2_rddata
+[2:0] sdram_TMRdfi_p2_rddata_valid
+[2:0] slice_proxy552
+[41:0] sdram_TMRdfi_p3_address
+[8:0] sdram_TMRdfi_p3_bank
+sdram_multiplexer_control19
+[2:0] sdram_TMRdfi_p3_cas_n
+[2:0] slice_proxy553
+[2:0] sdram_TMRdfi_p3_cs_n
+[2:0] sdram_TMRdfi_p3_ras_n
+[2:0] slice_proxy554
+[2:0] sdram_TMRdfi_p3_we_n
+[2:0] sdram_TMRdfi_p3_cke
+sdram_multiplexer_control20
+[2:0] sdram_TMRdfi_p3_odt
+[2:0] slice_proxy555
+[2:0] sdram_TMRdfi_p3_reset_n
+[2:0] sdram_TMRdfi_p3_act_n
+[191:0] sdram_TMRdfi_p3_wrdata
+[2:0] slice_proxy556
+[2:0] sdram_TMRdfi_p3_wrdata_en
+sdram_multiplexer_control21
+[23:0] sdram_TMRdfi_p3_wrdata_mask
+[2:0] sdram_TMRdfi_p3_rddata_en
+[2:0] slice_proxy557
+[191:0] sdram_TMRdfi_p3_rddata
+[2:0] sdram_TMRdfi_p3_rddata_valid
+sdram_multiplexer_control22
+[2:0] slice_proxy558
+[2:0] slice_proxy559
+sdram_multiplexer_control23
+[2:0] slice_proxy560
+[63:0] sdram_tmrinput_control0
+[2:0] slice_proxy561
+sdram_multiplexer_control24
+sdram_tmrinput_control1
+[2:0] slice_proxy562
+[2:0] slice_proxy563
+[13:0] sdram_multiplexer_control25
+[2:0] slice_proxy564
+[2:0] sdram_multiplexer_control26
+[2:0] slice_proxy565
+[2:0] slice_proxy566
+[63:0] sdram_tmrinput_control2
+sdram_multiplexer_control27
+[2:0] slice_proxy567
+sdram_tmrinput_control3
+[2:0] slice_proxy568
+sdram_multiplexer_control28
+[2:0] slice_proxy569
+sdram_multiplexer_control29
+sdram_multiplexer_control30
+[63:0] sdram_tmrinput_control4
+sdram_multiplexer_control31
+sdram_tmrinput_control5
+sdram_multiplexer_control32
+sdram_multiplexer_control33
+[63:0] sdram_tmrinput_control6
+sdram_multiplexer_control34
+sdram_tmrinput_control7
+sdram_multiplexer_control35
+sdram_cmd_valid
+sdram_cmd_ready
+sdram_cmd_first
+sdram_cmd_last
+[13:0] sdram_multiplexer_control36
+[13:0] sdram_cmd_payload_a
+[2:0] sdram_cmd_payload_ba
+sdram_cmd_payload_cas
+sdram_cmd_payload_ras
+[2:0] sdram_multiplexer_control37
+sdram_cmd_payload_we
+sdram_cmd_payload_is_cmd
+sdram_cmd_payload_is_read
+sdram_cmd_payload_is_write
+[2:0] sdram_TMRcmd_valid
+sdram_multiplexer_control38
+[2:0] sdram_TMRcmd_ready
+[2:0] sdram_TMRcmd_first
+[2:0] sdram_TMRcmd_last
+[41:0] sdram_TMRcmd_payload_a
+[8:0] sdram_TMRcmd_payload_ba
+[2:0] sdram_TMRcmd_payload_cas
+sdram_multiplexer_control39
+[2:0] sdram_TMRcmd_payload_ras
+[2:0] sdram_TMRcmd_payload_we
+[2:0] sdram_TMRcmd_payload_is_cmd
+[2:0] sdram_TMRcmd_payload_is_read
+[2:0] sdram_TMRcmd_payload_is_write
+sdram_multiplexer_control40
+sdram_tmrinput_control8
+sdram_multiplexer_control41
+[2:0] slice_proxy570
+sdram_multiplexer_control42
+sdram_wants_refresh
+sdram_wants_zqcs
+sdram_timer_wait
+[2:0] slice_proxy571
+sdram_timer_done0
+sdram_multiplexer_control43
+[9:0] sdram_timer_count0
+sdram_timer_done1
+[9:0] sdram_timer_count1
+[2:0] slice_proxy572
+sdram_multiplexer_control44
+sdram_timer2_wait
+[2:0] slice_proxy573
+sdram_timer2_done0
+[9:0] sdram_timer2_count0
+sdram_timer2_done1
+sdram_multiplexer_control45
+[9:0] sdram_timer2_count1
+[2:0] slice_proxy574
+sdram_timer3_wait
+sdram_multiplexer_control46
+sdram_timer3_done0
+[2:0] slice_proxy575
+[9:0] sdram_timer3_count0
+sdram_timer3_done1
+[9:0] sdram_timer3_count1
+[13:0] sdram_multiplexer_control47
+[62:0] slice_proxy576
+[62:0] slice_proxy577
+sdram_timerVote_control
+[2:0] sdram_multiplexer_control48
+[62:0] slice_proxy578
+[62:0] slice_proxy579
+sdram_postponer_req_i
+sdram_multiplexer_control49
+sdram_postponer_req_o
+sdram_postponer_count
+[62:0] slice_proxy580
+[62:0] slice_proxy581
+sdram_postponer2_req_i
+sdram_multiplexer_control50
+sdram_postponer2_req_o
+sdram_postponer2_count
+[62:0] slice_proxy582
+sdram_multiplexer_control51
+[62:0] slice_proxy583
+sdram_postponer3_req_i
+sdram_postponer3_req_o
+sdram_postponer3_count
+[62:0] slice_proxy584
+sdram_multiplexer_control52
+[62:0] slice_proxy585
+sdram_postponeVote_control
+[62:0] slice_proxy586
+sdram_multiplexer_control53
+[62:0] slice_proxy587
+sdram_cmd1_ready
+sdram_multiplexer_control54
+[2:0] slice_proxy588
+[13:0] sdram_cmd1_payload_a
+[2:0] sdram_cmd1_payload_ba
+[2:0] slice_proxy589
+sdram_cmd1_payload_cas
+sdram_cmd1_payload_ras
+sdram_multiplexer_control55
+sdram_cmd1_payload_we
+[2:0] slice_proxy590
+[2:0] slice_proxy591
+sdram_sequencer_start0
+sdram_multiplexer_control56
+sdram_sequencer_done0
+sdram_sequencer_start1
+[2:0] slice_proxy592
+sdram_sequencer_done1
+[2:0] slice_proxy593
+sdram_multiplexer_control57
+[2:0] slice_proxy594
+[13:0] sdram_multiplexer_control58
+[2:0] slice_proxy595
+[2:0] slice_proxy596
+[5:0] sdram_sequencer_counter
+[2:0] sdram_multiplexer_control59
+[2:0] slice_proxy597
+[2:0] slice_proxy598
+sdram_multiplexer_control60
+[2:0] slice_proxy599
+sdram_sequencer_count
+sdram_multiplexer_control61
+[2:0] slice_proxy600
+[2:0] slice_proxy601
+sdram_cmd2_ready
+sdram_multiplexer_control62
+[2:0] slice_proxy602
+[13:0] sdram_cmd2_payload_a
+[2:0] slice_proxy603
+[2:0] sdram_cmd2_payload_ba
+sdram_cmd2_payload_cas
+sdram_multiplexer_control63
+sdram_cmd2_payload_ras
+[2:0] slice_proxy604
+sdram_cmd2_payload_we
+[2:0] slice_proxy605
+sdram_multiplexer_control64
+sdram_sequencer2_start0
+sdram_sequencer2_done0
+sdram_sequencer2_start1
+[2:0] slice_proxy606
+sdram_sequencer2_done1
+sdram_multiplexer_control65
+[2:0] slice_proxy607
+[2:0] slice_proxy608
+sdram_multiplexer_control66
+[2:0] slice_proxy609
+[2:0] slice_proxy610
+sdram_multiplexer_control67
+[5:0] sdram_sequencer2_counter
+[2:0] slice_proxy611
+[2:0] slice_proxy612
+sdram_multiplexer_control68
+[2:0] slice_proxy613
+sdram_sequencer2_count
+[13:0] sdram_multiplexer_control69
+[2:0] slice_proxy614
+[2:0] slice_proxy615
+[2:0] sdram_multiplexer_control70
+sdram_cmd3_ready
+[2:0] slice_proxy616
+[2:0] slice_proxy617
+[13:0] sdram_cmd3_payload_a
+[2:0] sdram_cmd3_payload_ba
+sdram_multiplexer_control71
+sdram_cmd3_payload_cas
+sdram_cmd3_payload_ras
+[2:0] slice_proxy618
+sdram_cmd3_payload_we
+[2:0] slice_proxy619
+sdram_multiplexer_control72
+sdram_sequencer3_start0
+sdram_sequencer3_done0
+[2:0] slice_proxy620
+sdram_sequencer3_start1
+sdram_sequencer3_done1
+sdram_multiplexer_control73
+[2:0] slice_proxy621
+[2:0] slice_proxy622
+sdram_multiplexer_control74
+[2:0] slice_proxy623
+sdram_multiplexer_control75
+[5:0] sdram_sequencer3_counter
+sdram_multiplexer_control76
+sdram_multiplexer_control77
+sdram_sequencer3_count
+sdram_multiplexer_control78
+sdram_multiplexer_control79
+[13:0] sdram_multiplexer_control80
+[2:0] sdram_multiplexer_control81
+sdram_multiplexer_control82
+sdram_multiplexer_control83
+sdram_multiplexer_control84
+sdram_multiplexer_control85
+sdram_multiplexer_control86
+sdram_multiplexer_control87
+[2:0] slice_proxy624
+sdram_multiplexer_choose_cmd_want_activates
+[2:0] slice_proxy625
+sdram_multiplexer_choose_cmd_cmd_valid
+sdram_multiplexer_choose_cmd_cmd_ready
+[2:0] slice_proxy626
+[13:0] sdram_multiplexer_choose_cmd_cmd_payload_a
+[2:0] sdram_multiplexer_choose_cmd_cmd_payload_ba
+sdram_multiplexer_choose_cmd_cmd_payload_cas
+sdram_multiplexer_choose_cmd_cmd_payload_ras
+sdram_sequenceVote_control
+sdram_multiplexer_choose_cmd_cmd_payload_we
+[2:0] slice_proxy627
+sdram_multiplexer_choose_cmd_cmd_payload_is_cmd
+sdram_multiplexer_choose_cmd_cmd_payload_is_read
+sdram_multiplexer_choose_cmd_cmd_payload_is_write
+[7:0] sdram_multiplexer_choose_cmd_valids
+sdram_zqcs_timer_wait
+[2:0] slice_proxy628
+sdram_zqcs_timer_done0
+[26:0] sdram_zqcs_timer_count0
+sdram_zqcs_timer_done1
+[2:0] slice_proxy629
+[26:0] sdram_zqcs_timer_count1
+sdram_zqcs_executer_start
+[62:0] slice_proxy630
+sdram_zqcs_executer_done
+[62:0] slice_proxy631
+[62:0] slice_proxy632
+[62:0] slice_proxy633
+[4:0] sdram_zqcs_executer_counter
+[62:0] slice_proxy634
+[62:0] slice_proxy635
+[62:0] slice_proxy636
+[62:0] slice_proxy637
+[62:0] slice_proxy638
+sdram_tmrbankmachine0_req_valid
+sdram_tmrbankmachine0_req_ready
+[62:0] slice_proxy639
+sdram_tmrbankmachine0_req_we
+[20:0] sdram_tmrbankmachine0_req_addr
+sdram_tmrbankmachine0_req_lock
+[62:0] slice_proxy640
+sdram_tmrbankmachine0_req_wdata_ready
+sdram_tmrbankmachine0_req_rdata_valid
+[2:0] sdram_tmrbankmachine0_TMRreq_valid
+[62:0] slice_proxy641
+[2:0] sdram_tmrbankmachine0_TMRreq_ready
+[2:0] sdram_tmrbankmachine0_TMRreq_we
+[62:0] sdram_tmrbankmachine0_TMRreq_addr
+[2:0] slice_proxy642
+[2:0] sdram_tmrbankmachine0_TMRreq_lock
+[3:0] sdram_tmrbankmachine5_cmd_buffer_lookahead3_level
+[2:0] sdram_tmrbankmachine0_TMRreq_wdata_ready
+[2:0] sdram_tmrbankmachine0_TMRreq_rdata_valid
+[2:0] slice_proxy643
+sdram_tmrbankmachine0_refresh_req
+sdram_tmrbankmachine0_refresh_gnt
+sdram_tmrbankmachine0_cmd_valid
+[2:0] slice_proxy644
+sdram_tmrbankmachine0_cmd_ready
+[2:0] slice_proxy645
+[13:0] sdram_tmrbankmachine0_cmd_payload_a
+[2:0] sdram_tmrbankmachine0_cmd_payload_ba
+sdram_tmrbankmachine0_cmd_payload_cas
+[2:0] slice_proxy646
+sdram_tmrbankmachine0_cmd_payload_ras
+[7:0] sdram_multiplexer_choose_cmd_request
+sdram_tmrbankmachine0_cmd_payload_we
+[2:0] slice_proxy647
+sdram_tmrbankmachine0_cmd_payload_is_cmd
+sdram_multiplexer_choose_cmd_ce
+sdram_tmrbankmachine0_cmd_payload_is_read
+[2:0] sdram_multiplexer_choose_cmd_grant
+sdram_tmrbankmachine0_cmd_payload_is_write
+[2:0] sdram_tmrbankmachine0_TMRcmd_valid
+[2:0] slice_proxy648
+[2:0] sdram_tmrbankmachine0_TMRcmd_ready
+[2:0] sdram_tmrbankmachine0_TMRcmd_first
+[2:0] slice_proxy649
+[2:0] sdram_tmrbankmachine0_TMRcmd_last
+[41:0] sdram_tmrbankmachine0_TMRcmd_payload_a
+[8:0] sdram_tmrbankmachine0_TMRcmd_payload_ba
+[2:0] slice_proxy650
+[2:0] sdram_tmrbankmachine0_TMRcmd_payload_cas
+[2:0] sdram_tmrbankmachine0_TMRcmd_payload_ras
+[2:0] sdram_tmrbankmachine0_TMRcmd_payload_we
+[2:0] slice_proxy651
+[2:0] sdram_tmrbankmachine0_TMRcmd_payload_is_cmd
+[2:0] sdram_tmrbankmachine0_TMRcmd_payload_is_read
+[2:0] sdram_tmrbankmachine0_TMRcmd_payload_is_write
+[2:0] slice_proxy652
+sdram_tmrbankmachine0_tmrinput_control0
+[2:0] slice_proxy653
+[2:0] slice_proxy654
+[2:0] slice_proxy655
+sdram_tmrbankmachine0_auto_precharge
+[2:0] slice_proxy656
+sdram_tmrbankmachine0_tmrinput_control1
+[2:0] slice_proxy657
+sdram_tmrbankmachine0_tmrinput_control2
+[2:0] slice_proxy658
+[2:0] slice_proxy659
+[20:0] sdram_tmrbankmachine0_tmrinput_control3
+[2:0] slice_proxy660
+[2:0] slice_proxy661
+[2:0] slice_proxy662
+[2:0] slice_proxy663
+[2:0] slice_proxy664
+sdram_tmrbankmachine0_cmd_buffer_lookahead_sink_valid
+sdram_tmrbankmachine0_cmd_buffer_lookahead_sink_ready
+[2:0] slice_proxy665
+sdram_tmrbankmachine0_cmd_buffer_lookahead_sink_payload_we
+[20:0] sdram_tmrbankmachine0_cmd_buffer_lookahead_sink_payload_addr
+[2:0] slice_proxy666
+sdram_tmrbankmachine0_cmd_buffer_lookahead_source_valid
+sdram_tmrbankmachine0_cmd_buffer_lookahead_source_ready
+[2:0] slice_proxy667
+sdram_tmrbankmachine0_cmd_buffer_lookahead_source_first
+sdram_tmrbankmachine0_cmd_buffer_lookahead_source_last
+sdram_tmrbankmachine0_cmd_buffer_lookahead_source_payload_we
+[2:0] slice_proxy668
+[20:0] sdram_tmrbankmachine0_cmd_buffer_lookahead_source_payload_addr
+sdram_tmrbankmachine0_cmd_buffer_lookahead_syncfifo0_we
+sdram_tmrbankmachine0_cmd_buffer_lookahead_syncfifo0_writable
+[2:0] slice_proxy669
+sdram_tmrbankmachine0_cmd_buffer_lookahead_syncfifo0_re
+sdram_tmrbankmachine0_cmd_buffer_lookahead_syncfifo0_readable
+[23:0] sdram_tmrbankmachine0_cmd_buffer_lookahead_syncfifo0_din
+[2:0] slice_proxy670
+[23:0] sdram_tmrbankmachine0_cmd_buffer_lookahead_syncfifo0_dout
+[3:0] sdram_tmrbankmachine0_cmd_buffer_lookahead_level
+[2:0] slice_proxy671
+[2:0] sdram_tmrbankmachine0_cmd_buffer_lookahead_produce
+[2:0] sdram_tmrbankmachine0_cmd_buffer_lookahead_consume
+[2:0] sdram_tmrbankmachine0_cmd_buffer_lookahead_wrport_adr
+[2:0] slice_proxy672
+[23:0] sdram_tmrbankmachine0_cmd_buffer_lookahead_wrport_dat_r
+sdram_tmrbankmachine0_cmd_buffer_lookahead_wrport_we
+[2:0] slice_proxy673
+[23:0] sdram_tmrbankmachine0_cmd_buffer_lookahead_wrport_dat_w
+[2:0] slice_proxy674
+[2:0] slice_proxy675
+sdram_tmrbankmachine0_cmd_buffer_lookahead_do_read
+[2:0] sdram_tmrbankmachine0_cmd_buffer_lookahead_rdport_adr
+[2:0] slice_proxy676
+[23:0] sdram_tmrbankmachine0_cmd_buffer_lookahead_rdport_dat_r
+[2:0] slice_proxy677
+[23:0] slice_proxy244
+sdram_multiplexer_choose_req_want_reads
+sdram_multiplexer_choose_req_want_writes
+sdram_tmrbankmachine0_cmd_buffer_lookahead_fifo_in_payload_we
+sdram_multiplexer_choose_req_cmd_valid
+[20:0] sdram_tmrbankmachine0_cmd_buffer_lookahead_fifo_in_payload_addr
+sdram_multiplexer_choose_req_cmd_ready
+sdram_tmrbankmachine0_cmd_buffer_lookahead_fifo_in_first
+sdram_tmrbankmachine0_cmd_buffer_lookahead_fifo_in_last
+sdram_tmrbankmachine0_cmd_buffer_lookahead_fifo_out_payload_we
+[13:0] sdram_multiplexer_choose_req_cmd_payload_a
+[20:0] sdram_tmrbankmachine0_cmd_buffer_lookahead_fifo_out_payload_addr
+[2:0] sdram_multiplexer_choose_req_cmd_payload_ba
+sdram_tmrbankmachine0_cmd_buffer_lookahead_fifo_out_first
+sdram_multiplexer_choose_req_cmd_payload_cas
+sdram_tmrbankmachine0_cmd_buffer_lookahead_fifo_out_last
+sdram_multiplexer_choose_req_cmd_payload_ras
+sdram_multiplexer_choose_req_cmd_payload_we
+sdram_tmrbankmachine0_cmd_buffer_sink_valid
+sdram_multiplexer_choose_req_cmd_payload_is_cmd
+sdram_tmrbankmachine0_cmd_buffer_sink_ready
+sdram_multiplexer_choose_req_cmd_payload_is_read
+sdram_tmrbankmachine0_cmd_buffer_sink_first
+sdram_multiplexer_choose_req_cmd_payload_is_write
+sdram_tmrbankmachine0_cmd_buffer_sink_last
+[7:0] sdram_multiplexer_choose_req_valids
+sdram_tmrbankmachine0_cmd_buffer_sink_payload_we
+[20:0] sdram_tmrbankmachine0_cmd_buffer_sink_payload_addr
+sdram_tmrbankmachine0_cmd_buffer_source_valid
+sdram_tmrbankmachine0_cmd_buffer_source_ready
+sdram_tmrbankmachine0_cmd_buffer_source_first
+sdram_tmrbankmachine0_cmd_buffer_source_last
+sdram_tmrbankmachine0_cmd_buffer_source_payload_we
+[20:0] sdram_tmrbankmachine0_cmd_buffer_source_payload_addr
+sdram_tmrbankmachine0_cmd_buffer_lookahead2_sink_ready
+sdram_tmrbankmachine0_cmd_buffer_lookahead2_source_valid
+sdram_tmrbankmachine0_cmd_buffer_lookahead2_source_ready
+sdram_tmrbankmachine0_cmd_buffer_lookahead2_source_first
+sdram_tmrbankmachine0_cmd_buffer_lookahead2_source_last
+sdram_tmrbankmachine0_cmd_buffer_lookahead2_source_payload_we
+[20:0] sdram_tmrbankmachine0_cmd_buffer_lookahead2_source_payload_addr
+sdram_tmrbankmachine0_cmd_buffer_lookahead2_syncfifo0_we
+sdram_tmrbankmachine0_cmd_buffer_lookahead2_syncfifo0_writable
+sdram_tmrbankmachine0_cmd_buffer_lookahead2_syncfifo0_re
+sdram_tmrbankmachine0_cmd_buffer_lookahead2_syncfifo0_readable
+[23:0] sdram_tmrbankmachine0_cmd_buffer_lookahead2_syncfifo0_din
+[23:0] sdram_tmrbankmachine0_cmd_buffer_lookahead2_syncfifo0_dout
+[3:0] sdram_tmrbankmachine0_cmd_buffer_lookahead2_level
+[2:0] sdram_tmrbankmachine0_cmd_buffer_lookahead2_produce
+[2:0] sdram_tmrbankmachine0_cmd_buffer_lookahead2_consume
+[2:0] sdram_tmrbankmachine0_cmd_buffer_lookahead2_wrport_adr
+[23:0] sdram_tmrbankmachine0_cmd_buffer_lookahead2_wrport_dat_r
+sdram_tmrbankmachine0_cmd_buffer_lookahead2_wrport_we
+[23:0] sdram_tmrbankmachine0_cmd_buffer_lookahead2_wrport_dat_w
+sdram_tmrbankmachine0_cmd_buffer_lookahead2_do_read
+[2:0] sdram_tmrbankmachine0_cmd_buffer_lookahead2_rdport_adr
+[23:0] sdram_tmrbankmachine0_cmd_buffer_lookahead2_rdport_dat_r
+[2:0] slice_proxy678
+[2:0] slice_proxy679
+sdram_tmrbankmachine0_cmd_buffer_lookahead2_fifo_in_payload_we
+[20:0] sdram_tmrbankmachine0_cmd_buffer_lookahead2_fifo_in_payload_addr
+sdram_tmrbankmachine0_cmd_buffer_lookahead2_fifo_in_first
+[7:0] sdram_multiplexer_choose_req_request
+sdram_tmrbankmachine0_cmd_buffer_lookahead2_fifo_in_last
+[2:0] slice_proxy680
+sdram_tmrbankmachine0_cmd_buffer_lookahead2_fifo_out_payload_we
+sdram_multiplexer_choose_req_ce
+[20:0] sdram_tmrbankmachine0_cmd_buffer_lookahead2_fifo_out_payload_addr
+[2:0] sdram_multiplexer_choose_req_grant
+sdram_tmrbankmachine0_cmd_buffer_lookahead2_fifo_out_first
+[2:0] slice_proxy681
+sdram_tmrbankmachine0_cmd_buffer_lookahead2_fifo_out_last
+sdram_tmrbankmachine0_cmd_buffer2_sink_valid
+sdram_tmrbankmachine0_cmd_buffer2_sink_ready
+sdram_tmrbankmachine0_cmd_buffer2_sink_first
+[2:0] slice_proxy682
+sdram_tmrbankmachine0_cmd_buffer2_sink_last
+sdram_tmrbankmachine0_cmd_buffer2_sink_payload_we
+[20:0] sdram_tmrbankmachine0_cmd_buffer2_sink_payload_addr
+sdram_tmrbankmachine0_cmd_buffer2_source_valid
+[2:0] slice_proxy683
+sdram_tmrbankmachine0_cmd_buffer2_source_ready
+sdram_tmrbankmachine0_cmd_buffer2_source_first
+sdram_tmrbankmachine0_cmd_buffer2_source_last
+sdram_tmrbankmachine0_cmd_buffer2_source_payload_we
+[20:0] sdram_tmrbankmachine0_cmd_buffer2_source_payload_addr
+[62:0] slice_proxy684
+[62:0] slice_proxy685
+sdram_tmrbankmachine0_cmd_buffer_lookahead3_sink_ready
+[62:0] slice_proxy686
+[62:0] slice_proxy687
+sdram_tmrbankmachine0_cmd_buffer_lookahead3_source_valid
+sdram_tmrbankmachine0_cmd_buffer_lookahead3_source_ready
+sdram_tmrbankmachine0_cmd_buffer_lookahead3_source_first
+[62:0] slice_proxy688
+sdram_tmrbankmachine0_cmd_buffer_lookahead3_source_last
+sdram_tmrbankmachine0_cmd_buffer_lookahead3_source_payload_we
+[20:0] sdram_tmrbankmachine0_cmd_buffer_lookahead3_source_payload_addr
+[62:0] slice_proxy689
+sdram_tmrbankmachine0_cmd_buffer_lookahead3_syncfifo0_we
+sdram_tmrbankmachine0_cmd_buffer_lookahead3_syncfifo0_writable
+sdram_tmrbankmachine0_cmd_buffer_lookahead3_syncfifo0_re
+[62:0] slice_proxy690
+sdram_tmrbankmachine0_cmd_buffer_lookahead3_syncfifo0_readable
+[23:0] sdram_tmrbankmachine0_cmd_buffer_lookahead3_syncfifo0_din
+[23:0] sdram_tmrbankmachine0_cmd_buffer_lookahead3_syncfifo0_dout
+[62:0] slice_proxy691
+[3:0] sdram_tmrbankmachine0_cmd_buffer_lookahead3_level
+[62:0] slice_proxy692
+[2:0] sdram_tmrbankmachine0_cmd_buffer_lookahead3_produce
+[2:0] sdram_tmrbankmachine0_cmd_buffer_lookahead3_consume
+[2:0] sdram_tmrbankmachine0_cmd_buffer_lookahead3_wrport_adr
+[62:0] slice_proxy693
+[23:0] sdram_tmrbankmachine0_cmd_buffer_lookahead3_wrport_dat_r
+sdram_tmrbankmachine0_cmd_buffer_lookahead3_wrport_we
+[23:0] sdram_tmrbankmachine0_cmd_buffer_lookahead3_wrport_dat_w
+[62:0] slice_proxy694
+[62:0] slice_proxy695
+sdram_tmrbankmachine0_cmd_buffer_lookahead3_do_read
+[2:0] slice_proxy696
+[2:0] sdram_tmrbankmachine0_cmd_buffer_lookahead3_rdport_adr
+[2:0] slice_proxy697
+[23:0] sdram_tmrbankmachine0_cmd_buffer_lookahead3_rdport_dat_r
+[2:0] slice_proxy698
+[2:0] slice_proxy699
+sdram_tmrbankmachine0_cmd_buffer_lookahead3_fifo_in_payload_we
+[2:0] slice_proxy700
+[20:0] sdram_tmrbankmachine0_cmd_buffer_lookahead3_fifo_in_payload_addr
+sdram_tmrbankmachine0_cmd_buffer_lookahead3_fifo_in_first
+[2:0] slice_proxy701
+sdram_tmrbankmachine0_cmd_buffer_lookahead3_fifo_in_last
+sdram_tmrbankmachine0_cmd_buffer_lookahead3_fifo_out_payload_we
+[20:0] sdram_tmrbankmachine0_cmd_buffer_lookahead3_fifo_out_payload_addr
+sdram_tmrbankmachine0_cmd_buffer_lookahead3_fifo_out_first
+[2:0] slice_proxy702
+sdram_tmrbankmachine0_cmd_buffer_lookahead3_fifo_out_last
+[2:0] slice_proxy703
+sdram_tmrbankmachine0_cmd_buffer3_sink_valid
+sdram_tmrbankmachine0_cmd_buffer3_sink_ready
+sdram_tmrbankmachine0_cmd_buffer3_sink_first
+[2:0] slice_proxy704
+sdram_tmrbankmachine0_cmd_buffer3_sink_last
+sdram_tmrbankmachine0_cmd_buffer3_sink_payload_we
+[20:0] sdram_tmrbankmachine0_cmd_buffer3_sink_payload_addr
+[2:0] slice_proxy705
+sdram_tmrbankmachine0_cmd_buffer3_source_valid
+sdram_tmrbankmachine0_cmd_buffer3_source_ready
+sdram_tmrbankmachine0_cmd_buffer3_source_first
+[2:0] slice_proxy706
+sdram_tmrbankmachine0_cmd_buffer3_source_last
+[41:0] slice_proxy255
+sdram_tmrbankmachine0_cmd_buffer3_source_payload_we
+[2:0] slice_proxy707
+[20:0] sdram_tmrbankmachine0_cmd_buffer3_source_payload_addr
+[2:0] slice_proxy708
+sdram_tmrbankmachine0_tmrinput_control4
+[2:0] slice_proxy709
+sdram_multiplexer_refreshCmd_valid
+sdram_multiplexer_refreshCmd_ready
+[2:0] slice_proxy710
+sdram_multiplexer_refreshCmd_first
+sdram_multiplexer_refreshCmd_last
+[13:0] sdram_multiplexer_refreshCmd_payload_a
+[20:0] sdram_tmrbankmachine0_lookAddrVote_control
+[2:0] sdram_multiplexer_refreshCmd_payload_ba
+[2:0] slice_proxy711
+sdram_multiplexer_refreshCmd_payload_cas
+sdram_multiplexer_refreshCmd_payload_ras
+[2:0] slice_proxy712
+sdram_multiplexer_refreshCmd_payload_we
+sdram_multiplexer_refreshCmd_payload_is_cmd
+[20:0] sdram_tmrbankmachine0_bufAddrVote_control
+sdram_multiplexer_refreshCmd_payload_is_read
+sdram_multiplexer_refreshCmd_payload_is_write
+[2:0] slice_proxy713
+sdram_multiplexer_control88
+[2:0] slice_proxy714
+sdram_tmrbankmachine0_lookValidVote_control
+[2:0] slice_proxy715
+sdram_multiplexer_control89
+[2:0] slice_proxy716
+sdram_tmrbankmachine0_bufValidVote_control
+[2:0] slice_proxy717
+sdram_multiplexer_control90
+[2:0] slice_proxy718
+sdram_tmrbankmachine0_bufWeVote_control
+[13:0] sdram_multiplexer_control91
+[2:0] slice_proxy719
+[2:0] slice_proxy720
+[13:0] sdram_tmrbankmachine0_row
+[2:0] sdram_multiplexer_control92
+sdram_tmrbankmachine0_row_opened
+sdram_tmrbankmachine0_row_hit
+[2:0] slice_proxy721
+sdram_tmrbankmachine0_row_open
+sdram_tmrbankmachine0_row_close
+[2:0] slice_proxy722
+sdram_multiplexer_control93
+sdram_tmrbankmachine0_row_col_n_addr_sel
+[2:0] slice_proxy723
+sdram_multiplexer_control94
+[2:0] slice_proxy724
+sdram_tmrbankmachine0_twtpcon_valid
+[2:0] slice_proxy725
+sdram_tmrbankmachine0_twtpcon_ready
+[2:0] sdram_tmrbankmachine0_twtpcon_count
+sdram_multiplexer_control95
+[2:0] slice_proxy726
+[2:0] slice_proxy727
+sdram_multiplexer_control96
+sdram_tmrbankmachine0_twtpcon2_valid
+[2:0] slice_proxy728
+sdram_tmrbankmachine0_twtpcon2_ready
+[2:0] sdram_tmrbankmachine0_twtpcon2_count
+[2:0] slice_proxy729
+sdram_multiplexer_control97
+[2:0] slice_proxy730
+sdram_tmrbankmachine0_twtpcon3_valid
+sdram_multiplexer_control98
+[2:0] slice_proxy731
+sdram_tmrbankmachine0_twtpcon3_ready
+[2:0] sdram_tmrbankmachine0_twtpcon3_count
+array_muxed11
+sdram_tmrbankmachine0_twtpVote_control
+[1:0] sdram_multiplexer_steerer0
+[1:0] sdram_multiplexer_steerer1
+[1:0] sdram_multiplexer_steerer2
+[1:0] sdram_multiplexer_steerer3
+sdram_tmrbankmachine0_trccon_valid
+sdram_tmrbankmachine0_trccon_ready
+[2:0] sdram_tmrbankmachine0_trccon_count
+sdram_tmrbankmachine0_trccon2_valid
+sdram_tmrbankmachine0_trccon2_ready
+[2:0] sdram_tmrbankmachine0_trccon2_count
+sdram_tmrbankmachine0_trccon3_valid
+sdram_tmrbankmachine0_trccon3_ready
+[2:0] sdram_tmrbankmachine0_trccon3_count
+sdram_tmrbankmachine0_trcVote_control
+sdram_tmrbankmachine0_trascon_valid
+sdram_tmrbankmachine0_trascon_ready
+[2:0] sdram_tmrbankmachine0_trascon_count
+sdram_tmrbankmachine0_trascon2_valid
+sdram_tmrbankmachine0_trascon2_ready
+[2:0] sdram_tmrbankmachine0_trascon2_count
+sdram_tmrbankmachine0_trascon3_valid
+sdram_tmrbankmachine0_trascon3_ready
+[2:0] sdram_tmrbankmachine0_trascon3_count
+[2:0] slice_proxy732
+[2:0] slice_proxy733
+sdram_tmrbankmachine0_trasVote_control
+[2:0] slice_proxy734
+[2:0] slice_proxy735
+[2:0] slice_proxy736
+[2:0] slice_proxy737
+sdram_tmrbankmachine1_req_valid
+sdram_tmrbankmachine1_req_ready
+[62:0] slice_proxy738
+sdram_tmrbankmachine1_req_we
+[20:0] sdram_tmrbankmachine1_req_addr
+[62:0] slice_proxy739
+sdram_tmrbankmachine1_req_lock
+sdram_tmrbankmachine1_req_wdata_ready
+sdram_tmrbankmachine1_req_rdata_valid
+[62:0] slice_proxy740
+[2:0] sdram_tmrbankmachine1_TMRreq_valid
+[2:0] sdram_tmrbankmachine1_TMRreq_ready
+[2:0] sdram_tmrbankmachine1_TMRreq_we
+[62:0] slice_proxy741
+[62:0] sdram_tmrbankmachine1_TMRreq_addr
+[2:0] sdram_tmrbankmachine1_TMRreq_lock
+[2:0] sdram_tmrbankmachine1_TMRreq_wdata_ready
+[62:0] slice_proxy742
+[2:0] sdram_tmrbankmachine1_TMRreq_rdata_valid
+sdram_tmrbankmachine1_refresh_req
+sdram_tmrbankmachine1_refresh_gnt
+[62:0] slice_proxy743
+sdram_tmrbankmachine1_cmd_valid
+sdram_tmrbankmachine1_cmd_ready
+[62:0] slice_proxy744
+[13:0] sdram_tmrbankmachine1_cmd_payload_a
+[2:0] sdram_tmrbankmachine1_cmd_payload_ba
+[62:0] slice_proxy745
+sdram_tmrbankmachine1_cmd_payload_cas
+sdram_tmrbankmachine1_cmd_payload_ras
+sdram_tmrbankmachine1_cmd_payload_we
+[62:0] slice_proxy746
+sdram_tmrbankmachine1_cmd_payload_is_cmd
+sdram_tmrbankmachine1_cmd_payload_is_read
+[62:0] slice_proxy747
+sdram_tmrbankmachine1_cmd_payload_is_write
+[2:0] sdram_tmrbankmachine1_TMRcmd_valid
+[2:0] sdram_tmrbankmachine1_TMRcmd_ready
+[2:0] sdram_tmrbankmachine1_TMRcmd_first
+[62:0] slice_proxy748
+[2:0] sdram_tmrbankmachine1_TMRcmd_last
+[41:0] sdram_tmrbankmachine1_TMRcmd_payload_a
+[62:0] slice_proxy749
+[8:0] sdram_tmrbankmachine1_TMRcmd_payload_ba
+[2:0] sdram_tmrbankmachine1_TMRcmd_payload_cas
+sdram_multiplexer_trrdcon_valid
+[2:0] sdram_tmrbankmachine1_TMRcmd_payload_ras
+sdram_multiplexer_trrdcon_ready
+[2:0] sdram_tmrbankmachine1_TMRcmd_payload_we
+[2:0] slice_proxy750
+[2:0] sdram_tmrbankmachine1_TMRcmd_payload_is_cmd
+sdram_multiplexer_trrdcon_count
+[2:0] sdram_tmrbankmachine1_TMRcmd_payload_is_read
+[2:0] slice_proxy751
+[2:0] sdram_tmrbankmachine1_TMRcmd_payload_is_write
+sdram_tmrbankmachine1_tmrinput_control0
+[2:0] slice_proxy752
+[2:0] slice_proxy753
+sdram_multiplexer_tfawcon_valid
+sdram_multiplexer_tfawcon_ready
+[2:0] sdram_multiplexer_tfawcon_count
+[2:0] slice_proxy754
+[4:0] sdram_multiplexer_tfawcon_window
+[2:0] slice_proxy755
+sdram_tmrbankmachine1_auto_precharge
+sdram_tmrbankmachine1_tmrinput_control1
+[2:0] slice_proxy756
+[2:0] slice_proxy757
+sdram_tmrbankmachine1_tmrinput_control2
+[2:0] slice_proxy758
+sdram_multiplexer_tccdcon_valid
+[2:0] slice_proxy759
+[20:0] sdram_tmrbankmachine1_tmrinput_control3
+sdram_multiplexer_tccdcon_count
+sdram_multiplexer_tccdcon_ready
+[2:0] slice_proxy760
+[2:0] slice_proxy761
+sdram_multiplexer_twtrcon_valid
+[2:0] slice_proxy762
+sdram_multiplexer_twtrcon_ready
+[2:0] sdram_multiplexer_twtrcon_count
+[2:0] slice_proxy763
+sdram_tmrbankmachine1_cmd_buffer_lookahead_sink_valid
+sdram_tmrbankmachine1_cmd_buffer_lookahead_sink_ready
+[2:0] slice_proxy764
+sdram_multiplexer_read_available
+sdram_tmrbankmachine1_cmd_buffer_lookahead_sink_payload_we
+sdram_multiplexer_write_available
+[20:0] sdram_tmrbankmachine1_cmd_buffer_lookahead_sink_payload_addr
+[2:0] slice_proxy765
+sdram_tmrbankmachine1_cmd_buffer_lookahead_source_valid
+sdram_tmrbankmachine1_cmd_buffer_lookahead_source_ready
+[2:0] slice_proxy766
+sdram_tmrbankmachine1_cmd_buffer_lookahead_source_first
+sdram_tmrbankmachine1_cmd_buffer_lookahead_source_last
+[2:0] slice_proxy767
+sdram_tmrbankmachine1_cmd_buffer_lookahead_source_payload_we
+[20:0] sdram_tmrbankmachine1_cmd_buffer_lookahead_source_payload_addr
+sdram_tmrbankmachine1_cmd_buffer_lookahead_syncfifo1_we
+sdram_tmrbankmachine1_cmd_buffer_lookahead_syncfifo1_writable
+[2:0] slice_proxy768
+sdram_tmrbankmachine1_cmd_buffer_lookahead_syncfifo1_re
+sdram_tmrbankmachine1_cmd_buffer_lookahead_syncfifo1_readable
+[2:0] slice_proxy769
+[23:0] sdram_tmrbankmachine1_cmd_buffer_lookahead_syncfifo1_din
+[23:0] sdram_tmrbankmachine1_cmd_buffer_lookahead_syncfifo1_dout
+[3:0] sdram_tmrbankmachine1_cmd_buffer_lookahead_level
+[2:0] slice_proxy770
+[2:0] sdram_tmrbankmachine1_cmd_buffer_lookahead_produce
+sdram_multiplexer_en0
+[2:0] slice_proxy771
+sdram_multiplexer_max_time0
+[2:0] sdram_tmrbankmachine1_cmd_buffer_lookahead_consume
+[2:0] sdram_tmrbankmachine1_cmd_buffer_lookahead_wrport_adr
+[4:0] sdram_multiplexer_time0
+[23:0] sdram_tmrbankmachine1_cmd_buffer_lookahead_wrport_dat_r
+sdram_tmrbankmachine1_cmd_buffer_lookahead_wrport_we
+[2:0] slice_proxy772
+[23:0] sdram_tmrbankmachine1_cmd_buffer_lookahead_wrport_dat_w
+sdram_multiplexer_en1
+[2:0] slice_proxy773
+sdram_multiplexer_max_time1
+[3:0] sdram_multiplexer_time1
+[2:0] slice_proxy774
+sdram_tmrbankmachine1_cmd_buffer_lookahead_do_read
+[2:0] slice_proxy775
+[2:0] sdram_tmrbankmachine1_cmd_buffer_lookahead_rdport_adr
+sdram_multiplexer_go_to_refresh
+[23:0] sdram_tmrbankmachine1_cmd_buffer_lookahead_rdport_dat_r
+array_muxed18
+[2:0] slice_proxy776
+[2:0] slice_proxy777
+[255:0] sdram_multiplexer_control99
+[2:0] slice_proxy778
+sdram_tmrbankmachine1_cmd_buffer_lookahead_fifo_in_payload_we
+[20:0] sdram_tmrbankmachine1_cmd_buffer_lookahead_fifo_in_payload_addr
+[2:0] slice_proxy779
+sdram_tmrbankmachine1_cmd_buffer_lookahead_fifo_in_first
+[31:0] sdram_multiplexer_control100
+sdram_tmrbankmachine1_cmd_buffer_lookahead_fifo_in_last
+sdram_tmrbankmachine1_cmd_buffer_lookahead_fifo_out_payload_we
+[2:0] slice_proxy780
+[20:0] sdram_tmrbankmachine1_cmd_buffer_lookahead_fifo_out_payload_addr
+sdram_tmrbankmachine1_cmd_buffer_lookahead_fifo_out_first
+sdram_tmrbankmachine1_cmd_buffer_lookahead_fifo_out_last
+[2:0] slice_proxy781
+sdram_tmrbankmachine1_cmd_buffer_sink_valid
+sdram_tmrbankmachine1_cmd_buffer_sink_ready
+[2:0] slice_proxy782
+sdram_tmrbankmachine1_cmd_buffer_sink_first
+sdram_tmrbankmachine1_cmd_buffer_sink_last
+[2:0] slice_proxy783
+sdram_tmrbankmachine1_cmd_buffer_sink_payload_we
+[20:0] sdram_tmrbankmachine1_cmd_buffer_sink_payload_addr
+sdram_tmrbankmachine1_cmd_buffer_source_valid
+sdram_tmrbankmachine1_cmd_buffer_source_ready
+[2:0] slice_proxy784
+sdram_tmrbankmachine1_cmd_buffer_source_first
+sdram_tmrbankmachine1_cmd_buffer_source_last
+[2:0] slice_proxy785
+sdram_tmrbankmachine1_cmd_buffer_source_payload_we
+[20:0] sdram_tmrbankmachine1_cmd_buffer_source_payload_addr
+sdram_tmrbankmachine1_cmd_buffer_lookahead2_sink_ready
+sdram_tmrbankmachine1_cmd_buffer_lookahead2_source_valid
+sdram_tmrbankmachine1_cmd_buffer_lookahead2_source_ready
+sdram_tmrbankmachine1_cmd_buffer_lookahead2_source_first
+sdram_tmrbankmachine1_cmd_buffer_lookahead2_source_last
+sdram_tmrbankmachine1_cmd_buffer_lookahead2_source_payload_we
+[20:0] sdram_tmrbankmachine1_cmd_buffer_lookahead2_source_payload_addr
+sdram_tmrbankmachine1_cmd_buffer_lookahead2_syncfifo1_we
+sdram_tmrbankmachine1_cmd_buffer_lookahead2_syncfifo1_writable
+sdram_tmrbankmachine1_cmd_buffer_lookahead2_syncfifo1_re
+sdram_tmrbankmachine1_cmd_buffer_lookahead2_syncfifo1_readable
+[23:0] sdram_tmrbankmachine1_cmd_buffer_lookahead2_syncfifo1_din
+[23:0] sdram_tmrbankmachine1_cmd_buffer_lookahead2_syncfifo1_dout
+[3:0] sdram_tmrbankmachine1_cmd_buffer_lookahead2_level
+[2:0] sdram_tmrbankmachine1_cmd_buffer_lookahead2_produce
+[2:0] sdram_tmrbankmachine1_cmd_buffer_lookahead2_consume
+[2:0] sdram_tmrbankmachine1_cmd_buffer_lookahead2_wrport_adr
+[23:0] sdram_tmrbankmachine1_cmd_buffer_lookahead2_wrport_dat_r
+sdram_tmrbankmachine1_cmd_buffer_lookahead2_wrport_we
+[23:0] sdram_tmrbankmachine1_cmd_buffer_lookahead2_wrport_dat_w
+sdram_tmrbankmachine1_cmd_buffer_lookahead2_do_read
+[2:0] sdram_tmrbankmachine1_cmd_buffer_lookahead2_rdport_adr
+port_cmd_ready
+[23:0] sdram_tmrbankmachine1_cmd_buffer_lookahead2_rdport_dat_r
+[2:0] port_TMRcmd_ready
+sdram_tmrbankmachine1_cmd_buffer_lookahead2_fifo_in_payload_we
+[20:0] sdram_tmrbankmachine1_cmd_buffer_lookahead2_fifo_in_payload_addr
+sdram_tmrbankmachine1_cmd_buffer_lookahead2_fifo_in_first
+port_wdata_ready
+sdram_tmrbankmachine1_cmd_buffer_lookahead2_fifo_in_last
+sdram_tmrbankmachine1_cmd_buffer_lookahead2_fifo_out_payload_we
+[20:0] sdram_tmrbankmachine1_cmd_buffer_lookahead2_fifo_out_payload_addr
+sdram_tmrbankmachine1_cmd_buffer_lookahead2_fifo_out_first
+sdram_tmrbankmachine1_cmd_buffer_lookahead2_fifo_out_last
+[2:0] port_TMRwdata_ready
+sdram_tmrbankmachine1_cmd_buffer2_sink_valid
+sdram_tmrbankmachine1_cmd_buffer2_sink_ready
+sdram_tmrbankmachine1_cmd_buffer2_sink_first
+[767:0] port_TMRwdata_payload_data
+sdram_tmrbankmachine1_cmd_buffer2_sink_last
+[95:0] port_TMRwdata_payload_we
+sdram_tmrbankmachine1_cmd_buffer2_sink_payload_we
+port_rdata_valid
+[20:0] sdram_tmrbankmachine1_cmd_buffer2_sink_payload_addr
+rhs_array_muxed0
+sdram_tmrbankmachine1_cmd_buffer2_source_valid
+sdram_tmrbankmachine1_cmd_buffer2_source_ready
+sdram_tmrbankmachine1_cmd_buffer2_source_first
+[255:0] port_rdata_payload_data
+sdram_tmrbankmachine1_cmd_buffer2_source_last
+[2:0] port_TMRrdata_valid
+sdram_tmrbankmachine1_cmd_buffer2_source_payload_we
+[20:0] sdram_tmrbankmachine1_cmd_buffer2_source_payload_addr
+[767:0] port_TMRrdata_payload_data
+[13:0] rhs_array_muxed1
+[1:0] tmrrefresher_state
+[1:0] tmrrefresher_next_state
+sdram_tmrbankmachine1_cmd_buffer_lookahead3_sink_ready
+[2:0] rhs_array_muxed2
+sdram_tmrbankmachine1_cmd_buffer_lookahead3_source_valid
+sdram_tmrbankmachine1_cmd_buffer_lookahead3_source_ready
+sdram_tmrbankmachine1_cmd_buffer_lookahead3_source_first
+[3:0] tmrbankmachine0_state
+[3:0] tmrbankmachine0_next_state
+sdram_tmrbankmachine1_cmd_buffer_lookahead3_source_last
+sdram_tmrbankmachine1_cmd_buffer_lookahead3_source_payload_we
+rhs_array_muxed3
+[20:0] sdram_tmrbankmachine1_cmd_buffer_lookahead3_source_payload_addr
+sdram_tmrbankmachine1_cmd_buffer_lookahead3_syncfifo1_we
+sdram_tmrbankmachine1_cmd_buffer_lookahead3_syncfifo1_writable
+sdram_tmrbankmachine1_cmd_buffer_lookahead3_syncfifo1_re
+sdram_tmrbankmachine1_cmd_buffer_lookahead3_syncfifo1_readable
+rhs_array_muxed4
+[23:0] sdram_tmrbankmachine1_cmd_buffer_lookahead3_syncfifo1_din
+[23:0] sdram_tmrbankmachine1_cmd_buffer_lookahead3_syncfifo1_dout
+[3:0] sdram_tmrbankmachine1_cmd_buffer_lookahead3_level
+rhs_array_muxed5
+[2:0] sdram_tmrbankmachine1_cmd_buffer_lookahead3_produce
+[2:0] sdram_tmrbankmachine1_cmd_buffer_lookahead3_consume
+[2:0] sdram_tmrbankmachine1_cmd_buffer_lookahead3_wrport_adr
+[23:0] sdram_tmrbankmachine1_cmd_buffer_lookahead3_wrport_dat_r
+[3:0] tmrbankmachine1_state
+sdram_tmrbankmachine1_cmd_buffer_lookahead3_wrport_we
+[3:0] tmrbankmachine1_next_state
+[23:0] sdram_tmrbankmachine1_cmd_buffer_lookahead3_wrport_dat_w
+t_array_muxed0
+t_array_muxed1
+sdram_tmrbankmachine1_cmd_buffer_lookahead3_do_read
+[2:0] sdram_tmrbankmachine1_cmd_buffer_lookahead3_rdport_adr
+[23:0] sdram_tmrbankmachine1_cmd_buffer_lookahead3_rdport_dat_r
+t_array_muxed2
+[3:0] tmrbankmachine2_state
+[3:0] tmrbankmachine2_next_state
+sdram_tmrbankmachine1_cmd_buffer_lookahead3_fifo_in_payload_we
+[20:0] sdram_tmrbankmachine1_cmd_buffer_lookahead3_fifo_in_payload_addr
+sdram_tmrbankmachine1_cmd_buffer_lookahead3_fifo_in_first
+sdram_tmrbankmachine1_cmd_buffer_lookahead3_fifo_in_last
+sdram_tmrbankmachine1_cmd_buffer_lookahead3_fifo_out_payload_we
+[20:0] sdram_tmrbankmachine1_cmd_buffer_lookahead3_fifo_out_payload_addr
+sdram_tmrbankmachine1_cmd_buffer_lookahead3_fifo_out_first
+sdram_tmrbankmachine1_cmd_buffer_lookahead3_fifo_out_last
+sdram_tmrbankmachine1_cmd_buffer3_sink_valid
+sdram_tmrbankmachine1_cmd_buffer3_sink_ready
+sdram_tmrbankmachine1_cmd_buffer3_sink_first
+sdram_tmrbankmachine1_cmd_buffer3_sink_last
+[3:0] tmrbankmachine3_state
+sdram_tmrbankmachine1_cmd_buffer3_sink_payload_we
+[3:0] tmrbankmachine3_next_state
+[20:0] sdram_tmrbankmachine1_cmd_buffer3_sink_payload_addr
+sdram_tmrbankmachine1_cmd_buffer3_source_valid
+sdram_tmrbankmachine1_cmd_buffer3_source_ready
+sdram_tmrbankmachine1_cmd_buffer3_source_first
+sdram_tmrbankmachine1_cmd_buffer3_source_last
+sdram_tmrbankmachine1_cmd_buffer3_source_payload_we
+[20:0] sdram_tmrbankmachine1_cmd_buffer3_source_payload_addr
+sdram_tmrbankmachine1_tmrinput_control4
+[3:0] tmrbankmachine4_state
+[3:0] tmrbankmachine4_next_state
+[20:0] sdram_tmrbankmachine1_lookAddrVote_control
+[20:0] sdram_tmrbankmachine1_bufAddrVote_control
+sdram_tmrbankmachine1_lookValidVote_control
+[3:0] tmrbankmachine5_state
+[3:0] tmrbankmachine5_next_state
+sdram_tmrbankmachine1_bufValidVote_control
+sdram_tmrbankmachine1_bufWeVote_control
+[13:0] sdram_tmrbankmachine1_row
+sdram_tmrbankmachine1_row_opened
+[3:0] tmrbankmachine6_state
+sdram_tmrbankmachine1_row_hit
+[3:0] tmrbankmachine6_next_state
+sdram_tmrbankmachine1_row_open
+sdram_tmrbankmachine1_row_close
+rhs_array_muxed6
+sdram_tmrbankmachine1_row_col_n_addr_sel
+sdram_tmrbankmachine1_twtpcon_valid
+sdram_tmrbankmachine1_twtpcon_ready
+[2:0] sdram_tmrbankmachine1_twtpcon_count
+[13:0] rhs_array_muxed7
+[3:0] tmrbankmachine7_state
+[3:0] tmrbankmachine7_next_state
+[2:0] rhs_array_muxed8
+sdram_tmrbankmachine1_twtpcon2_valid
+sdram_tmrbankmachine1_twtpcon2_ready
+[2:0] sdram_tmrbankmachine1_twtpcon2_count
+rhs_array_muxed9
+rhs_array_muxed10
+sdram_tmrbankmachine1_twtpcon3_valid
+sdram_tmrbankmachine1_twtpcon3_ready
+[2:0] sdram_tmrbankmachine1_twtpcon3_count
+[3:0] multiplexer_state
+[3:0] multiplexer_next_state
+rhs_array_muxed11
+sdram_tmrbankmachine1_twtpVote_control
+t_array_muxed3
+sdram_tmrbankmachine1_trccon_valid
+t_array_muxed4
+sdram_tmrbankmachine1_trccon_ready
+[2:0] sdram_tmrbankmachine1_trccon_count
+t_array_muxed5
+sdram_tmrbankmachine1_trccon2_valid
+sdram_tmrbankmachine1_trccon2_ready
+[2:0] sdram_tmrbankmachine1_trccon2_count
+sdram_tmrbankmachine1_trccon3_valid
+sdram_tmrbankmachine1_trccon3_ready
+[2:0] sdram_tmrbankmachine1_trccon3_count
+sdram_tmrbankmachine1_trcVote_control
+roundrobin0_request
+roundrobin0_grant
+roundrobin0_ce
+roundrobin1_request
+sdram_tmrbankmachine1_trascon_valid
+roundrobin1_grant
+sdram_tmrbankmachine1_trascon_ready
+roundrobin1_ce
+[2:0] sdram_tmrbankmachine1_trascon_count
+roundrobin2_request
+roundrobin2_grant
+roundrobin2_ce
+roundrobin3_request
+roundrobin3_grant
+roundrobin3_ce
+sdram_tmrbankmachine1_trascon2_valid
+roundrobin4_request
+sdram_tmrbankmachine1_trascon2_ready
+roundrobin4_grant
+[2:0] sdram_tmrbankmachine1_trascon2_count
+roundrobin4_ce
+roundrobin5_request
+roundrobin5_grant
+roundrobin5_ce
+roundrobin6_request
+sdram_tmrbankmachine1_trascon3_valid
+roundrobin6_grant
+roundrobin6_ce
+sdram_tmrbankmachine1_trascon3_ready
+[2:0] sdram_tmrbankmachine1_trascon3_count
+roundrobin7_request
+roundrobin7_grant
+roundrobin7_ce
+control0
+sdram_tmrbankmachine1_trasVote_control
+control1
+control2
+control3
+sdram_tmrbankmachine2_req_valid
+sdram_tmrbankmachine2_req_ready
+sdram_tmrbankmachine2_req_we
+[20:0] sdram_tmrbankmachine2_req_addr
+sdram_tmrbankmachine2_req_lock
+sdram_tmrbankmachine2_req_wdata_ready
+sdram_tmrbankmachine2_req_rdata_valid
+[2:0] sdram_tmrbankmachine2_TMRreq_valid
+[2:0] sdram_tmrbankmachine2_TMRreq_ready
+[2:0] sdram_tmrbankmachine2_TMRreq_we
+[62:0] sdram_tmrbankmachine2_TMRreq_addr
+[2:0] sdram_tmrbankmachine2_TMRreq_lock
+[2:0] sdram_tmrbankmachine2_TMRreq_wdata_ready
+[2:0] sdram_tmrbankmachine2_TMRreq_rdata_valid
+sdram_tmrbankmachine2_refresh_req
+sdram_tmrbankmachine2_refresh_gnt
+sdram_tmrbankmachine2_cmd_valid
+sdram_tmrbankmachine2_cmd_ready
+[13:0] sdram_tmrbankmachine2_cmd_payload_a
+[2:0] sdram_tmrbankmachine2_cmd_payload_ba
+sdram_tmrbankmachine2_cmd_payload_cas
+sdram_tmrbankmachine2_cmd_payload_ras
+sdram_tmrbankmachine2_cmd_payload_we
+sdram_tmrbankmachine2_cmd_payload_is_cmd
+sdram_tmrbankmachine2_cmd_payload_is_read
+sdram_tmrbankmachine2_cmd_payload_is_write
+[2:0] sdram_tmrbankmachine2_TMRcmd_valid
+[2:0] sdram_tmrbankmachine2_TMRcmd_ready
+control4
+[2:0] sdram_tmrbankmachine2_TMRcmd_first
+[2:0] sdram_tmrbankmachine2_TMRcmd_last
+[41:0] sdram_tmrbankmachine2_TMRcmd_payload_a
+[8:0] sdram_tmrbankmachine2_TMRcmd_payload_ba
+[2:0] sdram_tmrbankmachine2_TMRcmd_payload_cas
+[2:0] sdram_tmrbankmachine2_TMRcmd_payload_ras
+control5
+[2:0] sdram_tmrbankmachine2_TMRcmd_payload_we
+[2:0] sdram_tmrbankmachine2_TMRcmd_payload_is_cmd
+[2:0] sdram_tmrbankmachine2_TMRcmd_payload_is_read
+[2:0] sdram_tmrbankmachine2_TMRcmd_payload_is_write
+control6
+sdram_tmrbankmachine2_tmrinput_control0
+control7
+sdram_tmrbankmachine2_auto_precharge
+sdram_tmrbankmachine2_tmrinput_control1
+sdram_tmrbankmachine2_tmrinput_control2
+[20:0] sdram_tmrbankmachine2_tmrinput_control3
+[20:0] rhs_array_muxed12
+rhs_array_muxed13
+rhs_array_muxed14
+sdram_tmrbankmachine2_cmd_buffer_lookahead_sink_valid
+sdram_tmrbankmachine2_cmd_buffer_lookahead_sink_ready
+control8
+sdram_tmrbankmachine2_cmd_buffer_lookahead_sink_payload_we
+[20:0] sdram_tmrbankmachine2_cmd_buffer_lookahead_sink_payload_addr
+sdram_tmrbankmachine2_cmd_buffer_lookahead_source_valid
+sdram_tmrbankmachine2_cmd_buffer_lookahead_source_ready
+sdram_tmrbankmachine2_cmd_buffer_lookahead_source_first
+sdram_tmrbankmachine2_cmd_buffer_lookahead_source_last
+control9
+sdram_tmrbankmachine2_cmd_buffer_lookahead_source_payload_we
+[20:0] sdram_tmrbankmachine2_cmd_buffer_lookahead_source_payload_addr
+sdram_tmrbankmachine2_cmd_buffer_lookahead_syncfifo2_we
+sdram_tmrbankmachine2_cmd_buffer_lookahead_syncfifo2_writable
+sdram_tmrbankmachine2_cmd_buffer_lookahead_syncfifo2_re
+control10
+sdram_tmrbankmachine2_cmd_buffer_lookahead_syncfifo2_readable
+[23:0] sdram_tmrbankmachine2_cmd_buffer_lookahead_syncfifo2_din
+[23:0] sdram_tmrbankmachine2_cmd_buffer_lookahead_syncfifo2_dout
+[3:0] sdram_tmrbankmachine2_cmd_buffer_lookahead_level
+control11
+[2:0] sdram_tmrbankmachine2_cmd_buffer_lookahead_produce
+[2:0] sdram_tmrbankmachine2_cmd_buffer_lookahead_consume
+[2:0] sdram_tmrbankmachine2_cmd_buffer_lookahead_wrport_adr
+[20:0] rhs_array_muxed15
+[23:0] sdram_tmrbankmachine2_cmd_buffer_lookahead_wrport_dat_r
+sdram_tmrbankmachine2_cmd_buffer_lookahead_wrport_we
+[23:0] sdram_tmrbankmachine2_cmd_buffer_lookahead_wrport_dat_w
+rhs_array_muxed16
+rhs_array_muxed17
+sdram_tmrbankmachine2_cmd_buffer_lookahead_do_read
+[2:0] sdram_tmrbankmachine2_cmd_buffer_lookahead_rdport_adr
+[23:0] sdram_tmrbankmachine2_cmd_buffer_lookahead_rdport_dat_r
+sdram_tmrbankmachine2_cmd_buffer_lookahead_fifo_in_payload_we
+[20:0] sdram_tmrbankmachine2_cmd_buffer_lookahead_fifo_in_payload_addr
+sdram_tmrbankmachine2_cmd_buffer_lookahead_fifo_in_first
+sdram_tmrbankmachine2_cmd_buffer_lookahead_fifo_in_last
+sdram_tmrbankmachine2_cmd_buffer_lookahead_fifo_out_payload_we
+[20:0] sdram_tmrbankmachine2_cmd_buffer_lookahead_fifo_out_payload_addr
+sdram_tmrbankmachine2_cmd_buffer_lookahead_fifo_out_first
+sdram_tmrbankmachine2_cmd_buffer_lookahead_fifo_out_last
+sdram_tmrbankmachine2_cmd_buffer_sink_valid
+sdram_tmrbankmachine2_cmd_buffer_sink_ready
+control12
+sdram_tmrbankmachine2_cmd_buffer_sink_first
+sdram_tmrbankmachine2_cmd_buffer_sink_last
+sdram_tmrbankmachine2_cmd_buffer_sink_payload_we
+[20:0] rhs_array_muxed18
+[20:0] sdram_tmrbankmachine2_cmd_buffer_sink_payload_addr
+sdram_tmrbankmachine2_cmd_buffer_source_valid
+sdram_tmrbankmachine2_cmd_buffer_source_ready
+control13
+rhs_array_muxed19
+rhs_array_muxed20
+sdram_tmrbankmachine2_cmd_buffer_source_first
+sdram_tmrbankmachine2_cmd_buffer_source_last
+sdram_tmrbankmachine2_cmd_buffer_source_payload_we
+[20:0] sdram_tmrbankmachine2_cmd_buffer_source_payload_addr
+control14
+sdram_tmrbankmachine2_cmd_buffer_lookahead2_sink_ready
+control15
+sdram_tmrbankmachine2_cmd_buffer_lookahead2_source_valid
+sdram_tmrbankmachine2_cmd_buffer_lookahead2_source_ready
+sdram_tmrbankmachine2_cmd_buffer_lookahead2_source_first
+sdram_tmrbankmachine2_cmd_buffer_lookahead2_source_last
+sdram_tmrbankmachine2_cmd_buffer_lookahead2_source_payload_we
+[20:0] sdram_tmrbankmachine2_cmd_buffer_lookahead2_source_payload_addr
+sdram_tmrbankmachine2_cmd_buffer_lookahead2_syncfifo2_we
+sdram_tmrbankmachine2_cmd_buffer_lookahead2_syncfifo2_writable
+sdram_tmrbankmachine2_cmd_buffer_lookahead2_syncfifo2_re
+sdram_tmrbankmachine2_cmd_buffer_lookahead2_syncfifo2_readable
+[23:0] sdram_tmrbankmachine2_cmd_buffer_lookahead2_syncfifo2_din
+[23:0] sdram_tmrbankmachine2_cmd_buffer_lookahead2_syncfifo2_dout
+[3:0] sdram_tmrbankmachine2_cmd_buffer_lookahead2_level
+[2:0] sdram_tmrbankmachine2_cmd_buffer_lookahead2_produce
+[2:0] sdram_tmrbankmachine2_cmd_buffer_lookahead2_consume
+[2:0] sdram_tmrbankmachine2_cmd_buffer_lookahead2_wrport_adr
+[20:0] rhs_array_muxed21
+[23:0] sdram_tmrbankmachine2_cmd_buffer_lookahead2_wrport_dat_r
+sdram_tmrbankmachine2_cmd_buffer_lookahead2_wrport_we
+[23:0] sdram_tmrbankmachine2_cmd_buffer_lookahead2_wrport_dat_w
+rhs_array_muxed22
+rhs_array_muxed23
+sdram_tmrbankmachine2_cmd_buffer_lookahead2_do_read
+[2:0] sdram_tmrbankmachine2_cmd_buffer_lookahead2_rdport_adr
+[23:0] sdram_tmrbankmachine2_cmd_buffer_lookahead2_rdport_dat_r
+control16
+control17
+sdram_tmrbankmachine2_cmd_buffer_lookahead2_fifo_in_payload_we
+[20:0] sdram_tmrbankmachine2_cmd_buffer_lookahead2_fifo_in_payload_addr
+sdram_tmrbankmachine2_cmd_buffer_lookahead2_fifo_in_first
+sdram_tmrbankmachine2_cmd_buffer_lookahead2_fifo_in_last
+control18
+sdram_tmrbankmachine2_cmd_buffer_lookahead2_fifo_out_payload_we
+[20:0] sdram_tmrbankmachine2_cmd_buffer_lookahead2_fifo_out_payload_addr
+sdram_tmrbankmachine2_cmd_buffer_lookahead2_fifo_out_first
+sdram_tmrbankmachine2_cmd_buffer_lookahead2_fifo_out_last
+control19
+sdram_tmrbankmachine2_cmd_buffer2_sink_valid
+sdram_tmrbankmachine2_cmd_buffer2_sink_ready
+sdram_tmrbankmachine2_cmd_buffer2_sink_first
+sdram_tmrbankmachine2_cmd_buffer2_sink_last
+sdram_tmrbankmachine2_cmd_buffer2_sink_payload_we
+[20:0] rhs_array_muxed24
+[20:0] sdram_tmrbankmachine2_cmd_buffer2_sink_payload_addr
+sdram_tmrbankmachine2_cmd_buffer2_source_valid
+sdram_tmrbankmachine2_cmd_buffer2_source_ready
+rhs_array_muxed25
+sdram_tmrbankmachine2_cmd_buffer2_source_first
+rhs_array_muxed26
+sdram_tmrbankmachine2_cmd_buffer2_source_last
+sdram_tmrbankmachine2_cmd_buffer2_source_payload_we
+[20:0] sdram_tmrbankmachine2_cmd_buffer2_source_payload_addr
+sdram_tmrbankmachine2_cmd_buffer_lookahead3_sink_ready
+sdram_tmrbankmachine2_cmd_buffer_lookahead3_source_valid
+sdram_tmrbankmachine2_cmd_buffer_lookahead3_source_ready
+sdram_tmrbankmachine2_cmd_buffer_lookahead3_source_first
+sdram_tmrbankmachine2_cmd_buffer_lookahead3_source_last
+sdram_tmrbankmachine2_cmd_buffer_lookahead3_source_payload_we
+[20:0] sdram_tmrbankmachine2_cmd_buffer_lookahead3_source_payload_addr
+sdram_tmrbankmachine2_cmd_buffer_lookahead3_syncfifo2_we
+sdram_tmrbankmachine2_cmd_buffer_lookahead3_syncfifo2_writable
+sdram_tmrbankmachine2_cmd_buffer_lookahead3_syncfifo2_re
+sdram_tmrbankmachine2_cmd_buffer_lookahead3_syncfifo2_readable
+[23:0] sdram_tmrbankmachine2_cmd_buffer_lookahead3_syncfifo2_din
+[23:0] sdram_tmrbankmachine2_cmd_buffer_lookahead3_syncfifo2_dout
+[3:0] sdram_tmrbankmachine2_cmd_buffer_lookahead3_level
+control20
+[2:0] sdram_tmrbankmachine2_cmd_buffer_lookahead3_produce
+[2:0] sdram_tmrbankmachine2_cmd_buffer_lookahead3_consume
+[2:0] sdram_tmrbankmachine2_cmd_buffer_lookahead3_wrport_adr
+[23:0] sdram_tmrbankmachine2_cmd_buffer_lookahead3_wrport_dat_r
+[20:0] rhs_array_muxed27
+sdram_tmrbankmachine2_cmd_buffer_lookahead3_wrport_we
+control21
+[23:0] sdram_tmrbankmachine2_cmd_buffer_lookahead3_wrport_dat_w
+rhs_array_muxed28
+rhs_array_muxed29
+control22
+sdram_tmrbankmachine2_cmd_buffer_lookahead3_do_read
+[2:0] sdram_tmrbankmachine2_cmd_buffer_lookahead3_rdport_adr
+[23:0] sdram_tmrbankmachine2_cmd_buffer_lookahead3_rdport_dat_r
+control23
+sdram_tmrbankmachine2_cmd_buffer_lookahead3_fifo_in_payload_we
+[20:0] sdram_tmrbankmachine2_cmd_buffer_lookahead3_fifo_in_payload_addr
+sdram_tmrbankmachine2_cmd_buffer_lookahead3_fifo_in_first
+sdram_tmrbankmachine2_cmd_buffer_lookahead3_fifo_in_last
+sdram_tmrbankmachine2_cmd_buffer_lookahead3_fifo_out_payload_we
+[20:0] sdram_tmrbankmachine2_cmd_buffer_lookahead3_fifo_out_payload_addr
+sdram_tmrbankmachine2_cmd_buffer_lookahead3_fifo_out_first
+sdram_tmrbankmachine2_cmd_buffer_lookahead3_fifo_out_last
+sdram_tmrbankmachine2_cmd_buffer3_sink_valid
+sdram_tmrbankmachine2_cmd_buffer3_sink_ready
+sdram_tmrbankmachine2_cmd_buffer3_sink_first
+sdram_tmrbankmachine2_cmd_buffer3_sink_last
+sdram_tmrbankmachine2_cmd_buffer3_sink_payload_we
+[20:0] sdram_tmrbankmachine2_cmd_buffer3_sink_payload_addr
+[20:0] rhs_array_muxed30
+sdram_tmrbankmachine2_cmd_buffer3_source_valid
+sdram_tmrbankmachine2_cmd_buffer3_source_ready
+sdram_tmrbankmachine2_cmd_buffer3_source_first
+rhs_array_muxed31
+sdram_tmrbankmachine2_cmd_buffer3_source_last
+rhs_array_muxed32
+sdram_tmrbankmachine2_cmd_buffer3_source_payload_we
+[20:0] sdram_tmrbankmachine2_cmd_buffer3_source_payload_addr
+sdram_tmrbankmachine2_tmrinput_control4
+control24
+control25
+[20:0] sdram_tmrbankmachine2_lookAddrVote_control
+control26
+[20:0] sdram_tmrbankmachine2_bufAddrVote_control
+control27
+sdram_tmrbankmachine2_lookValidVote_control
+sdram_tmrbankmachine2_bufValidVote_control
+[20:0] rhs_array_muxed33
+rhs_array_muxed34
+rhs_array_muxed35
+sdram_tmrbankmachine2_bufWeVote_control
+[13:0] sdram_tmrbankmachine2_row
+sdram_tmrbankmachine2_row_opened
+sdram_tmrbankmachine2_row_hit
+sdram_tmrbankmachine2_row_open
+sdram_tmrbankmachine2_row_close
+sdram_tmrbankmachine2_row_col_n_addr_sel
+sdram_tmrbankmachine2_twtpcon_valid
+sdram_tmrbankmachine2_twtpcon_ready
+[2:0] sdram_tmrbankmachine2_twtpcon_count
+control28
+sdram_tmrbankmachine2_twtpcon2_valid
+control29
+sdram_tmrbankmachine2_twtpcon2_ready
+[2:0] sdram_tmrbankmachine2_twtpcon2_count
+[2:0] slice_proxy319
+control30
+sdram_tmrbankmachine2_twtpcon3_valid
+sdram_tmrbankmachine2_twtpcon3_ready
+control31
+[2:0] sdram_tmrbankmachine2_twtpcon3_count
+sdram_tmrbankmachine2_twtpVote_control
+[2:0] slice_proxy320
+sdram_tmrbankmachine2_trccon_valid
+sdram_tmrbankmachine2_trccon_ready
+[2:0] sdram_tmrbankmachine2_trccon_count
+sdram_tmrbankmachine2_trccon2_valid
+sdram_tmrbankmachine2_trccon2_ready
+[2:0] sdram_tmrbankmachine2_trccon2_count
+sdram_tmrbankmachine2_trccon3_valid
+sdram_tmrbankmachine2_trccon3_ready
+[2:0] sdram_tmrbankmachine2_trccon3_count
+new_master_wdata_ready0
+new_master_wdata_ready1
+new_master_rdata_valid0
+new_master_rdata_valid1
+new_master_rdata_valid2
+[2:0] slice_proxy322
+new_master_rdata_valid3
+new_master_rdata_valid4
+sdram_tmrbankmachine2_trcVote_control
+new_master_rdata_valid5
+new_master_rdata_valid6
+new_master_rdata_valid7
+new_master_rdata_valid8
+control32
+sdram_tmrbankmachine2_trascon_valid
+sdram_tmrbankmachine2_trascon_ready
+[2:0] sdram_tmrbankmachine2_trascon_count
+control33
+sdram_tmrbankmachine2_trascon2_valid
+sdram_tmrbankmachine2_trascon2_ready
+control34
+[2:0] sdram_tmrbankmachine2_trascon2_count
+sdram_tmrbankmachine2_trascon3_valid
+[255:0] control35
+sdram_tmrbankmachine2_trascon3_ready
+[2:0] sdram_tmrbankmachine2_trascon3_count
+sdram_tmrbankmachine2_trasVote_control
+[3:0] sdram_tmrbankmachine4_cmd_buffer_lookahead3_level
+[23:0] slice_proxy325
+sdram_tmrbankmachine3_req_valid
+sdram_tmrbankmachine3_req_ready
+sdram_tmrbankmachine3_req_we
+[20:0] sdram_tmrbankmachine3_req_addr
+[23:0] slice_proxy326
+sdram_tmrbankmachine3_req_lock
+sdram_tmrbankmachine3_req_wdata_ready
+sdram_tmrbankmachine3_req_rdata_valid
+[2:0] sdram_tmrbankmachine3_TMRreq_valid
+[2:0] sdram_tmrbankmachine3_TMRreq_ready
+[2:0] sdram_tmrbankmachine3_TMRreq_we
+[62:0] sdram_tmrbankmachine3_TMRreq_addr
+[2:0] sdram_tmrbankmachine3_TMRreq_lock
+[2:0] sdram_tmrbankmachine3_TMRreq_wdata_ready
+[2:0] sdram_tmrbankmachine3_TMRreq_rdata_valid
+sdram_tmrbankmachine3_refresh_req
+sdram_tmrbankmachine3_refresh_gnt
+sdram_tmrbankmachine3_cmd_valid
+sdram_tmrbankmachine3_cmd_ready
+[95:0] slice_proxy786
+[95:0] slice_proxy787
+[13:0] sdram_tmrbankmachine3_cmd_payload_a
+[2:0] sdram_tmrbankmachine3_cmd_payload_ba
+sdram_tmrbankmachine3_cmd_payload_cas
+[95:0] slice_proxy788
+sdram_tmrbankmachine3_cmd_payload_ras
+sdram_tmrbankmachine3_cmd_payload_we
+sdram_tmrbankmachine3_cmd_payload_is_cmd
+[95:0] slice_proxy789
+sdram_tmrbankmachine3_cmd_payload_is_read
+sdram_tmrbankmachine3_cmd_payload_is_write
+[2:0] sdram_tmrbankmachine3_TMRcmd_valid
+[95:0] slice_proxy790
+[2:0] sdram_tmrbankmachine3_TMRcmd_ready
+[2:0] sdram_tmrbankmachine3_TMRcmd_first
+[2:0] sdram_tmrbankmachine3_TMRcmd_last
+[95:0] slice_proxy791
+[41:0] sdram_tmrbankmachine3_TMRcmd_payload_a
+[8:0] sdram_tmrbankmachine3_TMRcmd_payload_ba
+[2:0] sdram_tmrbankmachine3_TMRcmd_payload_cas
+[2:0] sdram_tmrbankmachine3_TMRcmd_payload_ras
+[2:0] sdram_tmrbankmachine3_TMRcmd_payload_we
+[2:0] sdram_tmrbankmachine3_TMRcmd_payload_is_cmd
+[2:0] sdram_tmrbankmachine3_TMRcmd_payload_is_read
+[2:0] sdram_tmrbankmachine3_TMRcmd_payload_is_write
+sdram_tmrbankmachine3_tmrinput_control0
+sdram_tmrbankmachine3_auto_precharge
+sdram_tmrbankmachine3_tmrinput_control1
+sdram_tmrbankmachine3_tmrinput_control2
+[20:0] sdram_tmrbankmachine3_tmrinput_control3
+sdram_tmrbankmachine3_cmd_buffer_lookahead_sink_valid
+sdram_tmrbankmachine3_cmd_buffer_lookahead_sink_ready
+sdram_tmrbankmachine3_cmd_buffer_lookahead_sink_payload_we
+[20:0] sdram_tmrbankmachine3_cmd_buffer_lookahead_sink_payload_addr
+sdram_tmrbankmachine3_cmd_buffer_lookahead_source_valid
+sdram_tmrbankmachine3_cmd_buffer_lookahead_source_ready
+sdram_tmrbankmachine3_cmd_buffer_lookahead_source_first
+sdram_tmrbankmachine3_cmd_buffer_lookahead_source_last
+sdram_tmrbankmachine3_cmd_buffer_lookahead_source_payload_we
+[20:0] sdram_tmrbankmachine3_cmd_buffer_lookahead_source_payload_addr
+sdram_tmrbankmachine3_cmd_buffer_lookahead_syncfifo3_we
+sdram_tmrbankmachine3_cmd_buffer_lookahead_syncfifo3_writable
+sdram_tmrbankmachine3_cmd_buffer_lookahead_syncfifo3_re
+sdram_tmrbankmachine3_cmd_buffer_lookahead_syncfifo3_readable
+[23:0] sdram_tmrbankmachine3_cmd_buffer_lookahead_syncfifo3_din
+[23:0] sdram_tmrbankmachine3_cmd_buffer_lookahead_syncfifo3_dout
+[3:0] sdram_tmrbankmachine3_cmd_buffer_lookahead_level
+[2:0] sdram_tmrbankmachine3_cmd_buffer_lookahead_produce
+[2:0] sdram_tmrbankmachine3_cmd_buffer_lookahead_consume
+[2:0] sdram_tmrbankmachine3_cmd_buffer_lookahead_wrport_adr
+[23:0] sdram_tmrbankmachine3_cmd_buffer_lookahead_wrport_dat_r
+sdram_tmrbankmachine3_cmd_buffer_lookahead_wrport_we
+[23:0] sdram_tmrbankmachine3_cmd_buffer_lookahead_wrport_dat_w
+sdram_tmrbankmachine3_cmd_buffer_lookahead_do_read
+[2:0] sdram_tmrbankmachine3_cmd_buffer_lookahead_rdport_adr
+[23:0] sdram_tmrbankmachine3_cmd_buffer_lookahead_rdport_dat_r
+sdram_tmrbankmachine3_cmd_buffer_lookahead_fifo_in_payload_we
+[20:0] sdram_tmrbankmachine3_cmd_buffer_lookahead_fifo_in_payload_addr
+sdram_tmrbankmachine4_cmd_buffer_source_valid
+sdram_tmrbankmachine3_cmd_buffer_lookahead_fifo_in_first
+sdram_tmrbankmachine3_cmd_buffer_lookahead_fifo_in_last
+sdram_tmrbankmachine3_cmd_buffer_lookahead_fifo_out_payload_we
+[20:0] sdram_tmrbankmachine3_cmd_buffer_lookahead_fifo_out_payload_addr
+sdram_tmrbankmachine3_cmd_buffer_lookahead_fifo_out_first
+sdram_tmrbankmachine3_cmd_buffer_lookahead_fifo_out_last
+sdram_tmrbankmachine3_cmd_buffer_sink_valid
+sdram_tmrbankmachine3_cmd_buffer_sink_ready
+sdram_tmrbankmachine3_cmd_buffer_sink_first
+sdram_tmrbankmachine3_cmd_buffer_sink_last
+sdram_tmrbankmachine3_cmd_buffer_sink_payload_we
+[20:0] sdram_tmrbankmachine3_cmd_buffer_sink_payload_addr
+sdram_tmrbankmachine3_cmd_buffer_source_valid
+sdram_tmrbankmachine3_cmd_buffer_source_ready
+sdram_tmrbankmachine3_cmd_buffer_source_first
+sdram_tmrbankmachine3_cmd_buffer_source_last
+sdram_tmrbankmachine3_cmd_buffer_source_payload_we
+[20:0] sdram_tmrbankmachine3_cmd_buffer_source_payload_addr
+sdram_tmrbankmachine3_cmd_buffer_lookahead2_sink_ready
+sdram_tmrbankmachine3_cmd_buffer_lookahead2_source_valid
+sdram_tmrbankmachine3_cmd_buffer_lookahead2_source_ready
+sdram_tmrbankmachine3_cmd_buffer_lookahead2_source_first
+sdram_tmrbankmachine3_cmd_buffer_lookahead2_source_last
+sdram_tmrbankmachine3_cmd_buffer_lookahead2_source_payload_we
+[20:0] sdram_tmrbankmachine3_cmd_buffer_lookahead2_source_payload_addr
+sdram_tmrbankmachine3_cmd_buffer_lookahead2_syncfifo3_we
+sdram_tmrbankmachine3_cmd_buffer_lookahead2_syncfifo3_writable
+sdram_tmrbankmachine3_cmd_buffer_lookahead2_syncfifo3_re
+sdram_tmrbankmachine3_cmd_buffer_lookahead2_syncfifo3_readable
+[23:0] sdram_tmrbankmachine3_cmd_buffer_lookahead2_syncfifo3_din
+[23:0] sdram_tmrbankmachine3_cmd_buffer_lookahead2_syncfifo3_dout
+[3:0] sdram_tmrbankmachine3_cmd_buffer_lookahead2_level
+[2:0] sdram_tmrbankmachine3_cmd_buffer_lookahead2_produce
+[2:0] sdram_tmrbankmachine3_cmd_buffer_lookahead2_consume
+[2:0] sdram_tmrbankmachine3_cmd_buffer_lookahead2_wrport_adr
+[23:0] sdram_tmrbankmachine3_cmd_buffer_lookahead2_wrport_dat_r
+sdram_tmrbankmachine3_cmd_buffer_lookahead2_wrport_we
+[23:0] sdram_tmrbankmachine3_cmd_buffer_lookahead2_wrport_dat_w
+sdram_tmrbankmachine3_cmd_buffer_lookahead2_do_read
+[2:0] sdram_tmrbankmachine3_cmd_buffer_lookahead2_rdport_adr
+[23:0] sdram_tmrbankmachine3_cmd_buffer_lookahead2_rdport_dat_r
+sdram_tmrbankmachine3_cmd_buffer_lookahead2_fifo_in_payload_we
+[20:0] sdram_tmrbankmachine3_cmd_buffer_lookahead2_fifo_in_payload_addr
+sdram_tmrbankmachine3_cmd_buffer_lookahead2_fifo_in_first
+sdram_tmrbankmachine3_cmd_buffer_lookahead2_fifo_in_last
+sdram_tmrbankmachine3_cmd_buffer_lookahead2_fifo_out_payload_we
+[20:0] sdram_tmrbankmachine3_cmd_buffer_lookahead2_fifo_out_payload_addr
+sdram_tmrbankmachine3_cmd_buffer_lookahead2_fifo_out_first
+sdram_tmrbankmachine3_cmd_buffer_lookahead2_fifo_out_last
+sdram_tmrbankmachine3_cmd_buffer2_sink_valid
+sdram_tmrbankmachine3_cmd_buffer2_sink_ready
+sdram_tmrbankmachine3_cmd_buffer2_sink_first
+sdram_tmrbankmachine3_cmd_buffer2_sink_last
+sdram_tmrbankmachine3_cmd_buffer2_sink_payload_we
+[20:0] sdram_tmrbankmachine3_cmd_buffer2_sink_payload_addr
+sdram_tmrbankmachine3_cmd_buffer2_source_valid
+sdram_tmrbankmachine3_cmd_buffer2_source_ready
+sdram_tmrbankmachine3_cmd_buffer2_source_first
+sdram_tmrbankmachine3_cmd_buffer2_source_last
+sdram_tmrbankmachine3_cmd_buffer2_source_payload_we
+[20:0] sdram_tmrbankmachine3_cmd_buffer2_source_payload_addr
+sdram_tmrbankmachine3_cmd_buffer_lookahead3_sink_ready
+sdram_tmrbankmachine3_cmd_buffer_lookahead3_source_valid
+sdram_tmrbankmachine3_cmd_buffer_lookahead3_source_ready
+sdram_tmrbankmachine3_cmd_buffer_lookahead3_source_first
+sdram_tmrbankmachine3_cmd_buffer_lookahead3_source_last
+sdram_tmrbankmachine3_cmd_buffer_lookahead3_source_payload_we
+[20:0] sdram_tmrbankmachine3_cmd_buffer_lookahead3_source_payload_addr
+sdram_tmrbankmachine3_cmd_buffer_lookahead3_syncfifo3_we
+sdram_tmrbankmachine3_cmd_buffer_lookahead3_syncfifo3_writable
+sdram_tmrbankmachine3_cmd_buffer_lookahead3_syncfifo3_re
+[2:0] slice_proxy513
+sdram_tmrbankmachine3_cmd_buffer_lookahead3_syncfifo3_readable
+[23:0] sdram_tmrbankmachine3_cmd_buffer_lookahead3_syncfifo3_din
+[23:0] sdram_tmrbankmachine3_cmd_buffer_lookahead3_syncfifo3_dout
+[3:0] sdram_tmrbankmachine3_cmd_buffer_lookahead3_level
+[2:0] sdram_tmrbankmachine3_cmd_buffer_lookahead3_produce
+[2:0] sdram_tmrbankmachine3_cmd_buffer_lookahead3_consume
+[2:0] sdram_tmrbankmachine3_cmd_buffer_lookahead3_wrport_adr
+[23:0] sdram_tmrbankmachine3_cmd_buffer_lookahead3_wrport_dat_r
+sdram_tmrbankmachine3_cmd_buffer_lookahead3_wrport_we
+[23:0] sdram_tmrbankmachine3_cmd_buffer_lookahead3_wrport_dat_w
+sdram_tmrbankmachine3_cmd_buffer_lookahead3_do_read
+[2:0] sdram_tmrbankmachine3_cmd_buffer_lookahead3_rdport_adr
+[23:0] sdram_tmrbankmachine3_cmd_buffer_lookahead3_rdport_dat_r
+sdram_tmrbankmachine3_cmd_buffer_lookahead3_fifo_in_payload_we
+[20:0] sdram_tmrbankmachine3_cmd_buffer_lookahead3_fifo_in_payload_addr
+sdram_tmrbankmachine3_cmd_buffer_lookahead3_fifo_in_first
+[3:0] sdram_tmrbankmachine4_cmd_buffer_lookahead2_level
+sdram_tmrbankmachine3_cmd_buffer_lookahead3_fifo_in_last
+sdram_tmrbankmachine3_cmd_buffer_lookahead3_fifo_out_payload_we
+[20:0] sdram_tmrbankmachine3_cmd_buffer_lookahead3_fifo_out_payload_addr
+sdram_tmrbankmachine3_cmd_buffer_lookahead3_fifo_out_first
+sdram_tmrbankmachine3_cmd_buffer_lookahead3_fifo_out_last
+sdram_tmrbankmachine3_cmd_buffer3_sink_valid
+sdram_tmrbankmachine3_cmd_buffer3_sink_ready
+sdram_tmrbankmachine3_cmd_buffer3_sink_first
+sdram_tmrbankmachine3_cmd_buffer3_sink_last
+sdram_tmrbankmachine3_cmd_buffer3_sink_payload_we
+[20:0] sdram_tmrbankmachine3_cmd_buffer3_sink_payload_addr
+sdram_tmrbankmachine3_cmd_buffer3_source_valid
+sdram_tmrbankmachine3_cmd_buffer3_source_ready
+sdram_tmrbankmachine3_cmd_buffer3_source_first
+sdram_tmrbankmachine3_cmd_buffer3_source_last
+sdram_tmrbankmachine3_cmd_buffer3_source_payload_we
+[20:0] sdram_tmrbankmachine3_cmd_buffer3_source_payload_addr
+sdram_tmrbankmachine3_tmrinput_control4
+[20:0] sdram_tmrbankmachine3_lookAddrVote_control
+[20:0] sdram_tmrbankmachine3_bufAddrVote_control
+sdram_tmrbankmachine3_lookValidVote_control
+sdram_tmrbankmachine3_bufValidVote_control
+sdram_tmrbankmachine3_bufWeVote_control
+[13:0] sdram_tmrbankmachine3_row
+sdram_tmrbankmachine3_row_opened
+sdram_tmrbankmachine3_row_hit
+sdram_tmrbankmachine3_row_open
+sdram_tmrbankmachine3_row_close
+sdram_tmrbankmachine3_row_col_n_addr_sel
+sdram_tmrbankmachine3_twtpcon_valid
+[2:0] slice_proxy69
+sdram_tmrbankmachine3_twtpcon_ready
+[2:0] sdram_tmrbankmachine3_twtpcon_count
+sdram_tmrbankmachine3_twtpcon2_valid
+sdram_tmrbankmachine3_twtpcon2_ready
+[2:0] sdram_tmrbankmachine3_twtpcon2_count
+sdram_tmrbankmachine3_twtpcon3_valid
+[2:0] slice_proxy70
+sdram_tmrbankmachine3_twtpcon3_ready
+[2:0] sdram_tmrbankmachine3_twtpcon3_count
+sdram_tmrbankmachine3_twtpVote_control
+[2:0] slice_proxy71
+sdram_tmrbankmachine3_trccon_valid
+sdram_tmrbankmachine3_trccon_ready
+[2:0] sdram_tmrbankmachine3_trccon_count
+sdram_dfi_p0_wrdata_en
+sdram_tmrbankmachine3_trccon2_valid
+sdram_tmrbankmachine3_trccon2_ready
+[2:0] sdram_tmrbankmachine3_trccon2_count
+sdram_tmrbankmachine3_trccon3_valid
+sdram_tmrbankmachine3_trccon3_ready
+[2:0] sdram_tmrbankmachine3_trccon3_count
+sdram_tmrbankmachine3_trcVote_control
+[41:0] slice_proxy0
+[41:0] slice_proxy1
+sdram_tmrbankmachine3_trascon_valid
+sdram_tmrbankmachine3_trascon_ready
+[41:0] slice_proxy2
+[2:0] sdram_tmrbankmachine3_trascon_count
+[41:0] slice_proxy3
+[41:0] slice_proxy4
+sdram_tmrbankmachine3_trascon2_valid
+[41:0] slice_proxy5
+sdram_tmrbankmachine3_trascon2_ready
+[2:0] sdram_tmrbankmachine3_trascon2_count
+[8:0] slice_proxy6
+[8:0] slice_proxy7
+sdram_tmrbankmachine3_trascon3_valid
+sdram_dfi_p1_ras_n
+[8:0] slice_proxy8
+sdram_tmrbankmachine3_trascon3_ready
+[2:0] sdram_tmrbankmachine3_trascon3_count
+[8:0] slice_proxy9
+sdram_dfi_p1_we_n
+[8:0] slice_proxy10
+sdram_tmrbankmachine3_trasVote_control
+[8:0] slice_proxy11
+[2:0] slice_proxy12
+[2:0] slice_proxy13
+[2:0] slice_proxy14
+[2:0] slice_proxy15
+[2:0] slice_proxy16
+[2:0] slice_proxy17
+sdram_tmrbankmachine4_req_valid
+sdram_tmrbankmachine4_req_ready
+[2:0] slice_proxy18
+sdram_tmrbankmachine4_req_we
+[20:0] sdram_tmrbankmachine4_req_addr
+sdram_tmrbankmachine4_req_lock
+[2:0] slice_proxy19
+sdram_tmrbankmachine4_req_wdata_ready
+sdram_tmrbankmachine4_req_rdata_valid
+[2:0] sdram_tmrbankmachine4_TMRreq_valid
+[2:0] slice_proxy20
+[2:0] sdram_tmrbankmachine4_TMRreq_ready
+[2:0] sdram_tmrbankmachine4_TMRreq_we
+[2:0] slice_proxy21
+[62:0] sdram_tmrbankmachine4_TMRreq_addr
+[2:0] sdram_tmrbankmachine4_TMRreq_lock
+[2:0] sdram_tmrbankmachine4_TMRreq_wdata_ready
+[2:0] sdram_tmrbankmachine4_TMRreq_rdata_valid
+[2:0] slice_proxy22
+sdram_tmrbankmachine4_refresh_req
+sdram_tmrbankmachine4_refresh_gnt
+[2:0] slice_proxy23
+sdram_tmrbankmachine4_cmd_valid
+sdram_tmrbankmachine4_cmd_ready
+[2:0] slice_proxy24
+[13:0] sdram_tmrbankmachine4_cmd_payload_a
+[2:0] sdram_tmrbankmachine4_cmd_payload_ba
+[2:0] slice_proxy25
+sdram_tmrbankmachine4_cmd_payload_cas
+sdram_tmrbankmachine4_cmd_payload_ras
+sdram_tmrbankmachine4_cmd_payload_we
+[2:0] slice_proxy26
+sdram_tmrbankmachine4_cmd_payload_is_cmd
+sdram_tmrbankmachine4_cmd_payload_is_read
+sdram_tmrbankmachine4_cmd_payload_is_write
+[2:0] slice_proxy27
+[2:0] sdram_tmrbankmachine4_TMRcmd_valid
+[2:0] sdram_tmrbankmachine4_TMRcmd_ready
+[2:0] sdram_tmrbankmachine4_TMRcmd_first
+[2:0] slice_proxy28
+[2:0] sdram_tmrbankmachine4_TMRcmd_last
+[41:0] sdram_tmrbankmachine4_TMRcmd_payload_a
+[8:0] sdram_tmrbankmachine4_TMRcmd_payload_ba
+[2:0] slice_proxy29
+[2:0] sdram_tmrbankmachine4_TMRcmd_payload_cas
+[2:0] sdram_tmrbankmachine4_TMRcmd_payload_ras
+[2:0] sdram_tmrbankmachine4_TMRcmd_payload_we
+[2:0] slice_proxy30
+[2:0] sdram_tmrbankmachine4_TMRcmd_payload_is_cmd
+[2:0] sdram_tmrbankmachine4_TMRcmd_payload_is_read
+[2:0] sdram_tmrbankmachine4_TMRcmd_payload_is_write
+[2:0] slice_proxy31
+sdram_tmrbankmachine4_tmrinput_control0
+[2:0] slice_proxy32
+[2:0] slice_proxy33
+[2:0] slice_proxy34
+sdram_tmrbankmachine4_auto_precharge
+[2:0] slice_proxy35
+sdram_tmrbankmachine4_tmrinput_control1
+[2:0] slice_proxy36
+[2:0] slice_proxy37
+sdram_tmrbankmachine4_tmrinput_control2
+[2:0] slice_proxy38
+[20:0] sdram_tmrbankmachine4_tmrinput_control3
+[2:0] slice_proxy39
+[2:0] slice_proxy40
+[2:0] slice_proxy41
+[2:0] slice_proxy42
+[2:0] slice_proxy43
+sdram_tmrbankmachine4_cmd_buffer_lookahead_sink_valid
+sdram_tmrbankmachine4_cmd_buffer_lookahead_sink_ready
+[2:0] slice_proxy44
+sdram_tmrbankmachine4_cmd_buffer_lookahead_sink_payload_we
+[2:0] slice_proxy45
+[20:0] sdram_tmrbankmachine4_cmd_buffer_lookahead_sink_payload_addr
+sdram_tmrbankmachine4_cmd_buffer_lookahead_source_valid
+sdram_tmrbankmachine4_cmd_buffer_lookahead_source_ready
+[2:0] slice_proxy46
+sdram_tmrbankmachine4_cmd_buffer_lookahead_source_first
+[2:0] slice_proxy82
+sdram_tmrbankmachine4_cmd_buffer_lookahead_source_last
+sdram_tmrbankmachine4_cmd_buffer_lookahead_source_payload_we
+[2:0] slice_proxy47
+[20:0] sdram_tmrbankmachine4_cmd_buffer_lookahead_source_payload_addr
+sdram_tmrbankmachine4_cmd_buffer_lookahead_syncfifo4_we
+sdram_tmrbankmachine4_cmd_buffer_lookahead_syncfifo4_writable
+[2:0] slice_proxy48
+sdram_tmrbankmachine4_cmd_buffer_lookahead_syncfifo4_re
+sdram_tmrbankmachine4_cmd_buffer_lookahead_syncfifo4_readable
+[23:0] sdram_tmrbankmachine4_cmd_buffer_lookahead_syncfifo4_din
+[2:0] slice_proxy49
+[23:0] sdram_tmrbankmachine4_cmd_buffer_lookahead_syncfifo4_dout
+[3:0] sdram_tmrbankmachine4_cmd_buffer_lookahead_level
+[2:0] slice_proxy50
+[2:0] sdram_tmrbankmachine4_cmd_buffer_lookahead_produce
+[2:0] sdram_tmrbankmachine4_cmd_buffer_lookahead_consume
+[2:0] slice_proxy51
+[2:0] sdram_tmrbankmachine4_cmd_buffer_lookahead_wrport_adr
+[23:0] sdram_tmrbankmachine4_cmd_buffer_lookahead_wrport_dat_r
+sdram_tmrbankmachine4_cmd_buffer_lookahead_wrport_we
+[2:0] slice_proxy52
+[23:0] sdram_tmrbankmachine4_cmd_buffer_lookahead_wrport_dat_w
+[2:0] slice_proxy53
+[2:0] slice_proxy54
+sdram_tmrbankmachine4_cmd_buffer_lookahead_do_read
+[2:0] sdram_tmrbankmachine4_cmd_buffer_lookahead_rdport_adr
+[2:0] slice_proxy55
+[23:0] sdram_tmrbankmachine4_cmd_buffer_lookahead_rdport_dat_r
+[2:0] slice_proxy56
+[2:0] slice_proxy57
+[2:0] slice_proxy58
+sdram_tmrbankmachine4_cmd_buffer_lookahead_fifo_in_payload_we
+[20:0] sdram_tmrbankmachine4_cmd_buffer_lookahead_fifo_in_payload_addr
+[2:0] slice_proxy59
+sdram_tmrbankmachine4_cmd_buffer_lookahead_fifo_in_first
+sdram_tmrbankmachine4_cmd_buffer_lookahead_fifo_in_last
+sdram_tmrbankmachine4_cmd_buffer_lookahead_fifo_out_payload_we
+[20:0] sdram_tmrbankmachine4_cmd_buffer_lookahead_fifo_out_payload_addr
+[191:0] slice_proxy60
+sdram_tmrbankmachine4_cmd_buffer_lookahead_fifo_out_first
+sdram_tmrbankmachine4_cmd_buffer_lookahead_fifo_out_last
+[191:0] slice_proxy61
+sdram_tmrbankmachine4_cmd_buffer_sink_valid
+[13:0] sdram_slave_p0_address
+sdram_tmrbankmachine4_cmd_buffer_sink_ready
+[2:0] sdram_slave_p0_bank
+sdram_tmrbankmachine4_cmd_buffer_sink_first
+sdram_slave_p0_cas_n
+sdram_tmrbankmachine4_cmd_buffer_sink_last
+sdram_slave_p0_cs_n
+sdram_tmrbankmachine4_cmd_buffer_sink_payload_we
+sdram_slave_p0_ras_n
+[20:0] sdram_tmrbankmachine4_cmd_buffer_sink_payload_addr
+sdram_slave_p0_we_n
+[191:0] slice_proxy62
+sdram_slave_p0_cke
+sdram_tmrbankmachine4_cmd_buffer_source_ready
+sdram_slave_p0_odt
+[191:0] slice_proxy63
+sdram_slave_p0_reset_n
+[191:0] slice_proxy64
+sdram_slave_p0_act_n
+[191:0] slice_proxy65
+[63:0] sdram_slave_p0_wrdata
+sdram_tmrbankmachine4_cmd_buffer_source_first
+sdram_slave_p0_wrdata_en
+sdram_tmrbankmachine4_cmd_buffer_source_last
+[7:0] sdram_slave_p0_wrdata_mask
+sdram_tmrbankmachine4_cmd_buffer_source_payload_we
+sdram_slave_p0_rddata_en
+[2:0] slice_proxy66
+[63:0] sdram_slave_p0_rddata
+[20:0] sdram_tmrbankmachine4_cmd_buffer_source_payload_addr
+sdram_slave_p0_rddata_valid
+sdram_tmrbankmachine4_cmd_buffer_lookahead2_sink_ready
+[13:0] sdram_slave_p1_address
+[2:0] slice_proxy67
+[2:0] sdram_slave_p1_bank
+sdram_slave_p1_cas_n
+[2:0] slice_proxy68
+sdram_slave_p1_cs_n
+sdram_slave_p1_ras_n
+sdram_tmrbankmachine4_cmd_buffer_lookahead2_source_valid
+sdram_slave_p1_we_n
+sdram_tmrbankmachine4_cmd_buffer_lookahead2_source_ready
+sdram_slave_p1_cke
+sdram_tmrbankmachine4_cmd_buffer_lookahead2_source_first
+sdram_slave_p1_odt
+sdram_tmrbankmachine4_cmd_buffer_lookahead2_source_last
+sdram_slave_p1_reset_n
+sdram_tmrbankmachine4_cmd_buffer_lookahead2_source_payload_we
+sdram_slave_p1_act_n
+[20:0] sdram_tmrbankmachine4_cmd_buffer_lookahead2_source_payload_addr
+[63:0] sdram_slave_p1_wrdata
+sdram_tmrbankmachine4_cmd_buffer_lookahead2_syncfifo4_we
+sdram_slave_p1_wrdata_en
+sdram_tmrbankmachine4_cmd_buffer_lookahead2_syncfifo4_writable
+[7:0] sdram_slave_p1_wrdata_mask
+sdram_tmrbankmachine4_cmd_buffer_lookahead2_syncfifo4_re
+sdram_slave_p1_rddata_en
+sdram_tmrbankmachine4_cmd_buffer_lookahead2_syncfifo4_readable
+[63:0] sdram_slave_p1_rddata
+[23:0] sdram_tmrbankmachine4_cmd_buffer_lookahead2_syncfifo4_din
+sdram_slave_p1_rddata_valid
+[23:0] sdram_tmrbankmachine4_cmd_buffer_lookahead2_syncfifo4_dout
+[13:0] sdram_slave_p2_address
+[23:0] slice_proxy72
+[2:0] sdram_slave_p2_bank
+[23:0] slice_proxy73
+sdram_slave_p2_cas_n
+[2:0] sdram_tmrbankmachine4_cmd_buffer_lookahead2_produce
+sdram_slave_p2_cs_n
+[2:0] sdram_tmrbankmachine4_cmd_buffer_lookahead2_consume
+sdram_slave_p2_ras_n
+[23:0] slice_proxy74
+sdram_slave_p2_we_n
+[2:0] sdram_tmrbankmachine4_cmd_buffer_lookahead2_wrport_adr
+sdram_slave_p2_cke
+[23:0] slice_proxy75
+sdram_slave_p2_odt
+sdram_tmrbankmachine4_cmd_buffer_lookahead2_wrport_we
+sdram_slave_p2_reset_n
+[23:0] sdram_tmrbankmachine4_cmd_buffer_lookahead2_wrport_dat_w
+sdram_slave_p2_act_n
+[23:0] sdram_tmrbankmachine4_cmd_buffer_lookahead2_wrport_dat_r
+[63:0] sdram_slave_p2_wrdata
+[23:0] slice_proxy76
+sdram_slave_p2_wrdata_en
+[7:0] sdram_slave_p2_wrdata_mask
+[23:0] slice_proxy77
+sdram_slave_p2_rddata_en
+[63:0] sdram_slave_p2_rddata
+sdram_tmrbankmachine4_cmd_buffer_lookahead2_do_read
+sdram_slave_p2_rddata_valid
+[13:0] sdram_slave_p3_address
+[2:0] sdram_tmrbankmachine4_cmd_buffer_lookahead2_rdport_adr
+[2:0] sdram_slave_p3_bank
+[2:0] slice_proxy78
+sdram_slave_p3_cas_n
+[2:0] slice_proxy79
+sdram_slave_p3_cs_n
+[23:0] sdram_tmrbankmachine4_cmd_buffer_lookahead2_rdport_dat_r
+sdram_slave_p3_ras_n
+sdram_slave_p3_we_n
+[2:0] slice_proxy80
+sdram_slave_p3_cke
+sdram_slave_p3_odt
+[23:0] sdram_tmrbankmachine4_cmd_buffer_lookahead3_wrport_dat_r
+sdram_slave_p3_reset_n
+[2:0] slice_proxy81
+sdram_slave_p3_act_n
+[63:0] sdram_slave_p3_wrdata
+sdram_tmrbankmachine4_cmd_buffer_lookahead2_fifo_in_payload_we
+sdram_slave_p3_wrdata_en
+[20:0] sdram_tmrbankmachine4_cmd_buffer_lookahead2_fifo_in_payload_addr
+[7:0] sdram_slave_p3_wrdata_mask
+sdram_tmrbankmachine4_cmd_buffer_lookahead2_fifo_in_first
+sdram_slave_p3_rddata_en
+sdram_tmrbankmachine4_cmd_buffer_lookahead2_fifo_in_last
+[63:0] sdram_slave_p3_rddata
+sdram_tmrbankmachine4_cmd_buffer_lookahead2_fifo_out_payload_we
+sdram_slave_p3_rddata_valid
+[20:0] sdram_tmrbankmachine4_cmd_buffer_lookahead2_fifo_out_payload_addr
+sdram_tmrbankmachine4_cmd_buffer_lookahead2_fifo_out_first
+[2:0] slice_proxy83
+sdram_tmrbankmachine4_cmd_buffer_lookahead2_fifo_out_last
+[41:0] slice_proxy84
+sdram_tmrbankmachine4_cmd_buffer2_sink_valid
+sdram_tmrbankmachine4_cmd_buffer2_sink_ready
+[41:0] slice_proxy85
+sdram_tmrbankmachine4_cmd_buffer2_sink_first
+sdram_tmrbankmachine4_cmd_buffer2_sink_last
+sdram_tmrbankmachine4_cmd_buffer2_sink_payload_we
+[41:0] slice_proxy86
+[20:0] sdram_tmrbankmachine4_cmd_buffer2_sink_payload_addr
+sdram_tmrbankmachine4_cmd_buffer2_source_valid
+[41:0] slice_proxy87
+[41:0] sdram_TMRslave_p0_address
+sdram_tmrbankmachine4_cmd_buffer2_source_ready
+[8:0] sdram_TMRslave_p0_bank
+sdram_tmrbankmachine4_cmd_buffer2_source_first
+[2:0] sdram_TMRslave_p0_cas_n
+sdram_tmrbankmachine4_cmd_buffer2_source_last
+[2:0] sdram_TMRslave_p0_cs_n
+[41:0] slice_proxy88
+[2:0] sdram_TMRslave_p0_ras_n
+sdram_tmrbankmachine4_cmd_buffer2_source_payload_we
+[2:0] sdram_TMRslave_p0_we_n
+[41:0] slice_proxy89
+[2:0] sdram_TMRslave_p0_cke
+[20:0] sdram_tmrbankmachine4_cmd_buffer2_source_payload_addr
+[2:0] sdram_TMRslave_p0_odt
+[2:0] sdram_TMRslave_p0_reset_n
+sdram_tmrbankmachine4_cmd_buffer_lookahead3_sink_ready
+[2:0] sdram_TMRslave_p0_act_n
+[8:0] slice_proxy90
+[191:0] sdram_TMRslave_p0_wrdata
+[2:0] sdram_TMRslave_p0_wrdata_en
+[8:0] slice_proxy91
+[23:0] sdram_TMRslave_p0_wrdata_mask
+[2:0] sdram_TMRslave_p0_rddata_en
+sdram_tmrbankmachine4_cmd_buffer_lookahead3_source_valid
+[191:0] sdram_TMRslave_p0_rddata
+sdram_tmrbankmachine4_cmd_buffer_lookahead3_source_ready
+[2:0] sdram_TMRslave_p0_rddata_valid
+sdram_tmrbankmachine4_cmd_buffer_lookahead3_source_first
+[41:0] sdram_TMRslave_p1_address
+sdram_tmrbankmachine4_cmd_buffer_lookahead3_source_last
+[8:0] sdram_TMRslave_p1_bank
+sdram_tmrbankmachine4_cmd_buffer_lookahead3_source_payload_we
+[2:0] sdram_TMRslave_p1_cas_n
+[20:0] sdram_tmrbankmachine4_cmd_buffer_lookahead3_source_payload_addr
+[2:0] sdram_TMRslave_p1_cs_n
+sdram_tmrbankmachine4_cmd_buffer_lookahead3_syncfifo4_we
+[2:0] sdram_TMRslave_p1_ras_n
+sdram_tmrbankmachine4_cmd_buffer_lookahead3_syncfifo4_writable
+[2:0] sdram_TMRslave_p1_we_n
+sdram_tmrbankmachine4_cmd_buffer_lookahead3_syncfifo4_re
+[2:0] sdram_TMRslave_p1_cke
+sdram_tmrbankmachine4_cmd_buffer_lookahead3_syncfifo4_readable
+[2:0] sdram_TMRslave_p1_odt
+[23:0] sdram_tmrbankmachine4_cmd_buffer_lookahead3_syncfifo4_din
+[2:0] sdram_TMRslave_p1_reset_n
+[23:0] sdram_tmrbankmachine4_cmd_buffer_lookahead3_syncfifo4_dout
+[2:0] sdram_TMRslave_p1_act_n
+[8:0] slice_proxy95
+[191:0] sdram_TMRslave_p1_wrdata
+[8:0] slice_proxy92
+[2:0] sdram_TMRslave_p1_wrdata_en
+[2:0] slice_proxy96
+[23:0] sdram_TMRslave_p1_wrdata_mask
+[2:0] sdram_tmrbankmachine4_cmd_buffer_lookahead3_produce
+[2:0] sdram_TMRslave_p1_rddata_en
+[2:0] slice_proxy97
+[191:0] sdram_TMRslave_p1_rddata
+[2:0] sdram_tmrbankmachine4_cmd_buffer_lookahead3_wrport_adr
+[2:0] sdram_TMRslave_p1_rddata_valid
+[2:0] sdram_tmrbankmachine4_cmd_buffer_lookahead3_consume
+[41:0] sdram_TMRslave_p2_address
+sdram_tmrbankmachine4_cmd_buffer_lookahead3_wrport_we
+[8:0] sdram_TMRslave_p2_bank
+[23:0] sdram_tmrbankmachine4_cmd_buffer_lookahead3_wrport_dat_w
+[2:0] sdram_TMRslave_p2_cas_n
+[2:0] slice_proxy98
+[2:0] sdram_TMRslave_p2_cs_n
+[2:0] slice_proxy99
+[2:0] sdram_TMRslave_p2_ras_n
+[2:0] sdram_TMRslave_p2_we_n
+[2:0] sdram_TMRslave_p2_cke
+[8:0] slice_proxy93
+[2:0] sdram_TMRslave_p2_odt
+sdram_tmrbankmachine4_cmd_buffer_lookahead3_do_read
+[2:0] sdram_TMRslave_p2_reset_n
+[2:0] slice_proxy100
+[2:0] sdram_TMRslave_p2_act_n
+[2:0] sdram_tmrbankmachine4_cmd_buffer_lookahead3_rdport_adr
+[191:0] sdram_TMRslave_p2_wrdata
+[2:0] slice_proxy101
+[2:0] sdram_TMRslave_p2_wrdata_en
+[23:0] sdram_tmrbankmachine4_cmd_buffer_lookahead3_rdport_dat_r
+[23:0] sdram_TMRslave_p2_wrdata_mask
+[2:0] slice_proxy102
+[2:0] sdram_TMRslave_p2_rddata_en
+[191:0] sdram_TMRslave_p2_rddata
+[2:0] slice_proxy103
+[2:0] sdram_TMRslave_p2_rddata_valid
+[41:0] sdram_TMRslave_p3_address
+[8:0] sdram_TMRslave_p3_bank
+[2:0] slice_proxy104
+[2:0] sdram_TMRslave_p3_cas_n
+[2:0] sdram_TMRslave_p3_cs_n
+sdram_tmrbankmachine4_cmd_buffer_lookahead3_fifo_in_payload_we
+[2:0] sdram_TMRslave_p3_ras_n
+[20:0] sdram_tmrbankmachine4_cmd_buffer_lookahead3_fifo_in_payload_addr
+[2:0] sdram_TMRslave_p3_we_n
+sdram_tmrbankmachine4_cmd_buffer_lookahead3_fifo_in_first
+[2:0] sdram_TMRslave_p3_cke
+sdram_tmrbankmachine4_cmd_buffer_lookahead3_fifo_in_last
+[2:0] sdram_TMRslave_p3_odt
+sdram_tmrbankmachine4_cmd_buffer_lookahead3_fifo_out_payload_we
+[2:0] sdram_TMRslave_p3_reset_n
+[20:0] sdram_tmrbankmachine4_cmd_buffer_lookahead3_fifo_out_payload_addr
+[2:0] sdram_TMRslave_p3_act_n
+sdram_tmrbankmachine4_cmd_buffer_lookahead3_fifo_out_first
+[191:0] sdram_TMRslave_p3_wrdata
+sdram_tmrbankmachine4_cmd_buffer_lookahead3_fifo_out_last
+[2:0] sdram_TMRslave_p3_wrdata_en
+[8:0] slice_proxy94
+[23:0] sdram_TMRslave_p3_wrdata_mask
+sdram_tmrbankmachine4_cmd_buffer3_sink_valid
+[2:0] sdram_TMRslave_p3_rddata_en
+sdram_tmrbankmachine4_cmd_buffer3_sink_ready
+[191:0] sdram_TMRslave_p3_rddata
+sdram_tmrbankmachine4_cmd_buffer3_sink_first
+[2:0] sdram_TMRslave_p3_rddata_valid
+sdram_tmrbankmachine4_cmd_buffer3_sink_last
+[13:0] sdram_master_p0_address
+sdram_tmrbankmachine4_cmd_buffer3_sink_payload_we
+[2:0] sdram_master_p0_bank
+[20:0] sdram_tmrbankmachine4_cmd_buffer3_sink_payload_addr
+sdram_master_p0_cas_n
+[2:0] slice_proxy109
+sdram_master_p0_cs_n
+sdram_tmrbankmachine4_cmd_buffer3_source_ready
+sdram_master_p0_ras_n
+[2:0] slice_proxy110
+sdram_master_p0_we_n
+[2:0] slice_proxy111
+sdram_master_p0_cke
+sdram_tmrbankmachine4_cmd_buffer3_source_valid
+sdram_master_p0_odt
+sdram_tmrbankmachine4_cmd_buffer3_source_first
+sdram_master_p0_reset_n
+sdram_tmrbankmachine4_cmd_buffer3_source_last
+sdram_master_p0_act_n
+[2:0] slice_proxy112
+[63:0] sdram_master_p0_wrdata
+sdram_tmrbankmachine4_cmd_buffer3_source_payload_we
+sdram_master_p0_wrdata_en
+[2:0] slice_proxy113
+[7:0] sdram_master_p0_wrdata_mask
+sdram_tmrbankmachine4_tmrinput_control4
+sdram_master_p0_rddata_en
+[63:0] sdram_master_p0_rddata
+sdram_master_p0_rddata_valid
+[2:0] slice_proxy114
+[13:0] sdram_master_p1_address
+[2:0] sdram_master_p1_bank
+[2:0] slice_proxy115
+sdram_master_p1_cas_n
+sdram_master_p1_cs_n
+[20:0] sdram_tmrbankmachine4_lookAddrVote_control
+sdram_master_p1_ras_n
+[2:0] slice_proxy116
+sdram_master_p1_we_n
+sdram_master_p1_cke
+sdram_master_p1_odt
+[2:0] slice_proxy117
+sdram_master_p1_reset_n
+[20:0] sdram_tmrbankmachine4_bufAddrVote_control
+sdram_master_p1_act_n
+[63:0] sdram_master_p1_wrdata
+[2:0] slice_proxy118
+sdram_master_p1_wrdata_en
+[7:0] sdram_master_p1_wrdata_mask
+sdram_master_p1_rddata_en
+[2:0] slice_proxy119
+[63:0] sdram_master_p1_rddata
+sdram_tmrbankmachine4_lookValidVote_control
+sdram_master_p1_rddata_valid
+[13:0] sdram_master_p2_address
+[2:0] slice_proxy120
+[2:0] sdram_master_p2_bank
+sdram_master_p2_cas_n
+sdram_master_p2_cs_n
+sdram_tmrbankmachine4_bufValidVote_control
+sdram_master_p2_ras_n
+[2:0] slice_proxy121
+sdram_master_p2_we_n
+sdram_master_p2_cke
+[2:0] slice_proxy122
+sdram_master_p2_odt
+sdram_master_p2_reset_n
+[2:0] slice_proxy123
+sdram_master_p2_act_n
+[63:0] sdram_master_p2_wrdata
